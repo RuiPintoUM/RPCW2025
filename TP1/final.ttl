@@ -1,0 +1,4330 @@
+@prefix : <http://www.semanticweb.org/rui/ontologies/2025/TPC/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC> a owl:Ontology .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC#2020-07-27> a :Exame,
+        owl:NamedIndividual ;
+    :temData "2020-07-27" .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC#28> a :Pessoa,
+        owl:NamedIndividual ;
+    :temIdade 28 .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC#emily.terrell@gdgoma.org> a :Pessoa,
+        owl:NamedIndividual ;
+    :temEmail "emily.terrell@gdgoma.org" .
+
+:Clay a :Pessoa,
+        owl:NamedIndividual ;
+    :temMorada "Clay" .
+
+:Emily a :Pessoa,
+        owl:NamedIndividual ;
+    :Pratica :Futebol ;
+    :temPrimeiroNome "Emily" ;
+    owl:sameAs :Terrell .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e01ada8b23fc63b31> a :Exame ;
+    :temData "2020-04-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e03c621784bf7b2eb> a :Exame ;
+    :temData "2019-05-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e0539642b38645cb3> a :Exame ;
+    :temData "2020-08-07"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e059b32a47b518e93> a :Exame ;
+    :temData "2019-02-06"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e0797a9f03b138d18> a :Exame ;
+    :temData "2021-02-26"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e07cb41f968328e60> a :Exame ;
+    :temData "2020-07-11"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e0ee0185da196c9ab> a :Exame ;
+    :temData "2019-10-08"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e13085dc64e17e4b0> a :Exame ;
+    :temData "2021-05-13"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e16fc834f28234ef4> a :Exame ;
+    :temData "2021-03-16"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e172e761f8d52c213> a :Exame ;
+    :temData "2021-02-15"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e1f3d25c518678bd7> a :Exame ;
+    :temData "2020-09-03"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e20e993d5010857a4> a :Exame ;
+    :temData "2021-04-16"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e23a38b2da3f0a76e> a :Exame ;
+    :temData "2020-07-11"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e242cedae88a5f12c> a :Exame ;
+    :temData "2019-07-31"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e25015995bacd5bed> a :Exame ;
+    :temData "2021-01-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e2573d42d411cc591> a :Exame ;
+    :temData "2019-01-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e2707c21708cc3418> a :Exame ;
+    :temData "2021-04-25"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e278b7161e71d9ceb> a :Exame ;
+    :temData "2020-12-08"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e28ab1329e2ed0888> a :Exame ;
+    :temData "2019-05-23"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e2fac3611c3cd7291> a :Exame ;
+    :temData "2020-01-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e30fc3c2042f955eb> a :Exame ;
+    :temData "2019-09-15"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e3b279f45e79cd6fa> a :Exame ;
+    :temData "2021-04-24"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e3bffb9b3df6f5ea4> a :Exame ;
+    :temData "2020-05-10"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e3d4f8a3a439f8b7a> a :Exame ;
+    :temData "2019-12-02"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e3d51473e1b41004b> a :Exame ;
+    :temData "2020-03-24"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e3f165afa6f23a0eb> a :Exame ;
+    :temData "2019-04-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e3f327a6ba71f77b0> a :Exame ;
+    :temData "2019-07-13"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e472001f8e05a40ee> a :Exame ;
+    :temData "2020-11-10"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e47a5478e9b66110d> a :Exame ;
+    :temData "2020-10-28"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e4a1e0233af16ac8c> a :Exame ;
+    :temData "2020-12-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e536b83d9d562f9c8> a :Exame ;
+    :temData "2020-06-02"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e538d62e10eba66b6> a :Exame ;
+    :temData "2021-02-16"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e53dad18808565be7> a :Exame ;
+    :temData "2019-02-13"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e54b12900f5e6c314> a :Exame ;
+    :temData "2019-12-12"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e553355b77862ea98> a :Exame ;
+    :temData "2021-04-12"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e559fb2fd0142f64c> a :Exame ;
+    :temData "2020-02-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e57b3659681466acf> a :Exame ;
+    :temData "2020-11-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e59411e4e9d97d70a> a :Exame ;
+    :temData "2019-07-27"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e59e86eaf9b9a5372> a :Exame ;
+    :temData "2019-03-28"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e62b59d062f2018a3> a :Exame ;
+    :temData "2019-01-17"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e63cc2530b136daef> a :Exame ;
+    :temData "2021-03-22"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e651ec286b869976d> a :Exame ;
+    :temData "2020-05-10"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e66f3d4c3cc778b1e> a :Exame ;
+    :temData "2020-11-24"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e67043c92ce84a97c> a :Exame ;
+    :temData "2020-10-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e6ab8471af29e2014> a :Exame ;
+    :temData "2020-06-12"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e6cb88f8d26691e15> a :Exame ;
+    :temData "2021-05-14"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e6dbcbe60effe125d> a :Exame ;
+    :temData "2020-06-22"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e6edaad4b8a63efae> a :Exame ;
+    :temData "2021-05-19"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e74703dea724376f8> a :Exame ;
+    :temData "2019-06-03"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e7524108bf9936414> a :Exame ;
+    :temData "2019-07-14"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e769aecb50db619f2> a :Exame ;
+    :temData "2019-06-27"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e79c5349b29557a62> a :Exame ;
+    :temData "2020-11-03"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e7ac2f667ececc242> a :Exame ;
+    :temData "2020-07-01"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e7ded570068dce1d9> a :Exame ;
+    :temData "2021-02-23"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e846df12b8f8e750d> a :Exame ;
+    :temData "2019-09-14"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e84beb8fe0be593a5> a :Exame ;
+    :temData "2019-10-14"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e8a311b08fca3541b> a :Exame ;
+    :temData "2021-04-16"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e8b4f7dca2601ddfc> a :Exame ;
+    :temData "2019-12-17"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e926c1d538dfaabd3> a :Exame ;
+    :temData "2020-01-27"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e9488e742d1600f58> a :Exame ;
+    :temData "2021-05-29"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e94c479068389f5e3> a :Exame ;
+    :temData "2019-10-10"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e9dc10b681d5212b5> a :Exame ;
+    :temData "2019-10-13"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0e9f0c3dbf2ecc854f> a :Exame ;
+    :temData "2019-06-26"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ea0dc6768a6ca7192> a :Exame ;
+    :temData "2021-03-26"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ea3043984230726fc> a :Exame ;
+    :temData "2019-11-21"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ea5d75fed720e4820> a :Exame ;
+    :temData "2021-05-10"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ea6339abf19460649> a :Exame ;
+    :temData "2019-04-07"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ea96d47b79642735d> a :Exame ;
+    :temData "2019-10-14"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ea9b4c2114abcf6d7> a :Exame ;
+    :temData "2020-11-24"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0eabfeddd7f84fd275> a :Exame ;
+    :temData "2020-05-17"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0eb2087f8cccef830d> a :Exame ;
+    :temData "2020-03-01"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ebab436c1d23c2a84> a :Exame ;
+    :temData "2020-03-01"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ebc5f8bcac6a4b89d> a :Exame ;
+    :temData "2020-04-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ec14a4ad7e917ed36> a :Exame ;
+    :temData "2020-08-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0eca6dd1525f201090> a :Exame ;
+    :temData "2021-05-18"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ecf1638e25755912c> a :Exame ;
+    :temData "2019-12-03"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ecfbe9bf6149ba53b> a :Exame ;
+    :temData "2020-03-16"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ed16d4695ffdf5f17> a :Exame ;
+    :temData "2019-09-13"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ed5225a2a93a69c3a> a :Exame ;
+    :temData "2021-03-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ed5dd8522cc53e7b0> a :Exame ;
+    :temData "2021-04-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ed7a60ecd07dadb9e> a :Exame ;
+    :temData "2019-09-11"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ed8819374df399b72> a :Exame ;
+    :temData "2020-10-10"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0eddf26117e9d32bcb> a :Exame ;
+    :temData "2019-05-01"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee00725274024d5a2> a :Exame ;
+    :temData "2020-07-27"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee3bb3fd71f515d88> a :Exame ;
+    :temData "2021-04-11"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee3d27702cac0b7cd> a :Exame ;
+    :temData "2021-02-26"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee3f58fda00f17cc6> a :Exame ;
+    :temData "2021-01-13"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee409ac878ba9b99b> a :Exame ;
+    :temData "2021-04-04"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee48920a886a461e2> a :Exame ;
+    :temData "2019-03-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee62c8f8a846459ea> a :Exame ;
+    :temData "2019-08-02"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee78616dd040e4dca> a :Exame ;
+    :temData "2020-11-26"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee7cb2701483df2c9> a :Exame ;
+    :temData "2020-10-23"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee90bdefcc8703185> a :Exame ;
+    :temData "2019-09-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ee95a95d0c9bc3e5f> a :Exame ;
+    :temData "2020-04-16"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0eee4b8338800e6003> a :Exame ;
+    :temData "2019-10-18"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ef050e91efe68a668> a :Exame ;
+    :temData "2020-12-23"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ef3bfaf77b4e67849> a :Exame ;
+    :temData "2019-04-20"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0ef8b2c3b732bc0d82> a :Exame ;
+    :temData "2019-10-27"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0efe55045feaaea0d0> a :Exame ;
+    :temData "2020-11-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee0effaf9b013df4203d> a :Exame ;
+    :temData "2020-07-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee810078ab3f7321a731> a :Exame ;
+    :temData "2020-02-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81034e5cb2050e882a> a :Exame ;
+    :temData "2019-07-17"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8103ed6d19e90ce9f7> a :Exame ;
+    :temData "2020-09-04"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81051bf4a2138bb141> a :Exame ;
+    :temData "2020-10-31"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81051fe3467036095a> a :Exame ;
+    :temData "2019-12-21"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8106e9b44af3270a40> a :Exame ;
+    :temData "2020-04-23"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee811426bce48b453191> a :Exame ;
+    :temData "2020-12-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81145de55fffb7bdfa> a :Exame ;
+    :temData "2019-01-01"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81146b3cd8954b7256> a :Exame ;
+    :temData "2019-09-04"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8115745fe4ce8dbc5a> a :Exame ;
+    :temData "2020-07-06"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8117de88dc519ae9d3> a :Exame ;
+    :temData "2020-10-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee811a2021b6b24ffbc2> a :Exame ;
+    :temData "2020-09-14"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee811a4429c17e036357> a :Exame ;
+    :temData "2020-04-27"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8122f33125935e59d3> a :Exame ;
+    :temData "2021-02-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8125e3c7f8ae2daa67> a :Exame ;
+    :temData "2020-01-20"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8128adc82a45f8023d> a :Exame ;
+    :temData "2020-06-18"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee812a4b8125a96689a0> a :Exame ;
+    :temData "2019-04-28"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee812d50aad901e7e243> a :Exame ;
+    :temData "2019-07-31"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee812f35f4ff3c2edecf> a :Exame ;
+    :temData "2019-06-27"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8131597dae8f73a11b> a :Exame ;
+    :temData "2019-10-30"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee813611a9e67c3546a3> a :Exame ;
+    :temData "2019-03-03"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81375cc4e9aba8bc6e> a :Exame ;
+    :temData "2019-01-03"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8138f5b0173e1bc637> a :Exame ;
+    :temData "2019-08-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee813905ebb273d5d9a0> a :Exame ;
+    :temData "2019-03-09"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee813bd664873721a6a1> a :Exame ;
+    :temData "2019-07-03"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee813c7547937e764cab> a :Exame ;
+    :temData "2020-06-26"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81411e7acd216d0bf0> a :Exame ;
+    :temData "2019-09-18"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81422fd173977583e5> a :Exame ;
+    :temData "2021-04-22"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81451b811209c3deef> a :Exame ;
+    :temData "2019-06-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8151ebf5ddaa5ca13c> a :Exame ;
+    :temData "2020-01-02"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81525963fc4fd2cf9d> a :Exame ;
+    :temData "2019-06-12"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8152b3f05331a47645> a :Exame ;
+    :temData "2020-04-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8152ddb1911c44b96a> a :Exame ;
+    :temData "2021-01-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8154161dd7358b2e65> a :Exame ;
+    :temData "2019-12-01"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81559385200672594d> a :Exame ;
+    :temData "2020-02-02"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee815852d8fc2dc33e8a> a :Exame ;
+    :temData "2020-01-17"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee815b7d9a126c47165d> a :Exame ;
+    :temData "2019-07-26"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee815cb65367e6de0b3c> a :Exame ;
+    :temData "2020-01-11"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee815e7f792d741f2228> a :Exame ;
+    :temData "2020-10-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8160bf5c46dcb3cfa7> a :Exame ;
+    :temData "2020-09-06"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8162c5de4569ccfe2f> a :Exame ;
+    :temData "2019-08-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81655cc723f988a62d> a :Exame ;
+    :temData "2021-02-19"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee816b42d22ea075aba7> a :Exame ;
+    :temData "2019-01-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee816e416ff33c21634a> a :Exame ;
+    :temData "2020-08-03"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee817468bb467a39e2f8> a :Exame ;
+    :temData "2020-08-11"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee817af5fb3fb1e153ef> a :Exame ;
+    :temData "2019-06-23"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee817c1ce5b6cb67302a> a :Exame ;
+    :temData "2019-12-31"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee817ca74f6cb607c6f9> a :Exame ;
+    :temData "2019-12-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81828ee0dba6850475> a :Exame ;
+    :temData "2020-05-28"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8182b8712a2f15e41a> a :Exame ;
+    :temData "2020-12-10"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81839f04840d199de9> a :Exame ;
+    :temData "2020-12-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81858e8c650b8d992f> a :Exame ;
+    :temData "2019-09-06"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81864959e7fb8bc864> a :Exame ;
+    :temData "2019-05-11"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8186fff74d432c9259> a :Exame ;
+    :temData "2019-06-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81874f8871966eedd1> a :Exame ;
+    :temData "2021-02-04"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8187b3e7d863bbaf97> a :Exame ;
+    :temData "2019-01-29"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee818cd611e6bf56f2f1> a :Exame ;
+    :temData "2021-04-13"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee818db2661d700d6ea3> a :Exame ;
+    :temData "2019-09-08"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee818e25f41f67491f02> a :Exame ;
+    :temData "2021-04-22"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81956a3fcc57d06c8c> a :Exame ;
+    :temData "2019-07-05"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee8195bd88f9e936aca7> a :Exame ;
+    :temData "2021-04-05"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81963e6ecf70e3d586> a :Exame ;
+    :temData "2020-07-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee819d5bb33e21ff7e16> a :Exame ;
+    :temData "2021-02-26"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81a113b4cb68ef5906> a :Exame ;
+    :temData "2019-05-19"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81a40cc7fc63be65ad> a :Exame ;
+    :temData "2019-04-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81a545dd3ccaea41b0> a :Exame ;
+    :temData "2021-04-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81afbc52a666850b8c> a :Exame ;
+    :temData "2019-02-14"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81b5064ca4e9536d3c> a :Exame ;
+    :temData "2019-10-14"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81b71a63346d0243e7> a :Exame ;
+    :temData "2020-10-10"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81bc1a4f4c3bc26de1> a :Exame ;
+    :temData "2019-04-12"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81c0d4102a9f396149> a :Exame ;
+    :temData "2019-02-08"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81c1515414ac1fb549> a :Exame ;
+    :temData "2020-06-02"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81c4345661feac7a9a> a :Exame ;
+    :temData "2021-02-19"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81c44446a9eceefd87> a :Exame ;
+    :temData "2020-04-08"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81c5073acaa4febef6> a :Exame ;
+    :temData "2019-12-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81cdbf91a4db1113eb> a :Exame ;
+    :temData "2019-03-18"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81ce306eb25d963bb0> a :Exame ;
+    :temData "2019-07-11"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81d13fde44c2e74aab> a :Exame ;
+    :temData "2019-08-15"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81d15fe413bd86d938> a :Exame ;
+    :temData "2020-06-04"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81d74bfab7c22b5eaa> a :Exame ;
+    :temData "2021-01-31"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81d7dbdba97369e927> a :Exame ;
+    :temData "2019-04-12"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81d9e0e05421b4d08e> a :Exame ;
+    :temData "2019-07-01"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e024b81dde892dd6> a :Exame ;
+    :temData "2019-06-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e02e5fb35760bec3> a :Exame ;
+    :temData "2021-05-14"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e20d4412bdf4f468> a :Exame ;
+    :temData "2019-02-02"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e2dc932e4e6f7e51> a :Exame ;
+    :temData "2019-01-09"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e32abefb2a9e8629> a :Exame ;
+    :temData "2019-11-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e62094c1d0bfca5c> a :Exame ;
+    :temData "2019-08-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e69c16cc6108e7ad> a :Exame ;
+    :temData "2021-01-18"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e769b6603a6525c6> a :Exame ;
+    :temData "2020-12-20"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e901a8c787b38008> a :Exame ;
+    :temData "2020-03-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81e97e332884e1299a> a :Exame ;
+    :temData "2020-05-24"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81ea2bed08bf81e861> a :Exame ;
+    :temData "2020-09-01"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81ec958ef30a9daa8d> a :Exame ;
+    :temData "2021-01-12"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81ed581129ff3b2087> a :Exame ;
+    :temData "2020-01-05"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81ef9b6d894223a9fd> a :Exame ;
+    :temData "2020-04-26"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81efda597f9d074638> a :Exame ;
+    :temData "2020-01-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81f5035e13f1db0069> a :Exame ;
+    :temData "2020-11-14"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81f9666482a5c13406> a :Exame ;
+    :temData "2019-10-25"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3ee81fcb5c8f9970e2899> a :Exame ;
+    :temData "2020-07-27"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9077997c0e212f286> a :Exame ;
+    :temData "2020-01-06"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9080a93e404ab974a> a :Exame ;
+    :temData "2019-08-11"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9080c70a07ef5c4ac> a :Exame ;
+    :temData "2020-11-20"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb909f2540c651ec8ff> a :Exame ;
+    :temData "2020-04-12"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb90afb40019dea8a64> a :Exame ;
+    :temData "2020-09-27"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb90d885cf3327fe6bd> a :Exame ;
+    :temData "2020-05-28"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb90fc3f9678fed0903> a :Exame ;
+    :temData "2019-09-09"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb910808af364c63729> a :Exame ;
+    :temData "2020-12-14"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91485796dedd2444b> a :Exame ;
+    :temData "2021-02-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb916caa13610b8cadf> a :Exame ;
+    :temData "2019-08-30"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91977642e615c41e3> a :Exame ;
+    :temData "2020-12-31"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91ab516aa15e1199a> a :Exame ;
+    :temData "2020-10-16"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91accf4bd8b426245> a :Exame ;
+    :temData "2020-11-27"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91afe89807606d176> a :Exame ;
+    :temData "2020-03-16"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91c3038d321c60bb3> a :Exame ;
+    :temData "2021-05-07"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91dbe172db8fd8f61> a :Exame ;
+    :temData "2019-02-07"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb91ded4fa3db5fdf8e> a :Exame ;
+    :temData "2019-10-26"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9217c0274b8a1022b> a :Exame ;
+    :temData "2019-03-12"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9235de1538781611d> a :Exame ;
+    :temData "2019-05-03"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb929306aeaff7f31a0> a :Exame ;
+    :temData "2021-02-04"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb92a2f391cda5b305e> a :Exame ;
+    :temData "2020-12-03"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb92b1debc068c42080> a :Exame ;
+    :temData "2020-10-06"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb933e50bd455af89a9> a :Exame ;
+    :temData "2020-08-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb934a2174ec11d92a6> a :Exame ;
+    :temData "2019-08-18"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9354e8a0e1817c201> a :Exame ;
+    :temData "2020-09-26"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb935b59a6c217af521> a :Exame ;
+    :temData "2020-09-24"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb939a5cb2da478d86c> a :Exame ;
+    :temData "2020-06-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb93a24ff700a3928d5> a :Exame ;
+    :temData "2021-01-13"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb93bfe7ecd8361f659> a :Exame ;
+    :temData "2019-10-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9425c872217db611e> a :Exame ;
+    :temData "2019-09-09"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb944e8f43647ed05f2> a :Exame ;
+    :temData "2021-03-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb945accec6f3eb9c3d> a :Exame ;
+    :temData "2020-12-13"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9468961b15e8e1277> a :Exame ;
+    :temData "2021-01-09"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb948dd398953308f2d> a :Exame ;
+    :temData "2019-07-01"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb94b33eaa274778def> a :Exame ;
+    :temData "2019-12-20"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb94d27b52fe1b15f19> a :Exame ;
+    :temData "2019-08-06"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb95632a2a2915ae72b> a :Exame ;
+    :temData "2019-07-27"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb95762eb38f4ae9a22> a :Exame ;
+    :temData "2019-01-18"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb95b00f32d469ef4b2> a :Exame ;
+    :temData "2020-09-20"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb966fd425e94c59395> a :Exame ;
+    :temData "2019-02-16"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb967d2dd4be3e2c87d> a :Exame ;
+    :temData "2020-07-12"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb968346da5d651b20d> a :Exame ;
+    :temData "2020-07-25"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb96b4950f33f42c5b6> a :Exame ;
+    :temData "2020-12-19"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb96e988bb711c0c940> a :Exame ;
+    :temData "2019-09-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb96f9b421618f39954> a :Exame ;
+    :temData "2019-10-13"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb972a330700a58a10a> a :Exame ;
+    :temData "2020-08-19"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb97a2511a770990f0f> a :Exame ;
+    :temData "2020-08-23"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb97aabcddbffca43f3> a :Exame ;
+    :temData "2019-03-29"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb97aecf09da8650e19> a :Exame ;
+    :temData "2019-04-30"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb97b17e786bdf88e29> a :Exame ;
+    :temData "2019-12-18"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb97c9c1d91087c47a4> a :Exame ;
+    :temData "2020-08-23"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb97d329fb5b3d7379b> a :Exame ;
+    :temData "2020-07-15"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9817b6dc6e2848304> a :Exame ;
+    :temData "2020-07-15"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb983fb3181e8f43d12> a :Exame ;
+    :temData "2021-05-05"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9860033876d65f5f7> a :Exame ;
+    :temData "2020-01-08"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb98614ea36f88963ba> a :Exame ;
+    :temData "2020-04-08"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9868c63b27774163f> a :Exame ;
+    :temData "2020-06-28"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb99c434fb1a7c7c633> a :Exame ;
+    :temData "2020-03-22"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb99d4b85092734ded4> a :Exame ;
+    :temData "2021-03-08"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9a2085e98659a2f5b> a :Exame ;
+    :temData "2019-04-09"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9a57cc0f98a998c9a> a :Exame ;
+    :temData "2020-08-26"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9a78530cac96a3f79> a :Exame ;
+    :temData "2021-04-17"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9a78fd4bfe9e36453> a :Exame ;
+    :temData "2019-06-09"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9a857578bd25302db> a :Exame ;
+    :temData "2019-05-25"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9a9f081f26deada43> a :Exame ;
+    :temData "2019-12-21"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9ab56338f42cdaf13> a :Exame ;
+    :temData "2020-07-02"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9abbaec58aed568da> a :Exame ;
+    :temData "2019-03-01"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9af56ea737b79ac30> a :Exame ;
+    :temData "2020-07-21"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9b701a941937c0dd8> a :Exame ;
+    :temData "2020-08-12"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9bc3d74e0cb400631> a :Exame ;
+    :temData "2020-10-18"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9bc920eef418c62ac> a :Exame ;
+    :temData "2019-03-23"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9bfd86db079523f51> a :Exame ;
+    :temData "2020-11-25"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9c05f073a238c4aa6> a :Exame ;
+    :temData "2020-09-24"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9c4b1d5f4d4a0099b> a :Exame ;
+    :temData "2020-06-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9c4c935218799831f> a :Exame ;
+    :temData "2021-02-08"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9c65ee38149a83dfc> a :Exame ;
+    :temData "2021-01-24"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9c7550e5dc5a5ddb1> a :Exame ;
+    :temData "2020-05-28"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9c82e74bc1831a3be> a :Exame ;
+    :temData "2020-02-06"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9cc832d080dd2c0e0> a :Exame ;
+    :temData "2019-05-03"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9cded7ae5d2724d52> a :Exame ;
+    :temData "2020-11-21"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9cf9c078af09a7b74> a :Exame ;
+    :temData "2019-01-12"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9d027f625a1b63723> a :Exame ;
+    :temData "2021-01-02"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9d7265f5ab15e4fed> a :Exame ;
+    :temData "2020-12-10"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9d9f01093dc14973f> a :Exame ;
+    :temData "2020-05-08"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9dbbc9f23e5c888ac> a :Exame ;
+    :temData "2020-11-01"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9dd4dc919156890ee> a :Exame ;
+    :temData "2021-01-10"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9de8d709dd3fd086f> a :Exame ;
+    :temData "2020-11-06"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9e387855b0de81d09> a :Exame ;
+    :temData "2019-06-27"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9e6ca114d8ab96bc4> a :Exame ;
+    :temData "2019-08-31"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9e81cdbbee14cab97> a :Exame ;
+    :temData "2019-07-15"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9e966a3cf1239840a> a :Exame ;
+    :temData "2020-06-29"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9ec44aba1040d2e1e> a :Exame ;
+    :temData "2020-02-06"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9edcbd2a0befa0a74> a :Exame ;
+    :temData "2021-02-20"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9ef81456a2178baca> a :Exame ;
+    :temData "2020-02-24"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9f0342bd19d6a5a39> a :Exame ;
+    :temData "2020-10-22"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9f430b0e9e81165c4> a :Exame ;
+    :temData "2019-02-18"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9f7311f86c6a33646> a :Exame ;
+    :temData "2019-12-09"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9fa4e587712a640d4> a :Exame ;
+    :temData "2020-11-04"^^xsd:string ;
+    :temResultado true .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9fbb0206c040aa4f1> a :Exame ;
+    :temData "2019-10-20"^^xsd:string ;
+    :temResultado false .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Exame/60b3eeb9fc87ff10010ae517> a :Exame ;
+    :temData "2019-08-25"^^xsd:string ;
+    :temResultado true .
+
+:F a :Pessoa,
+        owl:NamedIndividual ;
+    :temGenero "F" .
+
+:Federado a owl:Class ;
+    rdfs:subClassOf :Pessoa .
+
+:GDGoma a :Pessoa,
+        owl:NamedIndividual ;
+    :temClube "GDGoma" .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e01ada8b23fc63b31> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "andrews.rivas@abcbraga.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Saticoy"^^xsd:string ;
+    :temPrimeiroNome "Andrews"^^xsd:string ;
+    :temUltimoNome "Rivas"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e03c621784bf7b2eb> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "cynthia.page@acrroriz.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Forestburg"^^xsd:string ;
+    :temPrimeiroNome "Cynthia"^^xsd:string ;
+    :temUltimoNome "Page"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e0539642b38645cb3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "church.bishop@vitoria.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Vallonia"^^xsd:string ;
+    :temPrimeiroNome "Church"^^xsd:string ;
+    :temUltimoNome "Bishop"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e059b32a47b518e93> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "brennan.santana@vitoria.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Villarreal"^^xsd:string ;
+    :temPrimeiroNome "Brennan"^^xsd:string ;
+    :temUltimoNome "Santana"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e0797a9f03b138d18> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "paula.delaney@edviana.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Disautel"^^xsd:string ;
+    :temPrimeiroNome "Paula"^^xsd:string ;
+    :temUltimoNome "Delaney"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e07cb41f968328e60> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "terry.chaney@scbraga.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Blanco"^^xsd:string ;
+    :temPrimeiroNome "Terry"^^xsd:string ;
+    :temUltimoNome "Chaney"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e0ee0185da196c9ab> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "fowler.alvarez@amigosmontanha.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Choctaw"^^xsd:string ;
+    :temPrimeiroNome "Fowler"^^xsd:string ;
+    :temUltimoNome "Alvarez"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e13085dc64e17e4b0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "sanchez.mcgee@acdrcrespos.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Bascom"^^xsd:string ;
+    :temPrimeiroNome "Sanchez"^^xsd:string ;
+    :temUltimoNome "Mcgee"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e16fc834f28234ef4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "maureen.cobb@amigosmontanha.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Venice"^^xsd:string ;
+    :temPrimeiroNome "Maureen"^^xsd:string ;
+    :temUltimoNome "Cobb"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e172e761f8d52c213> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "ewing.drake@acdrcrespos.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Nanafalia"^^xsd:string ;
+    :temPrimeiroNome "Ewing"^^xsd:string ;
+    :temUltimoNome "Drake"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e1f3d25c518678bd7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "ophelia.boyd@amigosmontanha.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Chaparrito"^^xsd:string ;
+    :temPrimeiroNome "Ophelia"^^xsd:string ;
+    :temUltimoNome "Boyd"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e20e993d5010857a4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "nguyen.diaz@amigosmontanha.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Watchtower"^^xsd:string ;
+    :temPrimeiroNome "Nguyen"^^xsd:string ;
+    :temUltimoNome "Diaz"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e23a38b2da3f0a76e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "lambert.mueller@acdrcrespos.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Oretta"^^xsd:string ;
+    :temPrimeiroNome "Lambert"^^xsd:string ;
+    :temUltimoNome "Mueller"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e242cedae88a5f12c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "raquel.ratliff@abcbraga.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Goldfield"^^xsd:string ;
+    :temPrimeiroNome "Raquel"^^xsd:string ;
+    :temUltimoNome "Ratliff"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e25015995bacd5bed> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "ursula.martinez@amigosmontanha.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Lorraine"^^xsd:string ;
+    :temPrimeiroNome "Ursula"^^xsd:string ;
+    :temUltimoNome "Martinez"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e2573d42d411cc591> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "lester.manning@acdrcrespos.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Grandview"^^xsd:string ;
+    :temPrimeiroNome "Lester"^^xsd:string ;
+    :temUltimoNome "Manning"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e2707c21708cc3418> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "sellers.copeland@clube de orientação do minho.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Spelter"^^xsd:string ;
+    :temPrimeiroNome "Sellers"^^xsd:string ;
+    :temUltimoNome "Copeland"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e278b7161e71d9ceb> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "tanya.mcclain@gdgoma.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Fivepointville"^^xsd:string ;
+    :temPrimeiroNome "Tanya"^^xsd:string ;
+    :temUltimoNome "Mcclain"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e28ab1329e2ed0888> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "booth.eaton@scbraga.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Terlingua"^^xsd:string ;
+    :temPrimeiroNome "Booth"^^xsd:string ;
+    :temUltimoNome "Eaton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e2fac3611c3cd7291> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "slater.david@vitoria.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Chicopee"^^xsd:string ;
+    :temPrimeiroNome "Slater"^^xsd:string ;
+    :temUltimoNome "David"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e30fc3c2042f955eb> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "vasquez.michael@vitoria.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Munjor"^^xsd:string ;
+    :temPrimeiroNome "Vasquez"^^xsd:string ;
+    :temUltimoNome "Michael"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e3b279f45e79cd6fa> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "berta.clay@clube de orientação do minho.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Barclay"^^xsd:string ;
+    :temPrimeiroNome "Berta"^^xsd:string ;
+    :temUltimoNome "Clay"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e3bffb9b3df6f5ea4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "sue.waters@vitoria.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Carrizo"^^xsd:string ;
+    :temPrimeiroNome "Sue"^^xsd:string ;
+    :temUltimoNome "Waters"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e3d4f8a3a439f8b7a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "magdalena.francis@acdrcrespos.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Fostoria"^^xsd:string ;
+    :temPrimeiroNome "Magdalena"^^xsd:string ;
+    :temUltimoNome "Francis"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e3d51473e1b41004b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "charles.kim@acdrcrespos.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Bennett"^^xsd:string ;
+    :temPrimeiroNome "Charles"^^xsd:string ;
+    :temUltimoNome "Kim"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e3f165afa6f23a0eb> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "best.french@gdgoma.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Longbranch"^^xsd:string ;
+    :temPrimeiroNome "Best"^^xsd:string ;
+    :temUltimoNome "French"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e3f327a6ba71f77b0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "woodard.bennett@edviana.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Ruckersville"^^xsd:string ;
+    :temPrimeiroNome "Woodard"^^xsd:string ;
+    :temUltimoNome "Bennett"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e472001f8e05a40ee> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "valdez.harper@amigosmontanha.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Jacksonwald"^^xsd:string ;
+    :temPrimeiroNome "Valdez"^^xsd:string ;
+    :temUltimoNome "Harper"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e47a5478e9b66110d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "stella.jackson@acdrcrespos.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Kaka"^^xsd:string ;
+    :temPrimeiroNome "Stella"^^xsd:string ;
+    :temUltimoNome "Jackson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e4a1e0233af16ac8c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "bernard.stokes@avcfamalicão.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Sussex"^^xsd:string ;
+    :temPrimeiroNome "Bernard"^^xsd:string ;
+    :temUltimoNome "Stokes"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e536b83d9d562f9c8> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "sallie.shaffer@clube de orientação do minho.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Brownlee"^^xsd:string ;
+    :temPrimeiroNome "Sallie"^^xsd:string ;
+    :temUltimoNome "Shaffer"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e538d62e10eba66b6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "rodriguez.gonzalez@gdgoma.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Coaldale"^^xsd:string ;
+    :temPrimeiroNome "Rodriguez"^^xsd:string ;
+    :temUltimoNome "Gonzalez"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e53dad18808565be7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "larson.morin@gdgoma.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Summerset"^^xsd:string ;
+    :temPrimeiroNome "Larson"^^xsd:string ;
+    :temUltimoNome "Morin"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e54b12900f5e6c314> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "irma.jacobs@edviana.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Driftwood"^^xsd:string ;
+    :temPrimeiroNome "Irma"^^xsd:string ;
+    :temUltimoNome "Jacobs"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e553355b77862ea98> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "tina.blankenship@acdrcrespos.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Longoria"^^xsd:string ;
+    :temPrimeiroNome "Tina"^^xsd:string ;
+    :temUltimoNome "Blankenship"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e559fb2fd0142f64c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "michele.barber@clube de orientação do minho.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Oberlin"^^xsd:string ;
+    :temPrimeiroNome "Michele"^^xsd:string ;
+    :temUltimoNome "Barber"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e57b3659681466acf> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "ball.barlow@amigosmontanha.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Hobucken"^^xsd:string ;
+    :temPrimeiroNome "Ball"^^xsd:string ;
+    :temUltimoNome "Barlow"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e59411e4e9d97d70a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "opal.stewart@avcfamalicão.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Dola"^^xsd:string ;
+    :temPrimeiroNome "Opal"^^xsd:string ;
+    :temUltimoNome "Stewart"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e59e86eaf9b9a5372> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "jeri.pearson@acrroriz.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Falmouth"^^xsd:string ;
+    :temPrimeiroNome "Jeri"^^xsd:string ;
+    :temUltimoNome "Pearson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e62b59d062f2018a3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "medina.hartman@avcfamalicão.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Orick"^^xsd:string ;
+    :temPrimeiroNome "Medina"^^xsd:string ;
+    :temUltimoNome "Hartman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e63cc2530b136daef> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "claire.joyce@acdrcrespos.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Belgreen"^^xsd:string ;
+    :temPrimeiroNome "Claire"^^xsd:string ;
+    :temUltimoNome "Joyce"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e651ec286b869976d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "oneil.baxter@clube de orientação do minho.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Sanders"^^xsd:string ;
+    :temPrimeiroNome "Oneil"^^xsd:string ;
+    :temUltimoNome "Baxter"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e66f3d4c3cc778b1e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "stein.wiggins@edviana.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Rosine"^^xsd:string ;
+    :temPrimeiroNome "Stein"^^xsd:string ;
+    :temUltimoNome "Wiggins"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e67043c92ce84a97c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "helena.mayo@vitoria.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Bend"^^xsd:string ;
+    :temPrimeiroNome "Helena"^^xsd:string ;
+    :temUltimoNome "Mayo"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e6ab8471af29e2014> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "marcella.combs@clube de orientação do minho.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Manila"^^xsd:string ;
+    :temPrimeiroNome "Marcella"^^xsd:string ;
+    :temUltimoNome "Combs"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e6cb88f8d26691e15> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "chasity.coffey@edviana.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Kersey"^^xsd:string ;
+    :temPrimeiroNome "Chasity"^^xsd:string ;
+    :temUltimoNome "Coffey"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e6dbcbe60effe125d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "jordan.bonner@vitoria.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Northchase"^^xsd:string ;
+    :temPrimeiroNome "Jordan"^^xsd:string ;
+    :temUltimoNome "Bonner"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e6edaad4b8a63efae> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "morris.poole@avcfamalicão.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Steinhatchee"^^xsd:string ;
+    :temPrimeiroNome "Morris"^^xsd:string ;
+    :temUltimoNome "Poole"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e74703dea724376f8> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "roxanne.miles@vitoria.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Haring"^^xsd:string ;
+    :temPrimeiroNome "Roxanne"^^xsd:string ;
+    :temUltimoNome "Miles"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e7524108bf9936414> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "joanna.grant@amigosmontanha.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Noblestown"^^xsd:string ;
+    :temPrimeiroNome "Joanna"^^xsd:string ;
+    :temUltimoNome "Grant"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e769aecb50db619f2> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "galloway.sanders@acrroriz.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Allendale"^^xsd:string ;
+    :temPrimeiroNome "Galloway"^^xsd:string ;
+    :temUltimoNome "Sanders"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e79c5349b29557a62> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "janis.mckinney@abcbraga.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Osage"^^xsd:string ;
+    :temPrimeiroNome "Janis"^^xsd:string ;
+    :temUltimoNome "Mckinney"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e7ac2f667ececc242> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "tucker.morse@scbraga.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Tyhee"^^xsd:string ;
+    :temPrimeiroNome "Tucker"^^xsd:string ;
+    :temUltimoNome "Morse"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e7ded570068dce1d9> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "perry.sanford@vitoria.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Albany"^^xsd:string ;
+    :temPrimeiroNome "Perry"^^xsd:string ;
+    :temUltimoNome "Sanford"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e846df12b8f8e750d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "burke.weeks@amigosmontanha.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Mapletown"^^xsd:string ;
+    :temPrimeiroNome "Burke"^^xsd:string ;
+    :temUltimoNome "Weeks"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e84beb8fe0be593a5> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "alford.small@avcfamalicão.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Alamo"^^xsd:string ;
+    :temPrimeiroNome "Alford"^^xsd:string ;
+    :temUltimoNome "Small"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e8a311b08fca3541b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "evangelina.key@acdrcrespos.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Whitewater"^^xsd:string ;
+    :temPrimeiroNome "Evangelina"^^xsd:string ;
+    :temUltimoNome "Key"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e8b4f7dca2601ddfc> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "bartlett.sexton@gdgoma.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Rehrersburg"^^xsd:string ;
+    :temPrimeiroNome "Bartlett"^^xsd:string ;
+    :temUltimoNome "Sexton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e926c1d538dfaabd3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "duncan.davidson@amigosmontanha.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Cedarville"^^xsd:string ;
+    :temPrimeiroNome "Duncan"^^xsd:string ;
+    :temUltimoNome "Davidson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e9488e742d1600f58> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "alston.green@scbraga.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Thornport"^^xsd:string ;
+    :temPrimeiroNome "Alston"^^xsd:string ;
+    :temUltimoNome "Green"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e94c479068389f5e3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "maxine.rutledge@amigosmontanha.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Caberfae"^^xsd:string ;
+    :temPrimeiroNome "Maxine"^^xsd:string ;
+    :temUltimoNome "Rutledge"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e9dc10b681d5212b5> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "wilder.greene@vitoria.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Heil"^^xsd:string ;
+    :temPrimeiroNome "Wilder"^^xsd:string ;
+    :temUltimoNome "Greene"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0e9f0c3dbf2ecc854f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "watson.lynch@gdgoma.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Fillmore"^^xsd:string ;
+    :temPrimeiroNome "Watson"^^xsd:string ;
+    :temUltimoNome "Lynch"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ea0dc6768a6ca7192> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "massey.goodman@amigosmontanha.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Garfield"^^xsd:string ;
+    :temPrimeiroNome "Massey"^^xsd:string ;
+    :temUltimoNome "Goodman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ea3043984230726fc> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "shelia.york@scbraga.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Escondida"^^xsd:string ;
+    :temPrimeiroNome "Shelia"^^xsd:string ;
+    :temUltimoNome "York"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ea5d75fed720e4820> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "martin.brewer@acrroriz.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Taycheedah"^^xsd:string ;
+    :temPrimeiroNome "Martin"^^xsd:string ;
+    :temUltimoNome "Brewer"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ea6339abf19460649> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "gertrude.dillon@acrroriz.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Oneida"^^xsd:string ;
+    :temPrimeiroNome "Gertrude"^^xsd:string ;
+    :temUltimoNome "Dillon"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ea96d47b79642735d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "montgomery.rhodes@vitoria.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Rivers"^^xsd:string ;
+    :temPrimeiroNome "Montgomery"^^xsd:string ;
+    :temUltimoNome "Rhodes"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ea9b4c2114abcf6d7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "effie.gibson@acrroriz.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Virgie"^^xsd:string ;
+    :temPrimeiroNome "Effie"^^xsd:string ;
+    :temUltimoNome "Gibson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0eabfeddd7f84fd275> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "thelma.schmidt@acrroriz.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Greenfields"^^xsd:string ;
+    :temPrimeiroNome "Thelma"^^xsd:string ;
+    :temUltimoNome "Schmidt"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0eb2087f8cccef830d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "chambers.burton@vitoria.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Boling"^^xsd:string ;
+    :temPrimeiroNome "Chambers"^^xsd:string ;
+    :temUltimoNome "Burton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ebab436c1d23c2a84> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "key.arnold@amigosmontanha.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Orason"^^xsd:string ;
+    :temPrimeiroNome "Key"^^xsd:string ;
+    :temUltimoNome "Arnold"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ebc5f8bcac6a4b89d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "kelsey.roberts@vitoria.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Morgandale"^^xsd:string ;
+    :temPrimeiroNome "Kelsey"^^xsd:string ;
+    :temUltimoNome "Roberts"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ec14a4ad7e917ed36> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "claudine.gill@acrroriz.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Katonah"^^xsd:string ;
+    :temPrimeiroNome "Claudine"^^xsd:string ;
+    :temUltimoNome "Gill"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0eca6dd1525f201090> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "christine.rice@gdgoma.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Hayes"^^xsd:string ;
+    :temPrimeiroNome "Christine"^^xsd:string ;
+    :temUltimoNome "Rice"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ecf1638e25755912c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "summer.calhoun@clube de orientação do minho.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "National"^^xsd:string ;
+    :temPrimeiroNome "Summer"^^xsd:string ;
+    :temUltimoNome "Calhoun"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ecfbe9bf6149ba53b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "terri.avila@avcfamalicão.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Crown"^^xsd:string ;
+    :temPrimeiroNome "Terri"^^xsd:string ;
+    :temUltimoNome "Avila"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ed16d4695ffdf5f17> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "mendoza.buckner@scbraga.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Brogan"^^xsd:string ;
+    :temPrimeiroNome "Mendoza"^^xsd:string ;
+    :temUltimoNome "Buckner"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ed5225a2a93a69c3a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "alfreda.raymond@abcbraga.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Sultana"^^xsd:string ;
+    :temPrimeiroNome "Alfreda"^^xsd:string ;
+    :temUltimoNome "Raymond"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ed5dd8522cc53e7b0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "dominguez.chambers@abcbraga.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Malott"^^xsd:string ;
+    :temPrimeiroNome "Dominguez"^^xsd:string ;
+    :temUltimoNome "Chambers"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ed7a60ecd07dadb9e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "crane.ballard@vitoria.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Fedora"^^xsd:string ;
+    :temPrimeiroNome "Crane"^^xsd:string ;
+    :temUltimoNome "Ballard"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ed8819374df399b72> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "english.clemons@gdgoma.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Ticonderoga"^^xsd:string ;
+    :temPrimeiroNome "English"^^xsd:string ;
+    :temUltimoNome "Clemons"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0eddf26117e9d32bcb> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "haley.joseph@avcfamalicão.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Brantleyville"^^xsd:string ;
+    :temPrimeiroNome "Haley"^^xsd:string ;
+    :temUltimoNome "Joseph"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee00725274024d5a2> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "emily.terrell@gdgoma.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Clay"^^xsd:string ;
+    :temPrimeiroNome "Emily"^^xsd:string ;
+    :temUltimoNome "Terrell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee3bb3fd71f515d88> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "whitehead.montgomery@avcfamalicão.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Fairview"^^xsd:string ;
+    :temPrimeiroNome "Whitehead"^^xsd:string ;
+    :temUltimoNome "Montgomery"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee3d27702cac0b7cd> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "klein.cameron@scbraga.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Twilight"^^xsd:string ;
+    :temPrimeiroNome "Klein"^^xsd:string ;
+    :temUltimoNome "Cameron"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee3f58fda00f17cc6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "betty.blake@abcbraga.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Teasdale"^^xsd:string ;
+    :temPrimeiroNome "Betty"^^xsd:string ;
+    :temUltimoNome "Blake"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee409ac878ba9b99b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "sherry.morales@avcfamalicão.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Waukeenah"^^xsd:string ;
+    :temPrimeiroNome "Sherry"^^xsd:string ;
+    :temUltimoNome "Morales"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee48920a886a461e2> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "sheppard.bryant@avcfamalicão.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Brandermill"^^xsd:string ;
+    :temPrimeiroNome "Sheppard"^^xsd:string ;
+    :temUltimoNome "Bryant"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee62c8f8a846459ea> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "evans.singleton@clube de orientação do minho.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Sunwest"^^xsd:string ;
+    :temPrimeiroNome "Evans"^^xsd:string ;
+    :temUltimoNome "Singleton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee78616dd040e4dca> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "ola.glover@clube de orientação do minho.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Barronett"^^xsd:string ;
+    :temPrimeiroNome "Ola"^^xsd:string ;
+    :temUltimoNome "Glover"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee7cb2701483df2c9> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "oneill.roth@edviana.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Graball"^^xsd:string ;
+    :temPrimeiroNome "Oneill"^^xsd:string ;
+    :temUltimoNome "Roth"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee90bdefcc8703185> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "holloway.maxwell@avcfamalicão.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Waikele"^^xsd:string ;
+    :temPrimeiroNome "Holloway"^^xsd:string ;
+    :temUltimoNome "Maxwell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ee95a95d0c9bc3e5f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "nina.fowler@amigosmontanha.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Turah"^^xsd:string ;
+    :temPrimeiroNome "Nina"^^xsd:string ;
+    :temUltimoNome "Fowler"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0eee4b8338800e6003> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "bonnie.sandoval@clube de orientação do minho.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Shaft"^^xsd:string ;
+    :temPrimeiroNome "Bonnie"^^xsd:string ;
+    :temUltimoNome "Sandoval"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ef050e91efe68a668> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "angelia.noel@edviana.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Martell"^^xsd:string ;
+    :temPrimeiroNome "Angelia"^^xsd:string ;
+    :temUltimoNome "Noel"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ef3bfaf77b4e67849> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "cecelia.adams@amigosmontanha.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Fairlee"^^xsd:string ;
+    :temPrimeiroNome "Cecelia"^^xsd:string ;
+    :temUltimoNome "Adams"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0ef8b2c3b732bc0d82> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "paige.mccarthy@acdrcrespos.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Brandywine"^^xsd:string ;
+    :temPrimeiroNome "Paige"^^xsd:string ;
+    :temUltimoNome "Mccarthy"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0efe55045feaaea0d0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "dee.holman@avcfamalicão.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Brenton"^^xsd:string ;
+    :temPrimeiroNome "Dee"^^xsd:string ;
+    :temUltimoNome "Holman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee0effaf9b013df4203d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "lynn.shaw@clube de orientação do minho.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Cutter"^^xsd:string ;
+    :temPrimeiroNome "Lynn"^^xsd:string ;
+    :temUltimoNome "Shaw"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee810078ab3f7321a731> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "dee.lowery@vitoria.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Rodman"^^xsd:string ;
+    :temPrimeiroNome "Dee"^^xsd:string ;
+    :temUltimoNome "Lowery"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81034e5cb2050e882a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "addie.hayes@acrroriz.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Bennett"^^xsd:string ;
+    :temPrimeiroNome "Addie"^^xsd:string ;
+    :temUltimoNome "Hayes"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8103ed6d19e90ce9f7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "mckenzie.woods@acrroriz.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Craig"^^xsd:string ;
+    :temPrimeiroNome "Mckenzie"^^xsd:string ;
+    :temUltimoNome "Woods"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81051bf4a2138bb141> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "moses.sargent@abcbraga.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Wildwood"^^xsd:string ;
+    :temPrimeiroNome "Moses"^^xsd:string ;
+    :temUltimoNome "Sargent"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81051fe3467036095a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "montoya.anthony@acrroriz.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Clara"^^xsd:string ;
+    :temPrimeiroNome "Montoya"^^xsd:string ;
+    :temUltimoNome "Anthony"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8106e9b44af3270a40> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "mccullough.pena@clube de orientação do minho.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Sunwest"^^xsd:string ;
+    :temPrimeiroNome "Mccullough"^^xsd:string ;
+    :temUltimoNome "Pena"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee811426bce48b453191> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "lancaster.andrews@vitoria.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Longoria"^^xsd:string ;
+    :temPrimeiroNome "Lancaster"^^xsd:string ;
+    :temUltimoNome "Andrews"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81145de55fffb7bdfa> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "jordan.alvarez@edviana.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Riviera"^^xsd:string ;
+    :temPrimeiroNome "Jordan"^^xsd:string ;
+    :temUltimoNome "Alvarez"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81146b3cd8954b7256> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "viola.medina@edviana.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Nipinnawasee"^^xsd:string ;
+    :temPrimeiroNome "Viola"^^xsd:string ;
+    :temUltimoNome "Medina"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8115745fe4ce8dbc5a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "carrillo.munoz@scbraga.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Bordelonville"^^xsd:string ;
+    :temPrimeiroNome "Carrillo"^^xsd:string ;
+    :temUltimoNome "Munoz"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8117de88dc519ae9d3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "laura.jacobson@acrroriz.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Kirk"^^xsd:string ;
+    :temPrimeiroNome "Laura"^^xsd:string ;
+    :temUltimoNome "Jacobson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee811a2021b6b24ffbc2> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "conway.alexander@scbraga.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Darrtown"^^xsd:string ;
+    :temPrimeiroNome "Conway"^^xsd:string ;
+    :temUltimoNome "Alexander"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee811a4429c17e036357> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "lane.norton@abcbraga.io"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Homestead"^^xsd:string ;
+    :temPrimeiroNome "Lane"^^xsd:string ;
+    :temUltimoNome "Norton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8122f33125935e59d3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "cabrera.curtis@avcfamalicão.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Beechmont"^^xsd:string ;
+    :temPrimeiroNome "Cabrera"^^xsd:string ;
+    :temUltimoNome "Curtis"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8125e3c7f8ae2daa67> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "shaffer.le@avcfamalicão.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Shepardsville"^^xsd:string ;
+    :temPrimeiroNome "Shaffer"^^xsd:string ;
+    :temUltimoNome "Le"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8128adc82a45f8023d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "barrett.frederick@avcfamalicão.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Stollings"^^xsd:string ;
+    :temPrimeiroNome "Barrett"^^xsd:string ;
+    :temUltimoNome "Frederick"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee812a4b8125a96689a0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "kathy.kramer@edviana.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Williams"^^xsd:string ;
+    :temPrimeiroNome "Kathy"^^xsd:string ;
+    :temUltimoNome "Kramer"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee812d50aad901e7e243> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "ayers.carroll@gdgoma.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Sylvanite"^^xsd:string ;
+    :temPrimeiroNome "Ayers"^^xsd:string ;
+    :temUltimoNome "Carroll"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee812f35f4ff3c2edecf> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "brianna.bentley@acdrcrespos.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Ypsilanti"^^xsd:string ;
+    :temPrimeiroNome "Brianna"^^xsd:string ;
+    :temUltimoNome "Bentley"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8131597dae8f73a11b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "travis.sampson@edviana.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Dotsero"^^xsd:string ;
+    :temPrimeiroNome "Travis"^^xsd:string ;
+    :temUltimoNome "Sampson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee813611a9e67c3546a3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "burnett.hogan@acrroriz.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Valmy"^^xsd:string ;
+    :temPrimeiroNome "Burnett"^^xsd:string ;
+    :temUltimoNome "Hogan"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81375cc4e9aba8bc6e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "lamb.graham@avcfamalicão.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Bluetown"^^xsd:string ;
+    :temPrimeiroNome "Lamb"^^xsd:string ;
+    :temUltimoNome "Graham"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8138f5b0173e1bc637> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "britt.zamora@clube de orientação do minho.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Rutherford"^^xsd:string ;
+    :temPrimeiroNome "Britt"^^xsd:string ;
+    :temUltimoNome "Zamora"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee813905ebb273d5d9a0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "casey.bowman@abcbraga.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Tryon"^^xsd:string ;
+    :temPrimeiroNome "Casey"^^xsd:string ;
+    :temUltimoNome "Bowman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee813bd664873721a6a1> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "larsen.villarreal@scbraga.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Dawn"^^xsd:string ;
+    :temPrimeiroNome "Larsen"^^xsd:string ;
+    :temUltimoNome "Villarreal"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee813c7547937e764cab> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "herminia.mooney@amigosmontanha.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Matheny"^^xsd:string ;
+    :temPrimeiroNome "Herminia"^^xsd:string ;
+    :temUltimoNome "Mooney"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81411e7acd216d0bf0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "jewel.trevino@acrroriz.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Garnet"^^xsd:string ;
+    :temPrimeiroNome "Jewel"^^xsd:string ;
+    :temUltimoNome "Trevino"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81422fd173977583e5> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "valentine.fitzgerald@abcbraga.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Kersey"^^xsd:string ;
+    :temPrimeiroNome "Valentine"^^xsd:string ;
+    :temUltimoNome "Fitzgerald"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81451b811209c3deef> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "christian.clements@acdrcrespos.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Cochranville"^^xsd:string ;
+    :temPrimeiroNome "Christian"^^xsd:string ;
+    :temUltimoNome "Clements"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8151ebf5ddaa5ca13c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "hudson.duffy@edviana.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Whitestone"^^xsd:string ;
+    :temPrimeiroNome "Hudson"^^xsd:string ;
+    :temUltimoNome "Duffy"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81525963fc4fd2cf9d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "harmon.stone@amigosmontanha.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Idledale"^^xsd:string ;
+    :temPrimeiroNome "Harmon"^^xsd:string ;
+    :temUltimoNome "Stone"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8152b3f05331a47645> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "stafford.ray@acdrcrespos.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Zeba"^^xsd:string ;
+    :temPrimeiroNome "Stafford"^^xsd:string ;
+    :temUltimoNome "Ray"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8152ddb1911c44b96a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "hooper.kirby@acrroriz.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Roosevelt"^^xsd:string ;
+    :temPrimeiroNome "Hooper"^^xsd:string ;
+    :temUltimoNome "Kirby"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8154161dd7358b2e65> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "mayra.rose@acdrcrespos.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Calpine"^^xsd:string ;
+    :temPrimeiroNome "Mayra"^^xsd:string ;
+    :temUltimoNome "Rose"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81559385200672594d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "barker.mercer@avcfamalicão.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Grayhawk"^^xsd:string ;
+    :temPrimeiroNome "Barker"^^xsd:string ;
+    :temUltimoNome "Mercer"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee815852d8fc2dc33e8a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "peters.vaughn@acrroriz.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Brandermill"^^xsd:string ;
+    :temPrimeiroNome "Peters"^^xsd:string ;
+    :temUltimoNome "Vaughn"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee815b7d9a126c47165d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "chang.oneill@edviana.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Falconaire"^^xsd:string ;
+    :temPrimeiroNome "Chang"^^xsd:string ;
+    :temUltimoNome "Oneill"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee815cb65367e6de0b3c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "joyce.evans@amigosmontanha.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Rivers"^^xsd:string ;
+    :temPrimeiroNome "Joyce"^^xsd:string ;
+    :temUltimoNome "Evans"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee815e7f792d741f2228> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "lawrence.herman@gdgoma.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Wakulla"^^xsd:string ;
+    :temPrimeiroNome "Lawrence"^^xsd:string ;
+    :temUltimoNome "Herman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8160bf5c46dcb3cfa7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "blair.sherman@scbraga.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Waukeenah"^^xsd:string ;
+    :temPrimeiroNome "Blair"^^xsd:string ;
+    :temUltimoNome "Sherman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8162c5de4569ccfe2f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "sweet.gibbs@avcfamalicão.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Stagecoach"^^xsd:string ;
+    :temPrimeiroNome "Sweet"^^xsd:string ;
+    :temUltimoNome "Gibbs"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81655cc723f988a62d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "meagan.carter@scbraga.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Martinsville"^^xsd:string ;
+    :temPrimeiroNome "Meagan"^^xsd:string ;
+    :temUltimoNome "Carter"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee816b42d22ea075aba7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "bonita.mccormick@gdgoma.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Marshall"^^xsd:string ;
+    :temPrimeiroNome "Bonita"^^xsd:string ;
+    :temUltimoNome "Mccormick"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee816e416ff33c21634a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "jamie.cherry@abcbraga.io"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Forbestown"^^xsd:string ;
+    :temPrimeiroNome "Jamie"^^xsd:string ;
+    :temUltimoNome "Cherry"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee817468bb467a39e2f8> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "burgess.bradshaw@abcbraga.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Bluffview"^^xsd:string ;
+    :temPrimeiroNome "Burgess"^^xsd:string ;
+    :temUltimoNome "Bradshaw"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee817af5fb3fb1e153ef> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "harrison.finch@edviana.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Harrison"^^xsd:string ;
+    :temPrimeiroNome "Harrison"^^xsd:string ;
+    :temUltimoNome "Finch"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee817c1ce5b6cb67302a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "christensen.boyd@abcbraga.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Wells"^^xsd:string ;
+    :temPrimeiroNome "Christensen"^^xsd:string ;
+    :temUltimoNome "Boyd"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee817ca74f6cb607c6f9> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "ethel.bartlett@acrroriz.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Muir"^^xsd:string ;
+    :temPrimeiroNome "Ethel"^^xsd:string ;
+    :temUltimoNome "Bartlett"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81828ee0dba6850475> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "roseann.benjamin@abcbraga.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Stewart"^^xsd:string ;
+    :temPrimeiroNome "Roseann"^^xsd:string ;
+    :temUltimoNome "Benjamin"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8182b8712a2f15e41a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "jean.conley@gdgoma.io"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Tilleda"^^xsd:string ;
+    :temPrimeiroNome "Jean"^^xsd:string ;
+    :temUltimoNome "Conley"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81839f04840d199de9> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "wolfe.baird@avcfamalicão.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Faxon"^^xsd:string ;
+    :temPrimeiroNome "Wolfe"^^xsd:string ;
+    :temUltimoNome "Baird"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81858e8c650b8d992f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "bird.noble@acrroriz.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Lafferty"^^xsd:string ;
+    :temPrimeiroNome "Bird"^^xsd:string ;
+    :temUltimoNome "Noble"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81864959e7fb8bc864> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "lloyd.dotson@abcbraga.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Winesburg"^^xsd:string ;
+    :temPrimeiroNome "Lloyd"^^xsd:string ;
+    :temUltimoNome "Dotson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8186fff74d432c9259> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "catalina.webb@abcbraga.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Aurora"^^xsd:string ;
+    :temPrimeiroNome "Catalina"^^xsd:string ;
+    :temUltimoNome "Webb"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81874f8871966eedd1> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "dunn.horn@clube de orientação do minho.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Ripley"^^xsd:string ;
+    :temPrimeiroNome "Dunn"^^xsd:string ;
+    :temUltimoNome "Horn"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8187b3e7d863bbaf97> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "mccray.barker@vitoria.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Blairstown"^^xsd:string ;
+    :temPrimeiroNome "Mccray"^^xsd:string ;
+    :temUltimoNome "Barker"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee818cd611e6bf56f2f1> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "doyle.odom@amigosmontanha.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Newry"^^xsd:string ;
+    :temPrimeiroNome "Doyle"^^xsd:string ;
+    :temUltimoNome "Odom"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee818db2661d700d6ea3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "golden.hopkins@avcfamalicão.io"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Courtland"^^xsd:string ;
+    :temPrimeiroNome "Golden"^^xsd:string ;
+    :temUltimoNome "Hopkins"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee818e25f41f67491f02> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "guzman.douglas@abcbraga.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Alderpoint"^^xsd:string ;
+    :temPrimeiroNome "Guzman"^^xsd:string ;
+    :temUltimoNome "Douglas"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81956a3fcc57d06c8c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "suarez.campbell@acdrcrespos.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Hamilton"^^xsd:string ;
+    :temPrimeiroNome "Suarez"^^xsd:string ;
+    :temUltimoNome "Campbell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee8195bd88f9e936aca7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "monica.neal@acrroriz.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Roberts"^^xsd:string ;
+    :temPrimeiroNome "Monica"^^xsd:string ;
+    :temUltimoNome "Neal"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81963e6ecf70e3d586> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "lenora.kane@abcbraga.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Axis"^^xsd:string ;
+    :temPrimeiroNome "Lenora"^^xsd:string ;
+    :temUltimoNome "Kane"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee819d5bb33e21ff7e16> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "nixon.hendrix@avcfamalicão.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Bethpage"^^xsd:string ;
+    :temPrimeiroNome "Nixon"^^xsd:string ;
+    :temUltimoNome "Hendrix"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81a113b4cb68ef5906> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "mcfarland.tyson@amigosmontanha.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Kula"^^xsd:string ;
+    :temPrimeiroNome "Mcfarland"^^xsd:string ;
+    :temUltimoNome "Tyson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81a40cc7fc63be65ad> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "freeman.wyatt@acrroriz.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Bentonville"^^xsd:string ;
+    :temPrimeiroNome "Freeman"^^xsd:string ;
+    :temUltimoNome "Wyatt"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81a545dd3ccaea41b0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "may.holt@amigosmontanha.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Springdale"^^xsd:string ;
+    :temPrimeiroNome "May"^^xsd:string ;
+    :temUltimoNome "Holt"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81afbc52a666850b8c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "sellers.hunter@scbraga.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Omar"^^xsd:string ;
+    :temPrimeiroNome "Sellers"^^xsd:string ;
+    :temUltimoNome "Hunter"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81b5064ca4e9536d3c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "villarreal.tucker@avcfamalicão.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Tecolotito"^^xsd:string ;
+    :temPrimeiroNome "Villarreal"^^xsd:string ;
+    :temUltimoNome "Tucker"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81b71a63346d0243e7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "tonia.bryan@edviana.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Corinne"^^xsd:string ;
+    :temPrimeiroNome "Tonia"^^xsd:string ;
+    :temUltimoNome "Bryan"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81bc1a4f4c3bc26de1> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "rosales.mejia@clube de orientação do minho.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Dale"^^xsd:string ;
+    :temPrimeiroNome "Rosales"^^xsd:string ;
+    :temUltimoNome "Mejia"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81c0d4102a9f396149> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "justine.wise@avcfamalicão.io"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Hondah"^^xsd:string ;
+    :temPrimeiroNome "Justine"^^xsd:string ;
+    :temUltimoNome "Wise"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81c1515414ac1fb549> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "araceli.castaneda@avcfamalicão.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Magnolia"^^xsd:string ;
+    :temPrimeiroNome "Araceli"^^xsd:string ;
+    :temUltimoNome "Castaneda"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81c4345661feac7a9a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "preston.mccall@avcfamalicão.io"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Mathews"^^xsd:string ;
+    :temPrimeiroNome "Preston"^^xsd:string ;
+    :temUltimoNome "Mccall"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81c44446a9eceefd87> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "maryann.joyce@acdrcrespos.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Harmon"^^xsd:string ;
+    :temPrimeiroNome "Maryann"^^xsd:string ;
+    :temUltimoNome "Joyce"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81c5073acaa4febef6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "malinda.merritt@abcbraga.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Cecilia"^^xsd:string ;
+    :temPrimeiroNome "Malinda"^^xsd:string ;
+    :temUltimoNome "Merritt"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81cdbf91a4db1113eb> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "workman.franks@amigosmontanha.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Greenfields"^^xsd:string ;
+    :temPrimeiroNome "Workman"^^xsd:string ;
+    :temUltimoNome "Franks"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81ce306eb25d963bb0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "buckner.luna@edviana.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Veguita"^^xsd:string ;
+    :temPrimeiroNome "Buckner"^^xsd:string ;
+    :temUltimoNome "Luna"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81d13fde44c2e74aab> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "elena.sullivan@clube de orientação do minho.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Leola"^^xsd:string ;
+    :temPrimeiroNome "Elena"^^xsd:string ;
+    :temUltimoNome "Sullivan"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81d15fe413bd86d938> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "fuentes.walker@scbraga.io"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Leming"^^xsd:string ;
+    :temPrimeiroNome "Fuentes"^^xsd:string ;
+    :temUltimoNome "Walker"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81d74bfab7c22b5eaa> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "cathryn.fletcher@clube de orientação do minho.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Oasis"^^xsd:string ;
+    :temPrimeiroNome "Cathryn"^^xsd:string ;
+    :temUltimoNome "Fletcher"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81d7dbdba97369e927> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "langley.velez@acrroriz.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Neahkahnie"^^xsd:string ;
+    :temPrimeiroNome "Langley"^^xsd:string ;
+    :temUltimoNome "Velez"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81d9e0e05421b4d08e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "mendez.good@clube de orientação do minho.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Westmoreland"^^xsd:string ;
+    :temPrimeiroNome "Mendez"^^xsd:string ;
+    :temUltimoNome "Good"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e024b81dde892dd6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "alisa.morrison@gdgoma.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Kiskimere"^^xsd:string ;
+    :temPrimeiroNome "Alisa"^^xsd:string ;
+    :temUltimoNome "Morrison"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e02e5fb35760bec3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "valdez.barnes@acdrcrespos.io"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Islandia"^^xsd:string ;
+    :temPrimeiroNome "Valdez"^^xsd:string ;
+    :temUltimoNome "Barnes"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e20d4412bdf4f468> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "ray.howe@vitoria.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Nicut"^^xsd:string ;
+    :temPrimeiroNome "Ray"^^xsd:string ;
+    :temUltimoNome "Howe"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e2dc932e4e6f7e51> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "sarah.moore@acdrcrespos.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Morgandale"^^xsd:string ;
+    :temPrimeiroNome "Sarah"^^xsd:string ;
+    :temUltimoNome "Moore"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e32abefb2a9e8629> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "darla.ware@gdgoma.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Villarreal"^^xsd:string ;
+    :temPrimeiroNome "Darla"^^xsd:string ;
+    :temUltimoNome "Ware"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e62094c1d0bfca5c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "heath.bishop@amigosmontanha.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Grantville"^^xsd:string ;
+    :temPrimeiroNome "Heath"^^xsd:string ;
+    :temUltimoNome "Bishop"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e69c16cc6108e7ad> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "chandra.potts@amigosmontanha.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Albany"^^xsd:string ;
+    :temPrimeiroNome "Chandra"^^xsd:string ;
+    :temUltimoNome "Potts"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e769b6603a6525c6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "patrick.mcintyre@edviana.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Emory"^^xsd:string ;
+    :temPrimeiroNome "Patrick"^^xsd:string ;
+    :temUltimoNome "Mcintyre"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e901a8c787b38008> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "morrow.yang@acdrcrespos.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Tibbie"^^xsd:string ;
+    :temPrimeiroNome "Morrow"^^xsd:string ;
+    :temUltimoNome "Yang"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81e97e332884e1299a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "sheila.caldwell@avcfamalicão.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Leroy"^^xsd:string ;
+    :temPrimeiroNome "Sheila"^^xsd:string ;
+    :temUltimoNome "Caldwell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81ea2bed08bf81e861> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "bobbi.hawkins@scbraga.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Takilma"^^xsd:string ;
+    :temPrimeiroNome "Bobbi"^^xsd:string ;
+    :temUltimoNome "Hawkins"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81ec958ef30a9daa8d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "john.warner@clube de orientação do minho.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Veyo"^^xsd:string ;
+    :temPrimeiroNome "John"^^xsd:string ;
+    :temUltimoNome "Warner"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81ed581129ff3b2087> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "lucile.underwood@avcfamalicão.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Innsbrook"^^xsd:string ;
+    :temPrimeiroNome "Lucile"^^xsd:string ;
+    :temUltimoNome "Underwood"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81ef9b6d894223a9fd> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "deana.ramsey@acrroriz.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Gila"^^xsd:string ;
+    :temPrimeiroNome "Deana"^^xsd:string ;
+    :temUltimoNome "Ramsey"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81efda597f9d074638> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "guy.drake@abcbraga.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Helen"^^xsd:string ;
+    :temPrimeiroNome "Guy"^^xsd:string ;
+    :temUltimoNome "Drake"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81f5035e13f1db0069> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "hendrix.bauer@scbraga.io"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Ryderwood"^^xsd:string ;
+    :temPrimeiroNome "Hendrix"^^xsd:string ;
+    :temUltimoNome "Bauer"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81f9666482a5c13406> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "cheryl.watson@gdgoma.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Fairview"^^xsd:string ;
+    :temPrimeiroNome "Cheryl"^^xsd:string ;
+    :temUltimoNome "Watson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3ee81fcb5c8f9970e2899> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "tina.salinas@vitoria.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Welda"^^xsd:string ;
+    :temPrimeiroNome "Tina"^^xsd:string ;
+    :temUltimoNome "Salinas"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9077997c0e212f286> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "jimmie.beck@avcfamalicão.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Walker"^^xsd:string ;
+    :temPrimeiroNome "Jimmie"^^xsd:string ;
+    :temUltimoNome "Beck"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9080a93e404ab974a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "zelma.bell@clube de orientação do minho.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Shasta"^^xsd:string ;
+    :temPrimeiroNome "Zelma"^^xsd:string ;
+    :temUltimoNome "Bell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9080c70a07ef5c4ac> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "hayes.ward@edviana.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Accoville"^^xsd:string ;
+    :temPrimeiroNome "Hayes"^^xsd:string ;
+    :temUltimoNome "Ward"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb909f2540c651ec8ff> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "shari.mathews@acdrcrespos.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Joes"^^xsd:string ;
+    :temPrimeiroNome "Shari"^^xsd:string ;
+    :temUltimoNome "Mathews"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb90afb40019dea8a64> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "mavis.riley@amigosmontanha.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Nescatunga"^^xsd:string ;
+    :temPrimeiroNome "Mavis"^^xsd:string ;
+    :temUltimoNome "Riley"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb90d885cf3327fe6bd> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "foster.strickland@clube de orientação do minho.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Holtville"^^xsd:string ;
+    :temPrimeiroNome "Foster"^^xsd:string ;
+    :temUltimoNome "Strickland"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb90fc3f9678fed0903> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "salas.joseph@amigosmontanha.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Greenwich"^^xsd:string ;
+    :temPrimeiroNome "Salas"^^xsd:string ;
+    :temUltimoNome "Joseph"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb910808af364c63729> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "olson.hickman@acrroriz.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Madrid"^^xsd:string ;
+    :temPrimeiroNome "Olson"^^xsd:string ;
+    :temUltimoNome "Hickman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91485796dedd2444b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "elba.le@acrroriz.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Ebro"^^xsd:string ;
+    :temPrimeiroNome "Elba"^^xsd:string ;
+    :temUltimoNome "Le"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb916caa13610b8cadf> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "amparo.price@acdrcrespos.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Townsend"^^xsd:string ;
+    :temPrimeiroNome "Amparo"^^xsd:string ;
+    :temUltimoNome "Price"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91977642e615c41e3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "parks.saunders@clube de orientação do minho.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Sheatown"^^xsd:string ;
+    :temPrimeiroNome "Parks"^^xsd:string ;
+    :temUltimoNome "Saunders"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91ab516aa15e1199a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "warner.bullock@gdgoma.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Valle"^^xsd:string ;
+    :temPrimeiroNome "Warner"^^xsd:string ;
+    :temUltimoNome "Bullock"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91accf4bd8b426245> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "callahan.mitchell@abcbraga.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Wollochet"^^xsd:string ;
+    :temPrimeiroNome "Callahan"^^xsd:string ;
+    :temUltimoNome "Mitchell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91afe89807606d176> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "natalie.figueroa@clube de orientação do minho.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Jugtown"^^xsd:string ;
+    :temPrimeiroNome "Natalie"^^xsd:string ;
+    :temUltimoNome "Figueroa"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91c3038d321c60bb3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "josie.rasmussen@acdrcrespos.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Riverton"^^xsd:string ;
+    :temPrimeiroNome "Josie"^^xsd:string ;
+    :temUltimoNome "Rasmussen"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91dbe172db8fd8f61> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "fuentes.rogers@scbraga.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Grazierville"^^xsd:string ;
+    :temPrimeiroNome "Fuentes"^^xsd:string ;
+    :temUltimoNome "Rogers"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb91ded4fa3db5fdf8e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "marlene.rodgers@scbraga.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Levant"^^xsd:string ;
+    :temPrimeiroNome "Marlene"^^xsd:string ;
+    :temUltimoNome "Rodgers"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9217c0274b8a1022b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "small.coffey@vitoria.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Waumandee"^^xsd:string ;
+    :temPrimeiroNome "Small"^^xsd:string ;
+    :temUltimoNome "Coffey"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9235de1538781611d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "althea.fitzpatrick@edviana.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Marne"^^xsd:string ;
+    :temPrimeiroNome "Althea"^^xsd:string ;
+    :temUltimoNome "Fitzpatrick"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb929306aeaff7f31a0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "rogers.noel@acdrcrespos.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Cresaptown"^^xsd:string ;
+    :temPrimeiroNome "Rogers"^^xsd:string ;
+    :temUltimoNome "Noel"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb92a2f391cda5b305e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "osborn.green@acrroriz.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Jacksonwald"^^xsd:string ;
+    :temPrimeiroNome "Osborn"^^xsd:string ;
+    :temUltimoNome "Green"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb92b1debc068c42080> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "raquel.dejesus@acrroriz.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Greenfields"^^xsd:string ;
+    :temPrimeiroNome "Raquel"^^xsd:string ;
+    :temUltimoNome "Dejesus"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb933e50bd455af89a9> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "jeanine.hester@avcfamalicão.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Baden"^^xsd:string ;
+    :temPrimeiroNome "Jeanine"^^xsd:string ;
+    :temUltimoNome "Hester"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb934a2174ec11d92a6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "crawford.merritt@scbraga.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 27 ;
+    :temMorada "Roy"^^xsd:string ;
+    :temPrimeiroNome "Crawford"^^xsd:string ;
+    :temUltimoNome "Merritt"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9354e8a0e1817c201> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "mosley.gonzales@scbraga.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Driftwood"^^xsd:string ;
+    :temPrimeiroNome "Mosley"^^xsd:string ;
+    :temUltimoNome "Gonzales"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb935b59a6c217af521> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "gwen.pate@amigosmontanha.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Snelling"^^xsd:string ;
+    :temPrimeiroNome "Gwen"^^xsd:string ;
+    :temUltimoNome "Pate"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb939a5cb2da478d86c> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "malinda.mccall@scbraga.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Winchester"^^xsd:string ;
+    :temPrimeiroNome "Malinda"^^xsd:string ;
+    :temUltimoNome "Mccall"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb93a24ff700a3928d5> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "leanne.armstrong@amigosmontanha.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Cochranville"^^xsd:string ;
+    :temPrimeiroNome "Leanne"^^xsd:string ;
+    :temUltimoNome "Armstrong"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb93bfe7ecd8361f659> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "bertha.shelton@gdgoma.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Sedley"^^xsd:string ;
+    :temPrimeiroNome "Bertha"^^xsd:string ;
+    :temUltimoNome "Shelton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9425c872217db611e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "felicia.skinner@acdrcrespos.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Rosburg"^^xsd:string ;
+    :temPrimeiroNome "Felicia"^^xsd:string ;
+    :temUltimoNome "Skinner"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb944e8f43647ed05f2> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "etta.cotton@avcfamalicão.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Graniteville"^^xsd:string ;
+    :temPrimeiroNome "Etta"^^xsd:string ;
+    :temUltimoNome "Cotton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb945accec6f3eb9c3d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "annmarie.petersen@clube de orientação do minho.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Twilight"^^xsd:string ;
+    :temPrimeiroNome "Annmarie"^^xsd:string ;
+    :temUltimoNome "Petersen"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9468961b15e8e1277> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "robert.herman@clube de orientação do minho.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Weogufka"^^xsd:string ;
+    :temPrimeiroNome "Robert"^^xsd:string ;
+    :temUltimoNome "Herman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb948dd398953308f2d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "gilda.schmidt@scbraga.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Enoree"^^xsd:string ;
+    :temPrimeiroNome "Gilda"^^xsd:string ;
+    :temUltimoNome "Schmidt"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb94b33eaa274778def> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "barton.massey@amigosmontanha.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Ribera"^^xsd:string ;
+    :temPrimeiroNome "Barton"^^xsd:string ;
+    :temUltimoNome "Massey"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb94d27b52fe1b15f19> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "liz.baldwin@abcbraga.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Basye"^^xsd:string ;
+    :temPrimeiroNome "Liz"^^xsd:string ;
+    :temUltimoNome "Baldwin"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb95632a2a2915ae72b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "martinez.johns@abcbraga.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Hebron"^^xsd:string ;
+    :temPrimeiroNome "Martinez"^^xsd:string ;
+    :temUltimoNome "Johns"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb95762eb38f4ae9a22> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "imelda.odonnell@avcfamalicão.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Riviera"^^xsd:string ;
+    :temPrimeiroNome "Imelda"^^xsd:string ;
+    :temUltimoNome "Odonnell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb95b00f32d469ef4b2> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "knapp.buckner@abcbraga.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Rose"^^xsd:string ;
+    :temPrimeiroNome "Knapp"^^xsd:string ;
+    :temUltimoNome "Buckner"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb966fd425e94c59395> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "ramirez.blevins@vitoria.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Bluetown"^^xsd:string ;
+    :temPrimeiroNome "Ramirez"^^xsd:string ;
+    :temUltimoNome "Blevins"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb967d2dd4be3e2c87d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "margaret.bray@clube de orientação do minho.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Sardis"^^xsd:string ;
+    :temPrimeiroNome "Margaret"^^xsd:string ;
+    :temUltimoNome "Bray"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb968346da5d651b20d> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "chelsea.gallegos@avcfamalicão.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Warren"^^xsd:string ;
+    :temPrimeiroNome "Chelsea"^^xsd:string ;
+    :temUltimoNome "Gallegos"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb96b4950f33f42c5b6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "curtis.dillon@amigosmontanha.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Beason"^^xsd:string ;
+    :temPrimeiroNome "Curtis"^^xsd:string ;
+    :temUltimoNome "Dillon"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb96e988bb711c0c940> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "stanton.cox@edviana.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Foxworth"^^xsd:string ;
+    :temPrimeiroNome "Stanton"^^xsd:string ;
+    :temUltimoNome "Cox"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb96f9b421618f39954> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "graves.mccray@abcbraga.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Kipp"^^xsd:string ;
+    :temPrimeiroNome "Graves"^^xsd:string ;
+    :temUltimoNome "Mccray"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb972a330700a58a10a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "leila.solis@acrroriz.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Glenville"^^xsd:string ;
+    :temPrimeiroNome "Leila"^^xsd:string ;
+    :temUltimoNome "Solis"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb97a2511a770990f0f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "becker.talley@clube de orientação do minho.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Valmy"^^xsd:string ;
+    :temPrimeiroNome "Becker"^^xsd:string ;
+    :temUltimoNome "Talley"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb97aabcddbffca43f3> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "elaine.allen@acdrcrespos.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Kaka"^^xsd:string ;
+    :temPrimeiroNome "Elaine"^^xsd:string ;
+    :temUltimoNome "Allen"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb97aecf09da8650e19> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "mccoy.blackburn@amigosmontanha.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Osmond"^^xsd:string ;
+    :temPrimeiroNome "Mccoy"^^xsd:string ;
+    :temUltimoNome "Blackburn"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb97b17e786bdf88e29> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "santana.harper@scbraga.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Malo"^^xsd:string ;
+    :temPrimeiroNome "Santana"^^xsd:string ;
+    :temUltimoNome "Harper"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb97c9c1d91087c47a4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "flynn.huber@clube de orientação do minho.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Teasdale"^^xsd:string ;
+    :temPrimeiroNome "Flynn"^^xsd:string ;
+    :temUltimoNome "Huber"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb97d329fb5b3d7379b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "cindy.shepherd@avcfamalicão.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Brule"^^xsd:string ;
+    :temPrimeiroNome "Cindy"^^xsd:string ;
+    :temUltimoNome "Shepherd"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9817b6dc6e2848304> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "marisol.owen@acdrcrespos.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Soham"^^xsd:string ;
+    :temPrimeiroNome "Marisol"^^xsd:string ;
+    :temUltimoNome "Owen"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb983fb3181e8f43d12> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "blevins.cline@clube de orientação do minho.me"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Delshire"^^xsd:string ;
+    :temPrimeiroNome "Blevins"^^xsd:string ;
+    :temUltimoNome "Cline"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9860033876d65f5f7> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "bonnie.diaz@scbraga.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Gerton"^^xsd:string ;
+    :temPrimeiroNome "Bonnie"^^xsd:string ;
+    :temUltimoNome "Diaz"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb98614ea36f88963ba> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "jefferson.pacheco@edviana.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Strykersville"^^xsd:string ;
+    :temPrimeiroNome "Jefferson"^^xsd:string ;
+    :temUltimoNome "Pacheco"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9868c63b27774163f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "dennis.crawford@amigosmontanha.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Wanship"^^xsd:string ;
+    :temPrimeiroNome "Dennis"^^xsd:string ;
+    :temUltimoNome "Crawford"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb99c434fb1a7c7c633> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "kline.stark@avcfamalicão.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Tedrow"^^xsd:string ;
+    :temPrimeiroNome "Kline"^^xsd:string ;
+    :temUltimoNome "Stark"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb99d4b85092734ded4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "hodges.ashley@abcbraga.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Crawfordsville"^^xsd:string ;
+    :temPrimeiroNome "Hodges"^^xsd:string ;
+    :temUltimoNome "Ashley"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9a2085e98659a2f5b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "mcintosh.aguirre@vitoria.name"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Emory"^^xsd:string ;
+    :temPrimeiroNome "Mcintosh"^^xsd:string ;
+    :temUltimoNome "Aguirre"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9a57cc0f98a998c9a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "davenport.dominguez@acrroriz.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Vallonia"^^xsd:string ;
+    :temPrimeiroNome "Davenport"^^xsd:string ;
+    :temUltimoNome "Dominguez"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9a78530cac96a3f79> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "mercedes.heath@gdgoma.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Chaparrito"^^xsd:string ;
+    :temPrimeiroNome "Mercedes"^^xsd:string ;
+    :temUltimoNome "Heath"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9a78fd4bfe9e36453> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "holly.bowen@acdrcrespos.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Adamstown"^^xsd:string ;
+    :temPrimeiroNome "Holly"^^xsd:string ;
+    :temUltimoNome "Bowen"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9a857578bd25302db> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "oliver.mcleod@scbraga.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Garnet"^^xsd:string ;
+    :temPrimeiroNome "Oliver"^^xsd:string ;
+    :temUltimoNome "Mcleod"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9a9f081f26deada43> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "samantha.sharp@acrroriz.us"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Elliott"^^xsd:string ;
+    :temPrimeiroNome "Samantha"^^xsd:string ;
+    :temUltimoNome "Sharp"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9ab56338f42cdaf13> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "mcintyre.walsh@abcbraga.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Beechmont"^^xsd:string ;
+    :temPrimeiroNome "Mcintyre"^^xsd:string ;
+    :temUltimoNome "Walsh"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9abbaec58aed568da> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "tameka.orr@vitoria.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Klagetoh"^^xsd:string ;
+    :temPrimeiroNome "Tameka"^^xsd:string ;
+    :temUltimoNome "Orr"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9af56ea737b79ac30> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "kellie.holland@scbraga.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Bloomington"^^xsd:string ;
+    :temPrimeiroNome "Kellie"^^xsd:string ;
+    :temUltimoNome "Holland"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9b701a941937c0dd8> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "tonia.espinoza@avcfamalicão.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 24 ;
+    :temMorada "Fillmore"^^xsd:string ;
+    :temPrimeiroNome "Tonia"^^xsd:string ;
+    :temUltimoNome "Espinoza"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9bc3d74e0cb400631> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "kelley.davidson@avcfamalicão.com"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Ruckersville"^^xsd:string ;
+    :temPrimeiroNome "Kelley"^^xsd:string ;
+    :temUltimoNome "Davidson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9bc920eef418c62ac> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "meghan.cabrera@edviana.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 28 ;
+    :temMorada "Shawmut"^^xsd:string ;
+    :temPrimeiroNome "Meghan"^^xsd:string ;
+    :temUltimoNome "Cabrera"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9bfd86db079523f51> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "ida.bradshaw@clube de orientação do minho.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Lowgap"^^xsd:string ;
+    :temPrimeiroNome "Ida"^^xsd:string ;
+    :temUltimoNome "Bradshaw"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9c05f073a238c4aa6> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "lila.curry@amigosmontanha.com"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Alden"^^xsd:string ;
+    :temPrimeiroNome "Lila"^^xsd:string ;
+    :temUltimoNome "Curry"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9c4b1d5f4d4a0099b> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "shelton.walton@edviana.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 35 ;
+    :temMorada "Williston"^^xsd:string ;
+    :temPrimeiroNome "Shelton"^^xsd:string ;
+    :temUltimoNome "Walton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9c4c935218799831f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "lelia.oliver@gdgoma.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Cedarville"^^xsd:string ;
+    :temPrimeiroNome "Lelia"^^xsd:string ;
+    :temUltimoNome "Oliver"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9c65ee38149a83dfc> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "susanna.lowery@edviana.biz"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Cawood"^^xsd:string ;
+    :temPrimeiroNome "Susanna"^^xsd:string ;
+    :temUltimoNome "Lowery"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9c7550e5dc5a5ddb1> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "carole.lindsey@amigosmontanha.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Weedville"^^xsd:string ;
+    :temPrimeiroNome "Carole"^^xsd:string ;
+    :temUltimoNome "Lindsey"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9c82e74bc1831a3be> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "milagros.ellis@acdrcrespos.net"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 21 ;
+    :temMorada "Why"^^xsd:string ;
+    :temPrimeiroNome "Milagros"^^xsd:string ;
+    :temUltimoNome "Ellis"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9cc832d080dd2c0e0> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "hicks.daniels@abcbraga.ca"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Frizzleburg"^^xsd:string ;
+    :temPrimeiroNome "Hicks"^^xsd:string ;
+    :temUltimoNome "Daniels"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9cded7ae5d2724d52> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "odonnell.russell@gdgoma.co.uk"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Alderpoint"^^xsd:string ;
+    :temPrimeiroNome "Odonnell"^^xsd:string ;
+    :temUltimoNome "Russell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9cf9c078af09a7b74> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "hubbard.hart@gdgoma.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Trucksville"^^xsd:string ;
+    :temPrimeiroNome "Hubbard"^^xsd:string ;
+    :temUltimoNome "Hart"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9d027f625a1b63723> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "carissa.rosario@clube de orientação do minho.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Brookfield"^^xsd:string ;
+    :temPrimeiroNome "Carissa"^^xsd:string ;
+    :temUltimoNome "Rosario"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9d7265f5ab15e4fed> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "lambert.ferrell@vitoria.me"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Rowe"^^xsd:string ;
+    :temPrimeiroNome "Lambert"^^xsd:string ;
+    :temUltimoNome "Ferrell"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9d9f01093dc14973f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "tammy.bryant@acdrcrespos.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 32 ;
+    :temMorada "Fidelis"^^xsd:string ;
+    :temPrimeiroNome "Tammy"^^xsd:string ;
+    :temUltimoNome "Bryant"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9dbbc9f23e5c888ac> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "ABCbraga"^^xsd:string ;
+    :temEmail "jaime.erickson@abcbraga.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Yardville"^^xsd:string ;
+    :temPrimeiroNome "Jaime"^^xsd:string ;
+    :temUltimoNome "Erickson"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9dd4dc919156890ee> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "allie.lyons@acrroriz.ca"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 31 ;
+    :temMorada "Welch"^^xsd:string ;
+    :temPrimeiroNome "Allie"^^xsd:string ;
+    :temUltimoNome "Lyons"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9de8d709dd3fd086f> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "valarie.silva@acdrcrespos.info"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Lynn"^^xsd:string ;
+    :temPrimeiroNome "Valarie"^^xsd:string ;
+    :temUltimoNome "Silva"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9e387855b0de81d09> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "mathis.kirk@edviana.co.uk"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 23 ;
+    :temMorada "Klondike"^^xsd:string ;
+    :temPrimeiroNome "Mathis"^^xsd:string ;
+    :temUltimoNome "Kirk"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9e6ca114d8ab96bc4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "torres.hardy@clube de orientação do minho.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Fairfield"^^xsd:string ;
+    :temPrimeiroNome "Torres"^^xsd:string ;
+    :temUltimoNome "Hardy"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9e81cdbbee14cab97> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "ACDRcrespos"^^xsd:string ;
+    :temEmail "stafford.hale@acdrcrespos.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Bowden"^^xsd:string ;
+    :temPrimeiroNome "Stafford"^^xsd:string ;
+    :temUltimoNome "Hale"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9e966a3cf1239840a> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AmigosMontanha"^^xsd:string ;
+    :temEmail "merrill.fulton@amigosmontanha.org"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Berlin"^^xsd:string ;
+    :temPrimeiroNome "Merrill"^^xsd:string ;
+    :temUltimoNome "Fulton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9ec44aba1040d2e1e> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "daniel.chambers@gdgoma.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Nicholson"^^xsd:string ;
+    :temPrimeiroNome "Daniel"^^xsd:string ;
+    :temUltimoNome "Chambers"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9edcbd2a0befa0a74> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "olive.chapman@avcfamalicão.net"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 30 ;
+    :temMorada "Wikieup"^^xsd:string ;
+    :temPrimeiroNome "Olive"^^xsd:string ;
+    :temUltimoNome "Chapman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9ef81456a2178baca> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "ACRroriz"^^xsd:string ;
+    :temEmail "wilkins.cummings@acrroriz.us"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Gila"^^xsd:string ;
+    :temPrimeiroNome "Wilkins"^^xsd:string ;
+    :temUltimoNome "Cummings"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9f0342bd19d6a5a39> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> ;
+    :temClube "EDViana"^^xsd:string ;
+    :temEmail "carly.peck@edviana.tv"^^xsd:string ;
+    :temGenero "M"^^xsd:string ;
+    :temIdade 33 ;
+    :temMorada "Byrnedale"^^xsd:string ;
+    :temPrimeiroNome "Carly"^^xsd:string ;
+    :temUltimoNome "Peck"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9f430b0e9e81165c4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> ;
+    :temClube "Clube de Orientação do Minho"^^xsd:string ;
+    :temEmail "elliott.guzman@clube de orientação do minho.org"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 29 ;
+    :temMorada "Rutherford"^^xsd:string ;
+    :temPrimeiroNome "Elliott"^^xsd:string ;
+    :temUltimoNome "Guzman"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9f7311f86c6a33646> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> ;
+    :temClube "Vitoria"^^xsd:string ;
+    :temEmail "arlene.morton@vitoria.name"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 34 ;
+    :temMorada "Wiscon"^^xsd:string ;
+    :temPrimeiroNome "Arlene"^^xsd:string ;
+    :temUltimoNome "Morton"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9fa4e587712a640d4> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> ;
+    :temClube "AVCfamalicão"^^xsd:string ;
+    :temEmail "kim.buck@avcfamalicão.tv"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 25 ;
+    :temMorada "Rosine"^^xsd:string ;
+    :temPrimeiroNome "Kim"^^xsd:string ;
+    :temUltimoNome "Buck"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9fbb0206c040aa4f1> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> ;
+    :temClube "GDGoma"^^xsd:string ;
+    :temEmail "sweet.woodward@gdgoma.biz"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 22 ;
+    :temMorada "Urie"^^xsd:string ;
+    :temPrimeiroNome "Sweet"^^xsd:string ;
+    :temUltimoNome "Woodward"^^xsd:string .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Pessoa/60b3eeb9fc87ff10010ae517> a :Pessoa ;
+    :Pratica <http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> ;
+    :temClube "SCBraga"^^xsd:string ;
+    :temEmail "alyssa.howard@scbraga.info"^^xsd:string ;
+    :temGenero "F"^^xsd:string ;
+    :temIdade 26 ;
+    :temMorada "Conestoga"^^xsd:string ;
+    :temPrimeiroNome "Alyssa"^^xsd:string ;
+    :temUltimoNome "Howard"^^xsd:string .
+
+:Pratica a owl:ObjectProperty ;
+    rdfs:domain :Pessoa .
+
+:temClube a owl:DatatypeProperty ;
+    rdfs:domain :Pessoa ;
+    rdfs:range xsd:string .
+
+:temData a owl:DatatypeProperty ;
+    rdfs:domain :Exame ;
+    rdfs:range xsd:string .
+
+:temEmail a owl:DatatypeProperty ;
+    rdfs:domain :Pessoa ;
+    rdfs:range xsd:string .
+
+:temGenero a owl:DatatypeProperty ;
+    rdfs:domain :Pessoa ;
+    rdfs:range xsd:string .
+
+:temIdade a owl:DatatypeProperty ;
+    rdfs:domain :Pessoa ;
+    rdfs:range xsd:integer .
+
+:temMorada a owl:DatatypeProperty ;
+    rdfs:domain :Pessoa ;
+    rdfs:range xsd:string .
+
+:temPrimeiroNome a owl:DatatypeProperty ;
+    rdfs:domain :Pessoa ;
+    rdfs:range xsd:string .
+
+:temResultado a owl:DatatypeProperty ;
+    rdfs:domain :Exame ;
+    rdfs:range xsd:boolean .
+
+:temUltimoNome a owl:DatatypeProperty ;
+    rdfs:domain :Pessoa ;
+    rdfs:range xsd:string .
+
+:true a :Exame,
+        owl:NamedIndividual ;
+    :temResultado true .
+
+:Futebol a :Modalidade,
+        owl:NamedIndividual .
+
+:Terrell a :Pessoa,
+        owl:NamedIndividual ;
+    :temUltimoNome "Terrell" .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ténis> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Basquetebol> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Equitação> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Karaté> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/SUP> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Dança> a :Modalidade .
+
+:Modalidade a owl:Class .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Andebol> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Atletismo> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/BTT> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Ciclismo> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Patinagem> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Orientação> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Parapente> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Esgrima> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Badminton> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Triatlo> a :Modalidade .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC/Modalidade/Futebol> a :Modalidade .
+
+:Exame a owl:Class .
+
+:Pessoa a owl:Class .
+

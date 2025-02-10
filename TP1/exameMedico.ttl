@@ -1,0 +1,166 @@
+@prefix : <http://www.semanticweb.org/rui/ontologies/2025/TPC/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/rui/ontologies/2025/TPC/> .
+
+<http://www.semanticweb.org/rui/ontologies/2025/TPC> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Pratica
+:Pratica rdf:type owl:ObjectProperty ;
+         rdfs:domain :Pessoa .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temClube
+:temClube rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Pessoa ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temData
+:temData rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Exame ;
+         rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temEmail
+:temEmail rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Pessoa ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temGenero
+:temGenero rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Pessoa ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temIdade
+:temIdade rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Pessoa ;
+          rdfs:range xsd:integer .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temMorada
+:temMorada rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Pessoa ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temPrimeiroNome
+:temPrimeiroNome rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :Pessoa ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temResultado
+:temResultado rdf:type owl:DatatypeProperty ;
+              rdfs:domain :Exame ;
+              rdfs:range xsd:boolean .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#temUltimoNome
+:temUltimoNome rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Pessoa ;
+               rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Exame
+:Exame rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Federado
+:Federado rdf:type owl:Class ;
+          rdfs:subClassOf :Pessoa .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Modalidade
+:Modalidade rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Pessoa
+:Pessoa rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Clay
+:Clay rdf:type owl:NamedIndividual ,
+               :Pessoa ;
+      :temMorada "Clay" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Emily
+:Emily rdf:type owl:NamedIndividual ,
+                :Pessoa ;
+       owl:sameAs :Terrell ;
+       :Pratica :Futebol ;
+       :temPrimeiroNome "Emily" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Terrell
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#F
+:F rdf:type owl:NamedIndividual ,
+            :Pessoa ;
+   :temGenero "F" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Futebol
+:Futebol rdf:type owl:NamedIndividual ,
+                  :Modalidade .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#GDGoma
+:GDGoma rdf:type owl:NamedIndividual ,
+                 :Pessoa ;
+        :temClube "GDGoma" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#Terrell
+:Terrell rdf:type owl:NamedIndividual ,
+                  :Pessoa ;
+         :temUltimoNome "Terrell" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#true
+:true rdf:type owl:NamedIndividual ,
+               :Exame ;
+      :temResultado "true"^^xsd:boolean .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#2020-07-27
+<http://www.semanticweb.org/rui/ontologies/2025/TPC#2020-07-27> rdf:type owl:NamedIndividual ,
+                                                                         :Exame ;
+                                                                :temData "2020-07-27" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#28
+<http://www.semanticweb.org/rui/ontologies/2025/TPC#28> rdf:type owl:NamedIndividual ,
+                                                                 :Pessoa ;
+                                                        :temIdade 28 .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/TPC#emily.terrell@gdgoma.org
+<http://www.semanticweb.org/rui/ontologies/2025/TPC#emily.terrell@gdgoma.org> rdf:type owl:NamedIndividual ,
+                                                                                       :Pessoa ;
+                                                                              :temEmail "emily.terrell@gdgoma.org" .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
