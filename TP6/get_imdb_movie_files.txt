@@ -1,0 +1,25 @@
+#!/bin/bash
+
+mkdir -p imdb_data
+cd imdb_data
+
+files=(
+    'name.basics'
+    'title.akas'
+    'title.basics'
+    'title.crew'
+    'title.episode'
+    'title.principals'
+    'title.ratings'
+)
+
+for file in "${files[@]}"; do
+    echo "requesting https://datasets.imdbws.com/${file}.tsv.gz"
+    wget -q --show-progress https://datasets.imdbws.com/${file}.tsv.gz
+done
+
+echo "unziping files"
+gunzip *.gz
+
+echo "all done :)"
+cd ..

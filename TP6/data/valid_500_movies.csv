@@ -1,0 +1,501 @@
+tconst,titleType,primaryTitle,originalTitle,isAdult,startYear,endYear,runtimeMinutes,genres
+tt0000009,movie,Miss Jerry,Miss Jerry,0,1894,,45,Romance
+tt0000147,movie,The Corbett-Fitzsimmons Fight,The Corbett-Fitzsimmons Fight,0,1897,,100,"Documentary,News,Sport"
+tt0000574,movie,The Story of the Kelly Gang,The Story of the Kelly Gang,0,1906,,70,"Action,Adventure,Biography"
+tt0000591,movie,The Prodigal Son,L'enfant prodigue,0,1907,,90,Drama
+tt0000679,movie,The Fairylogue and Radio-Plays,The Fairylogue and Radio-Plays,0,1908,,120,"Adventure,Fantasy"
+tt0000941,movie,Locura de amor,Locura de amor,0,1909,,45,Drama
+tt0001184,movie,Don Juan de Serrallonga,Don Juan de Serrallonga,0,1910,,58,"Adventure,Drama"
+tt0001285,movie,The Life of Moses,The Life of Moses,0,1909,,50,"Biography,Drama,Family"
+tt0001498,movie,The Battle of Trafalgar,The Battle of Trafalgar,0,1911,,51,War
+tt0001592,movie,In the Prime of Life,Ekspeditricen,0,1911,,52,Drama
+tt0001614,movie,The Four Devils,De fire djævle,0,1911,,60,Drama
+tt0001790,movie,"Les Misérables, Part 1: Jean Valjean",Les misérables - Époque 1: Jean Valjean,0,1913,,60,Drama
+tt0001812,movie,Oedipus Rex,Oedipus Rex,0,1911,,56,Drama
+tt0001892,movie,Den sorte drøm,Den sorte drøm,0,1911,,53,Drama
+tt0001911,movie,Nell Gwynne,Sweet Nell of Old Drury,0,1911,,50,"Biography,Drama,History"
+tt0001964,movie,The Traitress,Die Verräterin,0,1911,,48,Drama
+tt0001998,movie,The Adventures of Lieutenant Petrosino,The Adventures of Lieutenant Petrosino,0,1912,,47,Drama
+tt0002022,movie,Anfisa,Anfisa,0,1912,,45,Drama
+tt0002026,movie,Anny - Story of a Prostitute,Anny - en gatepiges roman,0,1912,,68,"Drama,Romance"
+tt0002101,movie,Cleopatra,Cleopatra,0,1912,,100,"Drama,History"
+tt0002130,movie,Dante's Inferno,L'inferno,0,1911,,71,"Adventure,Drama,Fantasy"
+tt0002153,movie,The Great Circus Catastrophe,Dødsspring til hest fra cirkuskuplen,0,1912,,45,Drama
+tt0002186,movie,The Flying Circus,Den flyvende cirkus,0,1912,,46,Drama
+tt0002199,movie,From the Manger to the Cross,From the Manger to the Cross,0,1912,,71,"Biography,Drama"
+tt0002423,movie,Passion,Madame DuBarry,0,1919,,113,"Biography,Drama,Romance"
+tt0002425,movie,Paul J. Rainey's African Hunt,Paul J. Rainey's African Hunt,0,1912,,60,Documentary
+tt0002445,movie,Quo Vadis?,Quo Vadis?,0,1913,,120,"Drama,History"
+tt0002452,movie,The Independence of Romania,Independenta Romaniei,0,1912,,120,"History,War"
+tt0002461,movie,The Life and Death of King Richard III,Richard III,0,1912,,55,Drama
+tt0002500,movie,The Black Chancellor,Den sorte kansler,0,1912,,48,Drama
+tt0002514,movie,Saved in Mid-Air,De svarta maskerna,0,1912,,60,Drama
+tt0002574,movie,What Happened to Mary,What Happened to Mary,0,1912,,150,"Action,Drama,Thriller"
+tt0002588,movie,Zigomar contre Nick Carter,Zigomar contre Nick Carter,0,1912,,48,"Crime,Thriller"
+tt0002605,movie,The Adventures of Kathlyn,The Adventures of Kathlyn,0,1913,,300,Adventure
+tt0002628,movie,Der Andere,Der Andere,0,1913,,48,"Drama,Thriller"
+tt0002637,movie,Arizona,Arizona,0,1913,,45,Western
+tt0002642,movie,The Heir to Skjoldborg,Arvingen til Skjoldborg,0,1914,,50,Drama
+tt0002646,movie,Atlantis,Atlantis,0,1913,,121,Drama
+tt0002669,movie,The Battle of Gettysburg,The Battle of Gettysburg,0,1913,,48,"Drama,War"
+tt0002685,movie,Blodets röst,Blodets röst,0,1913,,89,Drama
+tt0002767,movie,The Count of Monte Cristo,The Count of Monte Cristo,0,1913,,69,"Drama,History"
+tt0002820,movie,East Lynne,East Lynne,0,1913,,69,Drama
+tt0002822,movie,What 80 Million Women Want,What 80 Million Women Want,0,1913,,56,"Crime,Drama,Romance"
+tt0002832,movie,Evangeline,Evangeline,0,1914,,50,Drama
+tt0002844,movie,Fantômas: In the Shadow of the Guillotine,Fantômas I: À l'ombre de la guillotine,0,1913,,54,"Crime,Drama"
+tt0002885,movie,From Dusk to Dawn,From Dusk to Dawn,0,1913,,90,Drama
+tt0002898,movie,"Germinal; or, The Toll of Labor",Germinal,0,1913,,150,Drama
+tt0002917,movie,Brother Against Brother,Gränsfolken,0,1913,,51,Drama
+tt0002922,movie,Hamlet,Hamlet,0,1913,,64,Drama
+tt0002973,movie,Dr. Mawson in the Antarctic,Dr. Mawson in the Antarctic,0,1913,,68,Documentary
+tt0002978,movie,Hoodman Blind,Hoodman Blind,0,1913,,50,Drama
+tt0003002,movie,The Firefly,Ildfluen,0,1913,,47,Drama
+tt0003006,movie,In the Bishop's Carriage,In the Bishop's Carriage,0,1913,,50,"Crime,Drama"
+tt0003014,movie,Ingeborg Holm,Ingeborg Holm,0,1913,,96,Drama
+tt0003015,movie,Die Insel der Seligen,Die Insel der Seligen,0,1913,,49,"Comedy,Fantasy"
+tt0003022,movie,Ivanhoe,Ivanhoe,0,1913,,53,"Adventure,Drama,Romance"
+tt0003037,movie,Fantomas: The Man in Black,Fantômas II: Juve contre Fantômas,0,1913,,61,"Crime,Drama"
+tt0003048,movie,A Lady of Quality,A Lady of Quality,0,1913,,50,Drama
+tt0003076,movie,Livets konflikter,Livets konflikter,0,1913,,64,Drama
+tt0003102,movie,Love Everlasting,Ma l'amor mio non muore...,0,1914,,90,Drama
+tt0003108,movie,Macbeth,Macbeth,0,1913,,50,"Crime,Drama"
+tt0003131,movie,War Is Hell,Maudite soit la guerre,0,1914,,50,"Drama,War"
+tt0003150,movie,Miraklet: Tavlor ur det katolska samfundslivet,Miraklet: Tavlor ur det katolska samfundslivet,0,1913,,100,Drama
+tt0003159,movie,"Les Misérables, Part 2: Fantine",Les misérables - Époque 2: Fantine,0,1913,,300,Drama
+tt0003165,movie,Fantômas: The Dead Man Who Killed,Le mort qui tue,0,1913,,90,"Crime,Drama,Mystery"
+tt0003167,movie,"Home, Sweet Home","Home, Sweet Home",0,1914,,55,Drama
+tt0003227,movie,"The Girl from Abroad; or, The Great Underworld",Den okända,0,1913,,54,Drama
+tt0003241,movie,One Hundred Years of Mormonism,One Hundred Years of Mormonism,0,1913,,90,"Drama,History"
+tt0003301,movie,The Prisoner of Zenda,The Prisoner of Zenda,0,1913,,55,Adventure
+tt0003306,movie,På livets ödesvägar,På livets ödesvägar,0,1913,,57,Drama
+tt0003316,movie,The Rattlesnake,The Rattlesnake,0,1913,,56,Western
+tt0003324,movie,A Regiment of Two,A Regiment of Two,0,1913,,57,"Comedy,Drama"
+tt0003330,movie,The Life of Richard Wagner,Richard Wagner,0,1913,,110,"Biography,Drama,History"
+tt0003335,movie,The Robbers,The Robbers,0,1913,,56,Drama
+tt0003362,movie,The Sea Wolf,The Sea Wolf,0,1913,,70,Drama
+tt0003365,movie,Shadows of the Moulin Rouge,Shadows of the Moulin Rouge,0,1913,,60,Drama
+tt0003404,movie,The Star of India,The Star of India,0,1913,,40,Drama
+tt0003419,movie,The Student of Prague,Der Student von Prag,0,1913,,85,"Drama,Fantasy,Horror"
+tt0003471,movie,Traffic in Souls,Traffic in Souls,0,1913,,88,"Crime,Drama"
+tt0003489,movie,The Last Days of Pompeii,Gli ultimi giorni di Pompei,0,1913,,88,"Adventure,Drama"
+tt0003565,movie,Where Is Coletti?,Wo ist Coletti?,0,1913,,86,"Comedy,Crime"
+tt0003576,movie,The Wreck,The Wreck,0,1913,,48,Drama
+tt0003595,movie,Across the Pacific,Across the Pacific,0,1914,,50,"Adventure,Drama,Romance"
+tt0003596,movie,The Active Life of Dolly of the Dailies,The Active Life of Dolly of the Dailies,0,1914,,170,Drama
+tt0003632,movie,Arme Eva,Arme Eva,0,1916,,63,Drama
+tt0003634,movie,As Ye Sow,As Ye Sow,0,1914,,50,Drama
+tt0003637,movie,Assunta Spina,Assunta Spina,0,1915,,72,Drama
+tt0003643,movie,The Avenging Conscience: or 'Thou Shalt Not Kill',The Avenging Conscience: or 'Thou Shalt Not Kill',0,1914,,78,"Crime,Drama,Horror"
+tt0003651,movie,Badehotellet,Badehotellet,0,1915,,45,Drama
+tt0003657,movie,The Bargain,The Bargain,0,1914,,70,Western
+tt0003665,movie,The Battle of the Sexes,The Battle of the Sexes,0,1914,,50,Drama
+tt0003668,movie,Beating Back,Beating Back,0,1914,,60,"Adventure,Biography,Western"
+tt0003670,movie,Behind the Scenes,Behind the Scenes,0,1914,,75,Drama
+tt0003675,movie,The Beloved Adventurer,The Beloved Adventurer,0,1914,,450,Adventure
+tt0003724,movie,In the Days of the Thundering Herd,In the Days of the Thundering Herd,0,1914,,48,Western
+tt0003731,movie,Burning Daylight: The Adventures of 'Burning Daylight' in Alaska,Burning Daylight: The Adventures of 'Burning Daylight' in Alaska,0,1914,,50,"Adventure,Drama"
+tt0003732,movie,Burning Daylight: The Adventures of 'Burning Daylight' in Civilization,Burning Daylight: The Adventures of 'Burning Daylight' in Civilization,0,1914,,50,Drama
+tt0003740,movie,Cabiria,Cabiria,0,1914,,148,"Adventure,Drama,History"
+tt0003747,movie,Cameo Kirby,Cameo Kirby,0,1914,,50,"Action,Drama,Romance"
+tt0003748,movie,Captain Alvarez,Captain Alvarez,0,1914,,60,Drama
+tt0003768,movie,The Chimes,The Chimes,0,1914,,50,"Drama,Fantasy"
+tt0003771,movie,The Christian,The Christian,0,1914,,80,Drama
+tt0003772,movie,Cinderella,Cinderella,0,1914,,52,"Drama,Fantasy"
+tt0003774,movie,The Circus Man,The Circus Man,0,1914,,50,Drama
+tt0003816,movie,Damon and Pythias,Damon and Pythias,0,1914,,100,Drama
+tt0003820,movie,The Dancer and the King,The Dancer and the King,0,1914,,50,Drama
+tt0003854,movie,Dodge City Trail,Dodge City Trail,0,1936,,56,"Drama,Music,Western"
+tt0003856,movie,The Dollar Mark,The Dollar Mark,0,1914,,50,Drama
+tt0003870,movie,Judge Not,Dömen icke,0,1914,,57,Drama
+tt0003883,movie,The Child of Paris,L'enfant de Paris,0,1913,,124,"Crime,Drama"
+tt0003884,movie,Engelein,Engelein,0,1914,,49,Comedy
+tt0003890,movie,The Escape,The Escape,0,1914,,60,Drama
+tt0003897,movie,The Exploits of Elaine,The Exploits of Elaine,0,1914,,220,Action
+tt0003930,movie,Fantomas: The Mysterious Finger Print,Fantômas contre Fantômas,0,1914,,59,"Crime,Drama"
+tt0003952,movie,Fantômas: The False Magistrate,Le faux magistrat,0,1914,,70,"Crime,Drama"
+tt0003973,movie,A Florida Enchantment,A Florida Enchantment,0,1914,,63,Comedy
+tt0003977,movie,The Folly of Revenge,The Folly of Revenge,0,1916,,50,Drama
+tt0003999,movie,För sin kärleks skull,För sin kärleks skull,0,1914,,64,Drama
+tt0004003,movie,Gatans barn,Gatans barn,0,1914,,54,Drama
+tt0004006,movie,A Gentleman from Mississippi,A Gentleman from Mississippi,0,1914,,50,Drama
+tt0004013,movie,The Ghost Breaker,The Ghost Breaker,0,1914,,60,"Adventure,Horror"
+tt0004022,movie,Julius Caesar,Cajus Julius Caesar,0,1914,,112,"Drama,History"
+tt0004026,movie,The Golem,Der Golem,0,1914,,60,Horror
+tt0004027,movie,A Good Little Devil,A Good Little Devil,0,1914,,50,Drama
+tt0004047,movie,Half Breed,Halvblod,0,1913,,69,Drama
+tt0004052,movie,The Hazards of Helen,The Hazards of Helen,0,1914,,1428,Action
+tt0004066,movie,Sealed Orders,Det hemmelighedsfulde X,0,1914,,84,"Drama,Mystery"
+tt0004099,movie,"His Majesty, the Scarecrow of Oz","His Majesty, the Scarecrow of Oz",0,1914,,59,"Adventure,Comedy,Family"
+tt0004121,movie,The Hound of the Baskervilles (1914),Der Hund von Baskerville,0,1914,,65,"Crime,Horror,Mystery"
+tt0004134,movie,Hypocrites,Hypocrites,0,1915,,54,"Drama,Fantasy"
+tt0004150,movie,In the Land of the Head Hunters,In the Land of the Head Hunters,0,1914,,65,"Drama,History"
+tt0004164,movie,"Ireland, a Nation","Ireland, a Nation",0,1914,,50,"Drama,History"
+tt0004167,movie,Jane Eyre,Jane Eyre,0,1914,,50,Drama
+tt0004179,movie,Joseph in the Land of Egypt,Joseph in the Land of Egypt,0,1914,,52,Drama
+tt0004181,movie,Judith of Bethulia,Judith of Bethulia,0,1914,,61,Drama
+tt0004182,movie,The Jungle,The Jungle,0,1914,,75,Drama
+tt0004208,movie,The Last Volunteer,The Last Volunteer,0,1914,,74,"Drama,War"
+tt0004223,movie,The Life of General Villa,The Life of General Villa,0,1914,,105,"Action,Adventure,Biography"
+tt0004224,movie,Life's Shop Window,Life's Shop Window,0,1914,,50,Drama
+tt0004234,movie,The Little Angel of Canyon Creek,The Little Angel of Canyon Creek,0,1914,,50,Western
+tt0004249,movie,Lola,Lola,0,1914,,50,Drama
+tt0004267,movie,Love Never Dies,Love Never Dies,0,1916,,50,Drama
+tt0004271,movie,Luchtkastelen,Luchtkastelen,0,1914,,60,Drama
+tt0004272,movie,Lucille Love: The Girl of Mystery,Lucille Love: The Girl of Mystery,0,1914,,300,Action
+tt0004275,movie,The Lure,The Lure,0,1914,,50,Drama
+tt0004301,movie,Man of the Hour,Man of the Hour,0,1914,,50,Drama
+tt0004303,movie,Manon Lescaut,Manon Lescaut,0,1914,,60,"Drama,Romance"
+tt0004304,movie,The Marked Woman,The Marked Woman,0,1914,,50,Drama
+tt0004307,movie,Martin Eden,Martin Eden,0,1914,,50,Drama
+tt0004312,movie,The Master Cracksman,The Master Cracksman,0,1914,,72,"Crime,Drama"
+tt0004313,movie,The Master Key,The Master Key,0,1914,,310,"Action,Adventure,Drama"
+tt0004319,movie,McVeagh of the South Seas,McVeagh of the South Seas,0,1914,,59,Drama
+tt0004335,movie,A Million Bid,A Million Bid,0,1914,,50,"Drama,Romance"
+tt0004362,movie,Mr. Barnes of New York,Mr. Barnes of New York,0,1914,,60,Drama
+tt0004365,movie,Mrs. Wiggs of the Cabbage Patch,Mrs. Wiggs of the Cabbage Patch,0,1914,,50,Drama
+tt0004369,movie,My Official Wife,My Official Wife,0,1914,,50,Drama
+tt0004376,movie,The Mystery of Edwin Drood,The Mystery of Edwin Drood,0,1914,,50,Mystery
+tt0004384,movie,The Naked Truth,La donna nuda,0,1914,,60,Drama
+tt0004385,movie,Native Life in the Philippines,Native Life in the Philippines,0,1914,,37,Documentary
+tt0004387,movie,Down with Weapons,Ned med Vaabnene,0,1914,,73,"Drama,War"
+tt0004390,movie,Mute Witnesses,Nemye svideteli,0,1914,,65,Drama
+tt0004391,movie,Neptune's Daughter,Neptune's Daughter,0,1914,,70,Fantasy
+tt0004450,movie,Die Pagode,Die Pagode,0,1917,,82,"Action,Crime,Drama"
+tt0004452,movie,The Painted World,The Painted World,0,1914,,50,Drama
+tt0004457,movie,The Patchwork Girl of Oz,The Patchwork Girl of Oz,0,1914,,81,"Adventure,Comedy,Family"
+tt0004465,movie,The Perils of Pauline,The Perils of Pauline,0,1914,,199,"Action,Adventure,Drama"
+tt0004473,movie,The Pit,The Pit,0,1914,,50,Drama
+tt0004483,movie,The Port of Missing Men,The Port of Missing Men,0,1914,,139,Drama
+tt0004502,movie,Saints and Sorrows,Prästen,0,1914,,99,Drama
+tt0004504,movie,The Pursuit of the Phantom,The Pursuit of the Phantom,0,1914,,50,Drama
+tt0004525,movie,The Reign of Terror,Le chevalier de Maison-Rouge,0,1914,,109,"Drama,History"
+tt0004544,movie,Rose of the Alley,Rose of the Alley,0,1916,,50,"Crime,Drama"
+tt0004545,movie,Rose of the Rancho,Rose of the Rancho,0,1914,,50,"Action,Adventure,Drama"
+tt0004555,movie,Salomy Jane,Salomy Jane,0,1914,,85,"Crime,Drama,Western"
+tt0004558,movie,Samson,Samson,0,1914,,60,Drama
+tt0004567,movie,The Seats of the Mighty,The Seats of the Mighty,0,1914,,70,Drama
+tt0004573,movie,Ein seltsamer Fall,Ein seltsamer Fall,0,1914,,50,Horror
+tt0004586,movie,Shore Acres,Shore Acres,0,1914,,50,Drama
+tt0004593,movie,The Sign of the Cross,The Sign of the Cross,0,1914,,70,Drama
+tt0004613,movie,Soldiers of Fortune,Soldiers of Fortune,0,1914,,60,Drama
+tt0004630,movie,The Spoilers,The Spoilers,0,1914,,110,"Drama,Western"
+tt0004632,movie,Springtime,Springtime,0,1914,,50,Drama
+tt0004635,movie,The Squaw Man,The Squaw Man,0,1914,,74,"Action,Drama,Romance"
+tt0004639,movie,Stormfågeln,Stormfågeln,0,1914,,64,Drama
+tt0004647,movie,Stuart Webbs: Das Panzergewölbe,Stuart Webbs: Das Panzergewölbe,0,1914,,60,"Action,Crime"
+tt0004649,movie,Trapped by the Camera,Stuart Webbs: Der Spuk im Haus des Professors,0,1914,,58,Mystery
+tt0004656,movie,The Suicide Club,The Suicide Club,0,1914,,40,Drama
+tt0004681,movie,Tess of the Storm Country,Tess of the Storm Country,0,1914,,80,Drama
+tt0004688,movie,The Thief,The Thief,0,1914,,50,Drama
+tt0004690,movie,Thirty Leagues Under the Sea,Thirty Leagues Under the Sea,0,1914,,13,Documentary
+tt0004707,movie,Tillie's Punctured Romance,Tillie's Punctured Romance,0,1914,,82,Comedy
+tt0004712,movie,The Undesirable,A tolonc,0,1915,,67,Drama
+tt0004727,movie,The Trey o' Hearts,The Trey o' Hearts,0,1914,,310,Adventure
+tt0004728,movie,Trilby,Trilby,0,1914,,45,Drama
+tt0004743,movie,Uncle Tom's Cabin,Uncle Tom's Cabin,0,1914,,54,Drama
+tt0004755,movie,Uriel Acosta,Uriel Acosta,0,1914,,50,"Biography,Drama,History"
+tt0004766,movie,The Virginian,The Virginian,0,1914,,55,Western
+tt0004776,movie,The Walls of Jericho,The Walls of Jericho,0,1914,,50,Drama
+tt0004786,movie,Weergevonden,Weergevonden,0,1914,,45,Drama
+tt0004794,movie,When Broadway Was a Trail,When Broadway Was a Trail,0,1914,,50,"Drama,History"
+tt0004798,movie,When Rome Ruled,When Rome Ruled,0,1914,,50,Drama
+tt0004825,movie,The Wishing Ring: An Idyll of Old England,The Wishing Ring: An Idyll of Old England,0,1914,,54,"Comedy,Drama,Romance"
+tt0004832,movie,The Woman in Black,The Woman in Black,0,1914,,55,"Drama,Romance"
+tt0004837,movie,"The World, the Flesh and the Devil","The World, the Flesh and the Devil",0,1914,,50,"Crime,Drama"
+tt0004838,movie,The Wrath of the Gods,The Wrath of the Gods,0,1914,,56,"Drama,Romance"
+tt0004842,movie,Your Girl and Mine: A Woman Suffrage Play,Your Girl and Mine: A Woman Suffrage Play,0,1914,,70,Drama
+tt0004854,movie,The Absentee,The Absentee,0,1915,,60,"Drama,Romance"
+tt0004865,movie,After Dark,After Dark,0,1915,,50,"Crime,Drama"
+tt0004866,movie,After Five,After Five,0,1915,,50,"Comedy,Crime,Thriller"
+tt0004872,movie,Alias Jimmy Valentine,Alias Jimmy Valentine,0,1915,,65,"Crime,Drama"
+tt0004873,movie,Alice in Wonderland,Alice in Wonderland,0,1915,,52,"Adventure,Family,Fantasy"
+tt0004883,movie,Aloha Oe,Aloha Oe,0,1915,,50,Drama
+tt0004884,movie,The Alster Case,The Alster Case,0,1915,,50,Mystery
+tt0004885,movie,Always in the Way,Always in the Way,0,1915,,50,Drama
+tt0004897,movie,Anna Karenina,Anna Karenina,0,1915,,50,"Drama,Romance"
+tt0004901,movie,The Greater Will,The Greater Will,0,1915,,50,Drama
+tt0004905,movie,The Arab,The Arab,0,1915,,50,"Adventure,Drama"
+tt0004909,movie,Armstrong's Wife,Armstrong's Wife,0,1915,,50,Drama
+tt0004911,movie,The Arrival of Perpetua,The Arrival of Perpetua,0,1915,,50,Comedy
+tt0004919,movie,At Bay,At Bay,0,1915,,50,Drama
+tt0004937,movie,Barbara Frietchie,Barbara Frietchie,0,1915,,50,Drama
+tt0004942,movie,The Battle Cry of Peace,The Battle Cry of Peace,0,1915,,90,Drama
+tt0004962,movie,Between Men,Between Men,0,1915,,50,Drama
+tt0004965,movie,The Bigger Man,The Bigger Man,0,1915,,50,Drama
+tt0004972,movie,The Birth of a Nation,The Birth of a Nation,0,1915,,195,"Drama,War"
+tt0004974,movie,The Black Box,The Black Box,0,1915,,195,"Drama,Sci-Fi"
+tt0004975,movie,Black Fear,Black Fear,0,1915,,50,Drama
+tt0004978,movie,Blackbirds,Blackbirds,0,1915,,50,Drama
+tt0004980,movie,Blindness of Devotion,Blindness of Devotion,0,1915,,50,Drama
+tt0004982,movie,The Bludgeon,The Bludgeon,0,1915,,50,Drama
+tt0004983,movie,Blue Grass,Blue Grass,0,1915,,50,Drama
+tt0004988,movie,Body and Soul,Body and Soul,0,1915,,50,Drama
+tt0004990,movie,Bondwomen,Bondwomen,0,1915,,50,Drama
+tt0004992,movie,The Boss,The Boss,0,1915,,50,Drama
+tt0004996,movie,A Branded Soul,A Branded Soul,0,1917,,50,"Drama,Romance"
+tt0005005,movie,The Broken Coin,The Broken Coin,0,1915,,440,"Adventure,Mystery"
+tt0005006,movie,The Broken Law,The Broken Law,0,1915,,50,Drama
+tt0005032,movie,Buckshot John,Buckshot John,0,1915,,50,Western
+tt0005034,movie,The Builder of Bridges,The Builder of Bridges,0,1915,,50,Drama
+tt0005039,movie,Business Is Business,Business Is Business,0,1915,,60,Drama
+tt0005041,movie,A Butterfly on the Wheel,A Butterfly on the Wheel,0,1915,,50,Drama
+tt0005042,movie,The Butterfly,The Butterfly,0,1915,,50,Drama
+tt0005049,movie,Camille,Camille,0,1915,,50,Drama
+tt0005055,movie,The Caprices of Kitty,The Caprices of Kitty,0,1915,,50,Comedy
+tt0005056,movie,Captain Courtesy,Captain Courtesy,0,1915,,50,"Action,Drama,History"
+tt0005058,movie,Captivating Mary Carstairs,Captivating Mary Carstairs,0,1915,,55,"Comedy,Romance"
+tt0005059,movie,The Captive,The Captive,0,1915,,50,"Drama,Romance,War"
+tt0005060,movie,Carmen,Carmen,0,1915,,59,"Drama,Musical"
+tt0005061,movie,Carmen,Carmen,0,1915,,60,Drama
+tt0005070,movie,The Cave Man,The Cave Man,0,1915,,50,Comedy
+tt0005071,movie,The Celebrated Scandal,The Celebrated Scandal,0,1915,,50,Drama
+tt0005073,movie,The Chalice of Courage,The Chalice of Courage,0,1915,,65,"Action,Drama,Romance"
+tt0005076,movie,Charley's Aunt,Charley's Aunt,0,1925,,80,Comedy
+tt0005078,movie,The Cheat,The Cheat,0,1915,,59,"Drama,Romance"
+tt0005082,movie,A Child of the Prairie,A Child of the Prairie,0,1915,,63,Western
+tt0005084,movie,Children of Eve,Children of Eve,0,1915,,73,Drama
+tt0005085,movie,Children of the Ghetto,Children of the Ghetto,0,1915,,50,Drama
+tt0005087,movie,Chimmie Fadden Out West,Chimmie Fadden Out West,0,1915,,50,"Comedy,Western"
+tt0005091,movie,The Chocolate Soldier,The Chocolate Soldier,0,1914,,50,"Comedy,Drama"
+tt0005100,movie,The Clemenceau Case,The Clemenceau Case,0,1915,,60,"Crime,Drama,Romance"
+tt0005103,movie,The Clue,The Clue,0,1915,,50,Drama
+tt0005105,movie,The College Orphan,The College Orphan,0,1915,,60,"Comedy,Drama"
+tt0005107,movie,Colonel Carter of Cartersville,Colonel Carter of Cartersville,0,1915,,50,"Drama,History"
+tt0005123,movie,Colorado,Colorado,0,1915,,50,"Drama,Western"
+tt0005127,movie,The Commuters,The Commuters,0,1915,,50,Comedy
+tt0005130,movie,Conscience,Conscience,0,1917,,60,Drama
+tt0005135,movie,Cora,Cora,0,1915,,50,Drama
+tt0005140,movie,The Cotton King,The Cotton King,0,1915,,50,Drama
+tt0005149,movie,The Coward,The Coward,0,1915,,77,"Drama,History,War"
+tt0005150,movie,The Cowardly Way,The Cowardly Way,0,1915,,50,Drama
+tt0005151,movie,The Cowboy and the Lady,The Cowboy and the Lady,0,1915,,50,Western
+tt0005160,movie,Cross Currents,Cross Currents,0,1915,,50,Drama
+tt0005162,movie,The Crown Prince's Double,The Crown Prince's Double,0,1915,,50,Drama
+tt0005163,movie,The Cub,The Cub,0,1915,,50,"Comedy,Drama"
+tt0005166,movie,The Cup of Life,The Cup of Life,0,1915,,50,Drama
+tt0005169,movie,Dolken,Dolken,0,1915,,46,Drama
+tt0005172,movie,The Darkening Trail,The Darkening Trail,0,1915,,54,Drama
+tt0005176,movie,The Daughter of the People,The Daughter of the People,0,1915,,50,Drama
+tt0005177,movie,A Daughter of the Sea,A Daughter of the Sea,0,1915,,50,Drama
+tt0005179,movie,David Harum,David Harum,0,1915,,50,"Comedy,Drama,Romance"
+tt0005180,movie,The Dawn of a Tomorrow,The Dawn of a Tomorrow,0,1915,,50,Drama
+tt0005185,movie,The Deep Purple,The Deep Purple,0,1915,,50,Drama
+tt0005187,movie,The Despoiler,The Despoiler,0,1915,,60,"Drama,War"
+tt0005188,movie,"Destiny: or, the Soul of a Woman","Destiny: Or, The Soul of a Woman",0,1915,,50,Drama
+tt0005189,movie,The Destroying Angel,The Destroying Angel,0,1915,,50,Drama
+tt0005190,movie,Destruction,Destruction,0,1915,,50,"Drama,Romance"
+tt0005192,movie,The Devil's Daughter,The Devil's Daughter,0,1915,,50,Drama
+tt0005200,movie,The Disciple,The Disciple,0,1915,,50,Western
+tt0005209,movie,Don Quixote,Don Quixote,0,1915,,50,Drama
+tt0005214,movie,Double Trouble,Double Trouble,0,1915,,50,"Comedy,Romance"
+tt0005216,movie,Dr. Rameau,Dr. Rameau,0,1915,,50,Drama
+tt0005231,movie,The Hound of the Baskervilles,Das dunkle Schloß,0,1915,,50,"Crime,Horror,Mystery"
+tt0005232,movie,The Dust of Egypt,The Dust of Egypt,0,1915,,60,Comedy
+tt0005234,movie,The Earl of Pawtucket,The Earl of Pawtucket,0,1915,,50,Comedy
+tt0005237,movie,The Edge of the Abyss,The Edge of the Abyss,0,1915,,50,Drama
+tt0005243,movie,Emmy of Stork's Nest,Emmy of Stork's Nest,0,1915,,50,Drama
+tt0005245,movie,An Enemy to Society,An Enemy to Society,0,1915,,50,Drama
+tt0005250,movie,The Eternal City,The Eternal City,0,1915,,80,Drama
+tt0005256,movie,Evidence,Evidence,0,1915,,50,Drama
+tt0005257,movie,Excuse Me,Excuse Me,0,1915,,50,Comedy
+tt0005295,movie,The Face in the Moonlight,The Face in the Moonlight,0,1915,,50,"Drama,History"
+tt0005298,movie,The Fairy and the Waif,The Fairy and the Waif,0,1915,,50,Drama
+tt0005300,movie,The Family Cupboard,The Family Cupboard,0,1915,,50,Drama
+tt0005301,movie,The Family Stain,The Family Stain,0,1915,,50,Mystery
+tt0005302,movie,"Fanchon, the Cricket",Fanchon the Cricket,0,1915,,75,Drama
+tt0005307,movie,Father and the Boys,Father and the Boys,0,1915,,50,"Comedy,Drama"
+tt0005322,movie,The Fight,The Fight,0,1915,,60,Drama
+tt0005326,movie,The Final Judgment,The Final Judgment,0,1915,,50,Drama
+tt0005327,movie,Fine Feathers,Fine Feathers,0,1915,,50,Drama
+tt0005328,movie,The Fixer,The Fixer,0,1915,,50,Comedy
+tt0005330,movie,The Flaming Sword,The Flaming Sword,0,1915,,50,Drama
+tt0005331,movie,The Flash of an Emerald,The Flash of an Emerald,0,1915,,50,Drama
+tt0005339,movie,A Fool There Was,A Fool There Was,0,1915,,67,Drama
+tt0005353,movie,Four Feathers,Four Feathers,0,1915,,50,Drama
+tt0005356,movie,The Frame-Up,The Frame-Up,0,1915,,50,Drama
+tt0005363,movie,From the Valley of the Missing,From the Valley of the Missing,0,1915,,50,"Adventure,Crime,Drama"
+tt0005367,movie,The Galley Slave,The Galley Slave,0,1915,,50,Drama
+tt0005374,movie,Garden of Lies,Garden of Lies,0,1915,,50,Drama
+tt0005377,movie,The Gentleman from Indiana,The Gentleman from Indiana,0,1915,,50,"Adventure,Drama,Romance"
+tt0005378,movie,A Gentleman of Leisure,A Gentleman of Leisure,0,1915,,50,Comedy
+tt0005381,movie,Ghosts,Ghosts,0,1915,,49,Drama
+tt0005384,movie,A Gilded Fool,A Gilded Fool,0,1915,,50,"Comedy,Drama"
+tt0005387,movie,The Girl I Left Behind Me,The Girl I Left Behind Me,0,1915,,50,Western
+tt0005393,movie,The Girl of the Golden West,The Girl of the Golden West,0,1915,,45,"Romance,Western"
+tt0005400,movie,The Goddess,The Goddess,0,1915,,310,"Drama,Romance"
+tt0005402,movie,The Golden Chance,The Golden Chance,0,1915,,74,Drama
+tt0005403,movie,The Golden Claw,The Golden Claw,0,1915,,50,Drama
+tt0005412,movie,The Gray Mask,The Gray Mask,0,1915,,50,"Crime,Drama"
+tt0005415,movie,The Great Adventure,The Great Adventure,0,1916,,60,Comedy
+tt0005416,movie,The Great Divide,The Great Divide,0,1915,,52,Western
+tt0005423,movie,Greater Love Hath No Man,Greater Love Hath No Man,0,1915,,50,Drama
+tt0005449,movie,The Heart of Maryland,The Heart of Maryland,0,1915,,60,"Drama,History,War"
+tt0005451,movie,The Heart of a Painted Woman,The Heart of a Painted Woman,0,1915,,50,Drama
+tt0005452,movie,The Heart of the Blue Ridge,The Heart of the Blue Ridge,0,1915,,50,Drama
+tt0005454,movie,Heart's Desire,Heart's Desire,0,1917,,50,Drama
+tt0005459,movie,Hearts and the Highway,Hearts and the Highway,0,1915,,50,"Drama,History"
+tt0005460,movie,Hearts in Exile,Hearts in Exile,0,1915,,59,"Drama,History,Romance"
+tt0005463,movie,The Heights of Hazard,The Heights of Hazard,0,1915,,50,Drama
+tt0005470,movie,Her Great Match,Her Great Match,0,1915,,50,Drama
+tt0005472,movie,Her Mother's Secret,Her Mother's Secret,0,1915,,50,Drama
+tt0005474,movie,Her Own Way,Her Own Way,0,1915,,50,"Drama,War"
+tt0005476,movie,Her Reckoning,Her Reckoning,0,1915,,50,Drama
+tt0005492,movie,His Turning Point,His Turning Point,0,1915,,50,Drama
+tt0005493,movie,His Wife,His Wife,0,1915,,50,Drama
+tt0005516,movie,The House of Tears,The House of Tears,0,1915,,50,Drama
+tt0005522,movie,How Molly Malone Made Good,How Molly Malone Made Good,0,1915,,60,"Adventure,Comedy"
+tt0005525,movie,The Hungarian Nabob,The Hungarian Nabob,0,1915,,40,Drama
+tt0005529,movie,Blind Justice,Hævnens nat,0,1916,,100,"Crime,Drama,Horror"
+tt0005535,movie,The Immigrant,The Immigrant,0,1915,,60,Drama
+tt0005537,movie,The Impostor,The Impostor,0,1915,,50,Drama
+tt0005541,movie,In the Palace of the King,In the Palace of the King,0,1915,,60,"Drama,History"
+tt0005553,movie,The Iron Strain,The Iron Strain,0,1915,,60,"Action,Adventure,Drama"
+tt0005554,movie,The Island of Regeneration,The Island of Regeneration,0,1915,,60,Drama
+tt0005557,movie,The Italian,The Italian,0,1915,,72,Drama
+tt0005558,movie,The Ivory Snuff Box,The Ivory Snuff Box,0,1915,,50,Mystery
+tt0005561,movie,Jane,Jane,0,1915,,50,Comedy
+tt0005562,movie,The Eternal Strife,Jane Shore,0,1915,,79,"Biography,Drama,History"
+tt0005566,movie,Jeanne Doré,Jeanne Doré,0,1915,,50,Drama
+tt0005568,movie,Jewel,Jewel,0,1915,,50,Drama
+tt0005570,movie,Jim the Penman,Jim the Penman,0,1915,,50,"Crime,Drama"
+tt0005573,movie,Jordan Is a Hard Road,Jordan Is a Hard Road,0,1915,,50,Drama
+tt0005575,movie,Judge Not; or the Woman of Mona Diggings,Judge Not; or The Woman of Mona Diggings,0,1915,,60,Drama
+tt0005578,movie,Judy Forgot,Judy Forgot,0,1915,,50,Comedy
+tt0005579,movie,The Juggernaut,The Juggernaut,0,1915,,62,Drama
+tt0005585,movie,Keep Moving,Keep Moving,0,1915,,50,Comedy
+tt0005589,movie,Kindling,Kindling,0,1915,,50,"Crime,Drama"
+tt0005592,movie,Kreutzer Sonata,Kreutzer Sonata,0,1915,,50,"Drama,Romance"
+tt0005594,movie,Lady Audley's Secret,Lady Audley's Secret,0,1915,,50,Drama
+tt0005600,movie,The Lamb,The Lamb,0,1915,,56,"Adventure,Comedy,Western"
+tt0005603,movie,Langdon's Legacy,Langdon's Legacy,0,1916,,50,Drama
+tt0005613,movie,Let Katie Do It,Let Katie Do It,0,1916,,50,Drama
+tt0005615,movie,Life Without Soul,Life Without Soul,0,1915,,70,"Drama,Horror,Sci-Fi"
+tt0005621,movie,The Lily and the Rose,The Lily and the Rose,0,1915,,50,Drama
+tt0005623,movie,The Lily of Poverty Flat,The Lily of Poverty Flat,0,1915,,50,Western
+tt0005624,movie,A Little Brother of the Rich,A Little Brother of the Rich,0,1915,,50,Drama
+tt0005626,movie,The Little Dutch Girl,The Little Dutch Girl,0,1915,,50,Drama
+tt0005630,movie,The Little Gypsy,The Little Gypsy,0,1915,,50,Drama
+tt0005632,movie,The Little Mademoiselle,The Little Mademoiselle,0,1915,,60,Drama
+tt0005642,movie,A London Flat Mystery,A London Flat Mystery,0,1915,,50,"Crime,Drama"
+tt0005644,movie,The Lone Star Rush,The Lone Star Rush,0,1915,,50,"Adventure,Drama"
+tt0005648,movie,The Long Chance,The Long Chance,0,1915,,60,Western
+tt0005658,movie,Love's Pilgrimage to America,Love's Pilgrimage to America,0,1916,,50,"Comedy,Drama"
+tt0005669,movie,Lydia Gilmore,Lydia Gilmore,0,1915,,50,Drama
+tt0005671,movie,M'Liss,M'Liss,0,1915,,50,Western
+tt0005680,movie,Marvelous Maciste,Maciste,0,1915,,67,Adventure
+tt0005682,movie,Madame Butterfly,Madame Butterfly,0,1915,,61,Drama
+tt0005683,movie,Madame de Thebes,Madame de Thèbes,0,1915,,68,Drama
+tt0005685,movie,The Magic Skin,The Magic Skin,0,1915,,60,"Drama,History"
+tt0005689,movie,The Majesty of the Law,The Majesty of the Law,0,1915,,58,Drama
+tt0005695,movie,The Man Who Couldn't Beat God,The Man Who Couldn't Beat God,0,1915,,50,Drama
+tt0005696,movie,The Man Who Found Himself,The Man Who Found Himself,0,1915,,50,"Crime,Drama"
+tt0005702,movie,The Man from Oregon,The Man from Oregon,0,1915,,50,Drama
+tt0005708,movie,The Man of Shame,The Man of Shame,0,1915,,50,"Drama,History"
+tt0005715,movie,The Marriage of Kitty,The Marriage of Kitty,0,1915,,50,Comedy
+tt0005716,movie,Marrying Money,Marrying Money,0,1915,,50,Comedy
+tt0005717,movie,Marse Covington,Marse Covington,0,1915,,50,Drama
+tt0005719,movie,Martyrs of the Alamo,Martyrs of the Alamo,0,1915,,71,"Drama,History,War"
+tt0005722,movie,The Masqueraders,The Masqueraders,0,1915,,60,Drama
+tt0005725,movie,The Master of the House,The Master of the House,0,1915,,50,Drama
+tt0005730,movie,Matrimony,Matrimony,0,1915,,50,Drama
+tt0005733,movie,Life's Whirlpool,McTeague,0,1916,,50,Drama
+tt0005743,movie,Mignon,Mignon,0,1915,,50,Drama
+tt0005746,movie,The Millionaire Baby,The Millionaire Baby,0,1915,,60,"Adventure,Drama,Mystery"
+tt0005752,movie,The Misleading Lady,The Misleading Lady,0,1916,,50,"Comedy,Drama"
+tt0005754,movie,The Missing Links,The Missing Links,0,1916,,50,Mystery
+tt0005760,movie,The Model,The Model,0,1915,,50,Drama
+tt0005763,movie,Money,Money,0,1915,,50,Drama
+tt0005764,movie,The Money Master,The Money Master,0,1915,,50,Drama
+tt0005769,movie,The Moonstone,The Moonstone,0,1915,,50,Mystery
+tt0005770,movie,The Morals of Marcus,The Morals of Marcus,0,1915,,50,"Comedy,Drama"
+tt0005772,movie,Mortmain,Mortmain,0,1915,,50,"Drama,Horror"
+tt0005775,movie,A Mother's Confession,A Mother's Confession,0,1915,,50,Drama
+tt0005781,movie,Mr. Grex of Monte Carlo,Mr. Grex of Monte Carlo,0,1915,,50,Drama
+tt0005785,movie,Mrs. Plum's Pudding,Mrs. Plum's Pudding,0,1915,,50,"Comedy,Western"
+tt0005788,movie,My Best Girl,My Best Girl,0,1915,,50,"Comedy,Drama"
+tt0005790,movie,My Madonna,My Madonna,0,1915,,50,Drama
+tt0005791,movie,My Old Dutch,My Old Dutch,0,1915,,50,Drama
+tt0005793,movie,Mysteries of London,Mysteries of London,0,1915,,49,"Crime,Drama"
+tt0005797,movie,Mästertjuven,Mästertjuven,0,1915,,47,Drama
+tt0005801,movie,"The Nature Man: or, the Struggle for Existence","The Nature Man: Or, The Struggle for Existence",0,1915,,50,Documentary
+tt0005809,movie,The Governor,The Nigger,0,1915,,50,Drama
+tt0005811,movie,A Night Out,A Night Out,0,1916,,50,Comedy
+tt0005818,movie,När konstnärer älska,När konstnärer älska,0,1915,,52,Drama
+tt0005821,movie,Old Dutch,Old Dutch,0,1915,,50,Comedy
+tt0005822,movie,The Old Folks at Home,The Old Folks at Home,0,1916,,50,Drama
+tt0005823,movie,Old Heidelberg,Old Heidelberg,0,1915,,50,"Drama,Romance"
+tt0005824,movie,The Old Homestead,The Old Homestead,0,1915,,50,"Comedy,Drama"
+tt0005831,movie,On the Firing Line with the Germans,On the Firing Line with the Germans,0,1915,,90,"Documentary,War"
+tt0005832,movie,On the Night Stage,On the Night Stage,0,1915,,62,"Adventure,Romance,Western"
+tt0005837,movie,One Million Dollars,One Million Dollars,0,1915,,50,Mystery
+tt0005856,movie,Over Night,Over Night,0,1915,,50,Comedy
+tt0005879,movie,Peer Gynt,Peer Gynt,0,1915,,50,Fantasy
+tt0005881,movie,Peladilla cochero de punto,Peladilla cochero de punto,0,1915,,100,Comedy
+tt0005883,movie,The Penitentes,The Penitentes,0,1915,,50,Drama
+tt0005884,movie,Pennington's Choice,Pennington's Choice,0,1915,,50,Drama
+tt0005892,movie,A Phyllis of the Sierras,A Phyllis of the Sierras,0,1915,,50,Drama
+tt0005901,movie,Playing Dead,Playing Dead,0,1915,,58,Drama
+tt0005905,movie,The Plunderer,The Plunderer,0,1915,,50,"Action,Adventure,Romance"
+tt0005908,movie,The Politicians,The Politicians,0,1915,,50,Comedy
+tt0005916,movie,After Death,Posle smerti,0,1915,,46,"Drama,Horror"
+tt0005921,movie,Pretty Mrs. Smith,Pretty Mrs. Smith,0,1915,,50,Comedy
+tt0005922,movie,The Pretty Sister of Jose,The Pretty Sister of Jose,0,1915,,50,"Drama,Romance"
+tt0005923,movie,A Price for Folly,A Price for Folly,0,1915,,50,Drama
+tt0005926,movie,The Price,The Price,0,1915,,50,Drama
+tt0005927,movie,The Primrose Path,The Primrose Path,0,1915,,50,Drama
+tt0005928,movie,The Prince and the Pauper,The Prince and the Pauper,0,1915,,50,Adventure
+tt0005930,movie,Princess Romanoff,Princess Romanoff,0,1915,,50,"Adventure,Drama,Romance"
+tt0005938,movie,Queen Margaret,La reine Margot,0,1914,,40,"Drama,History"
+tt0005945,movie,Rags,Rags,0,1915,,66,Drama
+tt0005951,movie,Satan's Rhapsody,Rapsodia satanica,0,1917,,55,"Drama,Fantasy,Horror"
+tt0005955,movie,The Raven,The Raven,0,1915,,57,"Biography,Drama"
+tt0005959,movie,The Reform Candidate,The Reform Candidate,0,1915,,50,Drama
+tt0005960,movie,The Regeneration,The Regeneration,0,1915,,72,"Biography,Crime,Drama"
+tt0005968,movie,The Right of Way,The Right of Way,0,1915,,50,Drama
+tt0005980,movie,Rosemary,Rosemary,0,1915,,50,Drama
+tt0005983,movie,A Royal Family,A Royal Family,0,1915,,50,Drama
+tt0005997,movie,The Sable Lorcha,The Sable Lorcha,0,1915,,50,"Adventure,Crime,Thriller"
+tt0006000,movie,Salvation Nell,Salvation Nell,0,1915,,60,Drama
+tt0006002,movie,Samson,Samson,0,1915,,50,"Action,Crime,Drama"
+tt0006004,movie,Satan Sanderson,Satan Sanderson,0,1915,,50,"Drama,Romance"
+tt0006008,movie,Scandal,Scandal,0,1915,,50,Drama
+tt0006014,movie,Sealed Lips,Sealed Lips,0,1915,,50,Drama
+tt0006015,movie,Sealed Valley,Sealed Valley,0,1915,,50,Western
+tt0006016,movie,The Second in Command,The Second in Command,0,1915,,50,Drama
+tt0006021,movie,The Secretary of Frivolous Affairs,The Secretary of Frivolous Affairs,0,1915,,45,"Crime,Drama,Romance"
+tt0006024,movie,The Senator,The Senator,0,1915,,50,Drama
+tt0006027,movie,The Seven Sisters,The Seven Sisters,0,1915,,50,"Comedy,Romance"
+tt0006037,movie,The Shooting of Dan McGrew,The Shooting of Dan McGrew,0,1915,,50,Drama
+tt0006038,movie,Should a Mother Tell,Should a Mother Tell,0,1915,,50,Drama
+tt0006039,movie,Should a Wife Forgive?,Should a Wife Forgive?,0,1915,,50,Drama
+tt0006040,movie,The Folly of Desire,The Shulamite,0,1915,,50,Drama
+tt0006043,movie,The Silent Voice,The Silent Voice,0,1915,,60,"Drama,Romance"
+tt0006049,movie,Sin,Sin,0,1915,,50,Drama
+tt0006051,movie,The Sins of Society,The Sins of Society,0,1915,,50,Drama
+tt0006052,movie,The Sins of the Mothers,The Sins of the Mothers,0,1914,,50,Drama
+tt0006055,movie,The Siren's Song,The Siren's Song,0,1915,,50,Drama
+tt0006066,movie,A Soldier's Oath,A Soldier's Oath,0,1915,,50,Drama
+tt0006069,movie,Somewhere in France,Somewhere in France,0,1915,,50,Documentary
+tt0006070,movie,Sonad skuld,Sonad skuld,0,1915,,48,Drama
+tt0006071,movie,The Song of Hate,The Song of Hate,0,1915,,60,Drama
+tt0006072,movie,The Song of the Wage Slave,The Song of the Wage Slave,0,1915,,50,Drama
+tt0006075,movie,The Soul of Broadway,The Soul of Broadway,0,1915,,50,"Crime,Drama,Romance"
+tt0006080,movie,The Spanish Jade,The Spanish Jade,0,1915,,60,Drama
+tt0006096,movie,Still Waters,Still Waters,0,1915,,50,"Comedy,Drama"
+tt0006097,movie,Stingaree,Stingaree,0,1915,,250,Drama
+tt0006101,movie,The Stolen Voice,The Stolen Voice,0,1915,,50,"Drama,Romance"
+tt0006102,movie,The Pride of the Firm,Der Stolz der Firma,0,1914,,47,Comedy
+tt0006108,movie,Strejken,Strejken,0,1914,,78,Drama
+tt0006111,movie,Stuart Webbs: Die Toten erwachen,Stuart Webbs: Die Toten erwachen,0,1915,,48,"Action,Crime"
+tt0006118,movie,Sunday,Sunday,0,1915,,50,Drama
+tt0006120,movie,The Supreme Test,The Supreme Test,0,1915,,50,Drama
+tt0006128,movie,Sweet Alyssum,Sweet Alyssum,0,1915,,59,Drama
+tt0006133,movie,Tainted Money,Tainted Money,0,1915,,50,Drama
+tt0006140,movie,Temptation,Temptation,0,1915,,60,"Drama,Romance"
+tt0006155,movie,Thou Art the Man,Thou Art the Man,0,1916,,60,Drama
+tt0006182,movie,Trilby,Trilby,0,1915,,59,Drama
+tt0006187,movie,The Turn of the Road,The Turn of the Road,0,1915,,50,Drama
+tt0006190,movie,The Two Orphans,The Two Orphans,0,1915,,70,Drama
+tt0006196,movie,Under Southern Skies,Under Southern Skies,0,1915,,50,Drama
+tt0006199,movie,The Unfaithful Wife,The Unfaithful Wife,0,1915,,50,Drama
