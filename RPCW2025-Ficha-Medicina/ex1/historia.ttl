@@ -1,0 +1,352 @@
+@prefix : <http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao/> .
+
+<http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#ajuda
+:ajuda rdf:type owl:ObjectProperty ;
+       rdfs:domain :Pessoas ;
+       rdfs:range :Pessoas .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#contrata
+:contrata rdf:type owl:ObjectProperty ;
+          rdfs:domain :Agricultor ;
+          rdfs:range :trabalhador .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#cria
+:cria rdf:type owl:ObjectProperty ;
+      rdfs:domain :Agricultor ;
+      rdfs:range :Animais .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#cultiva
+:cultiva rdf:type owl:ObjectProperty ;
+         rdfs:domain :Agricultor ;
+         rdfs:range [ rdf:type owl:Class ;
+                      owl:unionOf ( :Fruta
+                                    :Vegetais
+                                  )
+                    ] .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#faz
+:faz rdf:type owl:ObjectProperty ;
+     rdfs:domain :Pessoas ;
+     rdfs:range :Geleia .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#possui
+:possui rdf:type owl:ObjectProperty ;
+        rdfs:domain :Pessoas ;
+        rdfs:range [ rdf:type owl:Class ;
+                     owl:unionOf ( :Animais
+                                   :Fazenda
+                                   :Trator
+                                 )
+                   ] .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#protege
+:protege rdf:type owl:ObjectProperty ;
+         rdfs:domain :Animais ;
+         rdfs:range :Fazenda .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#trocacom
+:trocacom rdf:type owl:ObjectProperty ;
+          rdfs:domain :Agricultor ;
+          rdfs:range :Agricultor .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#vendeNa
+:vendeNa rdf:type owl:ObjectProperty ;
+         rdfs:domain :Pessoas ;
+         rdfs:range :Feira .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#viveEm
+:viveEm rdf:type owl:ObjectProperty ;
+        rdfs:domain :Pessoas ;
+        rdfs:range :Localizacao .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#éFilho
+:éFilho rdf:type owl:ObjectProperty ;
+        owl:inverseOf :éProgenitor ;
+        rdfs:domain :Pessoas ;
+        rdfs:range :Pessoas .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#éParceiro
+:éParceiro rdf:type owl:ObjectProperty ;
+           owl:inverseOf :éParceiro ;
+           rdfs:domain :Pessoas ;
+           rdfs:range :Pessoas .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#éProgenitor
+:éProgenitor rdf:type owl:ObjectProperty ;
+             rdfs:domain :Pessoas ;
+             rdfs:range :Pessoas .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#diaDeVenda
+:diaDeVenda rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#precoHora
+:precoHora rdf:type owl:DatatypeProperty ;
+           rdfs:domain :trabalhador ;
+           rdfs:range xsd:float .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#temNome
+:temNome rdf:type owl:DatatypeProperty ;
+         rdfs:domain [ rdf:type owl:Class ;
+                       owl:unionOf ( :Animais
+                                     :Fruta
+                                     :Pessoas
+                                   )
+                     ] ;
+         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Agricultor
+:Agricultor rdf:type owl:Class ;
+            rdfs:subClassOf :Pessoas .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Animais
+:Animais rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Fazenda
+:Fazenda rdf:type owl:Class ;
+         rdfs:subClassOf :Localizacao .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Feira
+:Feira rdf:type owl:Class ;
+       rdfs:subClassOf :Localizacao .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Fruta
+:Fruta rdf:type owl:Class ;
+       rdfs:subClassOf :ProdutoAgricula .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Geleia
+:Geleia rdf:type owl:Class ;
+        rdfs:subClassOf :Produtos .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Localizacao
+:Localizacao rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#PagamentoPorHora
+:PagamentoPorHora rdf:type owl:Class ;
+                  rdfs:subClassOf :Servicos .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Pessoas
+:Pessoas rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#ProdutoAgricula
+:ProdutoAgricula rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Produtos
+:Produtos rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Refeicao
+:Refeicao rdf:type owl:Class ;
+          rdfs:subClassOf :Servicos .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Servicos
+:Servicos rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Trator
+:Trator rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Vegetais
+:Vegetais rdf:type owl:Class ;
+          rdfs:subClassOf :ProdutoAgricula .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Vila
+:Vila rdf:type owl:Class ;
+      rdfs:subClassOf :Localizacao .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#trabalhador
+:trabalhador rdf:type owl:Class ;
+             rdfs:subClassOf :Pessoas .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Alface
+:Alface rdf:type owl:NamedIndividual ,
+                 :Vegetais .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Ana
+:Ana rdf:type owl:NamedIndividual ,
+              :Pessoas ;
+     :ajuda :Maria ;
+     :temNome "Ana" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Banana
+:Banana rdf:type owl:NamedIndividual ,
+                 :Fruta .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Cao
+:Cao rdf:type owl:NamedIndividual ,
+              :Animais ;
+     :temNome "Rex" .
+
+[ rdf:type owl:NegativePropertyAssertion ;
+   owl:sourceIndividual :Cao ;
+   owl:assertionProperty :protege ;
+   owl:targetIndividual :FazendaJoao
+ ] .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Carlos
+:Carlos rdf:type owl:NamedIndividual ,
+                 :Agricultor ;
+        :cultiva :Alface ,
+                 :Cenoura ,
+                 :Tomate ;
+        :possui :FazendaCarlos ;
+        :temNome "Carlos" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Cenoura
+:Cenoura rdf:type owl:NamedIndividual ,
+                  :Vegetais .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#FazendaCarlos
+:FazendaCarlos rdf:type owl:NamedIndividual ,
+                        :Fazenda .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#FazendaJoao
+:FazendaJoao rdf:type owl:NamedIndividual ,
+                      :Fazenda .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#FeiraSaoJose
+:FeiraSaoJose rdf:type owl:NamedIndividual ,
+                       :Feira .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Galinha
+:Galinha rdf:type owl:NamedIndividual ,
+                  :Animais .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#GeleiaFruta
+:GeleiaFruta rdf:type owl:NamedIndividual ,
+                      :Geleia .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Joao
+:Joao rdf:type owl:NamedIndividual ,
+               :Agricultor ;
+      :contrata :Trabalhador ;
+      :cultiva :Banana ,
+               :Laranja ,
+               :Maca ;
+      :possui :FazendaCarlos ;
+      :vendeNa :SaoJose ;
+      :éParceiro :Maria ;
+      :temNome "Joao" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Laranja
+:Laranja rdf:type owl:NamedIndividual ,
+                  :Fruta .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Maca
+:Maca rdf:type owl:NamedIndividual ,
+               :Fruta .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Maria
+:Maria rdf:type owl:NamedIndividual ;
+       :faz :GeleiaFruta ;
+       :éProgenitor :Ana ,
+                    :Pedro .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Pedro
+:Pedro rdf:type owl:NamedIndividual ,
+                :Pessoas ;
+       :ajuda :Joao ;
+       :éFilho :Joao ,
+               :Maria ;
+       :temNome "Pedro" .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Porco
+:Porco rdf:type owl:NamedIndividual ,
+                :Animais .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#SaoJose
+:SaoJose rdf:type owl:NamedIndividual .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Tomate
+:Tomate rdf:type owl:NamedIndividual ,
+                 :Fruta .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Trabalhador
+:Trabalhador rdf:type owl:NamedIndividual ;
+             :precoHora "20.0"^^xsd:float .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#TratorJoao
+:TratorJoao rdf:type owl:NamedIndividual ,
+                     :Trator .
+
+
+###  http://www.semanticweb.org/rui/ontologies/2025/ficha_afericao#Vaca
+:Vaca rdf:type owl:NamedIndividual ,
+               :Animais .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

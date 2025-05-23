@@ -1,0 +1,1355 @@
+@prefix : <http://www.example.org/disease-ontology#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix swrl: <http://www.w3.org/2003/11/swrl#> .
+@prefix swrlb: <http://www.w3.org/2003/11/swrlb#> .
+@base <http://www.example.org/disease-ontology#> .
+
+<http://www.example.org/disease-ontology> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.example.org/disease-ontology#name
+:name rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.example.org/disease-ontology#exhibitsSymptom
+:exhibitsSymptom rdf:type owl:ObjectProperty ;
+                 rdfs:domain :Patient ;
+                 rdfs:range :Symptom .
+
+
+###  http://www.example.org/disease-ontology#hasDisease
+:hasDisease rdf:type owl:ObjectProperty ;
+            rdfs:domain :Patient ;
+            rdfs:range :Disease .
+
+
+###  http://www.example.org/disease-ontology#hasSymptom
+:hasSymptom rdf:type owl:ObjectProperty ;
+            rdfs:domain :Disease ;
+            rdfs:range :Symptom .
+
+
+###  http://www.example.org/disease-ontology#hasTreatment
+:hasTreatment rdf:type owl:ObjectProperty ;
+              rdfs:domain :Disease ;
+              rdfs:range :Treatment .
+
+
+###  http://www.example.org/disease-ontology#receivesTreatment
+:receivesTreatment rdf:type owl:ObjectProperty ;
+                   rdfs:domain :Patient ;
+                   rdfs:range :Treatment .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.example.org/disease-ontology#Disease
+:Disease rdf:type owl:Class .
+
+
+###  http://www.example.org/disease-ontology#Patient
+:Patient rdf:type owl:Class .
+
+
+###  http://www.example.org/disease-ontology#Symptom
+:Symptom rdf:type owl:Class .
+
+
+###  http://www.example.org/disease-ontology#Treatment
+:Treatment rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.example.org/disease-ontology#AIDS
+:AIDS rdf:type owl:NamedIndividual ,
+               :Disease ;
+      :hasSymptom :extra_marital_contacts ,
+                  :high_fever ,
+                  :muscle_wasting ,
+                  :patches_in_throat .
+
+
+###  http://www.example.org/disease-ontology#Acne
+:Acne rdf:type owl:NamedIndividual ,
+               :Disease ;
+      :hasSymptom :blackheads ,
+                  :pus_filled_pimples ,
+                  :scurring ,
+                  :skin_rash .
+
+
+###  http://www.example.org/disease-ontology#Alcoholic_hepatitis
+:Alcoholic_hepatitis rdf:type owl:NamedIndividual ,
+                              :Disease ;
+                     :hasSymptom :abdominal_pain ,
+                                 :distention_of_abdomen ,
+                                 :fluid_overload ,
+                                 :history_of_alcohol_consumption ,
+                                 :swelling_of_stomach ,
+                                 :vomiting ,
+                                 :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#Allergy
+:Allergy rdf:type owl:NamedIndividual ,
+                  :Disease ;
+         :hasSymptom :chills ,
+                     :continuous_sneezing ,
+                     :shivering ,
+                     :watering_from_eyes .
+
+
+###  http://www.example.org/disease-ontology#AntiviralDrugs
+:AntiviralDrugs rdf:type owl:NamedIndividual ,
+                         :Treatment .
+
+
+###  http://www.example.org/disease-ontology#Arthritis
+:Arthritis rdf:type owl:NamedIndividual ,
+                    :Disease ;
+           :hasSymptom :movement_stiffness ,
+                       :muscle_weakness ,
+                       :painful_walking ,
+                       :stiff_neck ,
+                       :swelling_joints .
+
+
+###  http://www.example.org/disease-ontology#Bronchial_Asthma
+:Bronchial_Asthma rdf:type owl:NamedIndividual ,
+                           :Disease ;
+                  :hasSymptom :breathlessness ,
+                              :cough ,
+                              :family_history ,
+                              :fatigue ,
+                              :high_fever ,
+                              :mucoid_sputum .
+
+
+###  http://www.example.org/disease-ontology#Cervical_spondylosis
+:Cervical_spondylosis rdf:type owl:NamedIndividual ,
+                               :Disease ;
+                      :hasSymptom :back_pain ,
+                                  :dizziness ,
+                                  :loss_of_balance ,
+                                  :neck_pain ,
+                                  :weakness_in_limbs .
+
+
+###  http://www.example.org/disease-ontology#Chicken_pox
+:Chicken_pox rdf:type owl:NamedIndividual ,
+                      :Disease ;
+             :hasSymptom :fatigue ,
+                         :headache ,
+                         :high_fever ,
+                         :itching ,
+                         :lethargy ,
+                         :loss_of_appetite ,
+                         :malaise ,
+                         :mild_fever ,
+                         :red_spots_over_body ,
+                         :skin_rash ,
+                         :swelled_lymph_nodes .
+
+
+###  http://www.example.org/disease-ontology#Chronic_cholestasis
+:Chronic_cholestasis rdf:type owl:NamedIndividual ,
+                              :Disease ;
+                     :hasSymptom :abdominal_pain ,
+                                 :itching ,
+                                 :loss_of_appetite ,
+                                 :nausea ,
+                                 :vomiting ,
+                                 :yellowing_of_eyes ,
+                                 :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#Common_Cold
+:Common_Cold rdf:type owl:NamedIndividual ,
+                      :Disease ;
+             :hasSymptom :chest_pain ,
+                         :chills ,
+                         :congestion ,
+                         :continuous_sneezing ,
+                         :cough ,
+                         :fatigue ,
+                         :headache ,
+                         :high_fever ,
+                         :loss_of_smell ,
+                         :malaise ,
+                         :muscle_pain ,
+                         :phlegm ,
+                         :redness_of_eyes ,
+                         :runny_nose ,
+                         :sinus_pressure ,
+                         :swelled_lymph_nodes ,
+                         :throat_irritation .
+
+
+###  http://www.example.org/disease-ontology#Cough
+:Cough rdf:type owl:NamedIndividual ,
+                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#Dengue
+:Dengue rdf:type owl:NamedIndividual ,
+                 :Disease ;
+        :hasSymptom :back_pain ,
+                    :chills ,
+                    :fatigue ,
+                    :headache ,
+                    :high_fever ,
+                    :joint_pain ,
+                    :loss_of_appetite ,
+                    :malaise ,
+                    :muscle_pain ,
+                    :nausea ,
+                    :pain_behind_the_eyes ,
+                    :red_spots_over_body ,
+                    :skin_rash ,
+                    :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Diabetes
+:Diabetes rdf:type owl:NamedIndividual ,
+                   :Disease ;
+          :hasSymptom :Fatigue ,
+                      :FrequentUrination ,
+                      :IncreasedThirst ,
+                      :blurred_and_distorted_vision ,
+                      :excessive_hunger ,
+                      :fatigue ,
+                      :increased_appetite ,
+                      :irregular_sugar_level ,
+                      :lethargy ,
+                      :obesity ,
+                      :polyuria ,
+                      :restlessness ,
+                      :weight_loss ;
+          :hasTreatment :DietModification ,
+                        :Exercise ,
+                        :InsulinTherapy .
+
+
+###  http://www.example.org/disease-ontology#DietModification
+:DietModification rdf:type owl:NamedIndividual ,
+                           :Treatment .
+
+
+###  http://www.example.org/disease-ontology#Dimorphic_hemmorhoidspiles
+:Dimorphic_hemmorhoidspiles rdf:type owl:NamedIndividual ,
+                                     :Disease ;
+                            :hasSymptom :bloody_stool ,
+                                        :constipation ,
+                                        :irritation_in_anus ,
+                                        :pain_during_bowel_movements ,
+                                        :pain_in_anal_region .
+
+
+###  http://www.example.org/disease-ontology#Drug_Reaction
+:Drug_Reaction rdf:type owl:NamedIndividual ,
+                        :Disease ;
+               :hasSymptom :burning_micturition ,
+                           :itching ,
+                           :skin_rash ,
+                           :spotting__urination ,
+                           :stomach_pain .
+
+
+###  http://www.example.org/disease-ontology#Exercise
+:Exercise rdf:type owl:NamedIndividual ,
+                   :Treatment .
+
+
+###  http://www.example.org/disease-ontology#Fatigue
+:Fatigue rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#Fever
+:Fever rdf:type owl:NamedIndividual ,
+                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#Flu
+:Flu rdf:type owl:NamedIndividual ,
+              :Disease ;
+     :hasSymptom :Cough ,
+                 :Fever ,
+                 :SoreThroat ;
+     :hasTreatment :AntiviralDrugs ,
+                   :Hydration ,
+                   :Rest .
+
+
+###  http://www.example.org/disease-ontology#FrequentUrination
+:FrequentUrination rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#Fungal_infection
+:Fungal_infection rdf:type owl:NamedIndividual ,
+                           :Disease ;
+                  :hasSymptom :dischromic__patches ,
+                              :itching ,
+                              :nodal_skin_eruptions ,
+                              :skin_rash .
+
+
+###  http://www.example.org/disease-ontology#GERD
+:GERD rdf:type owl:NamedIndividual ,
+               :Disease ;
+      :hasSymptom :acidity ,
+                  :chest_pain ,
+                  :cough ,
+                  :stomach_pain ,
+                  :ulcers_on_tongue ,
+                  :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Gastroenteritis
+:Gastroenteritis rdf:type owl:NamedIndividual ,
+                          :Disease ;
+                 :hasSymptom :dehydration ,
+                             :diarrhoea ,
+                             :sunken_eyes ,
+                             :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Heart_attack
+:Heart_attack rdf:type owl:NamedIndividual ,
+                       :Disease ;
+              :hasSymptom :breathlessness ,
+                          :chest_pain ,
+                          :sweating ,
+                          :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Hepatitis_B
+:Hepatitis_B rdf:type owl:NamedIndividual ,
+                      :Disease ;
+             :hasSymptom :abdominal_pain ,
+                         :dark_urine ,
+                         :fatigue ,
+                         :itching ,
+                         :lethargy ,
+                         :loss_of_appetite ,
+                         :malaise ,
+                         :receiving_blood_transfusion ,
+                         :receiving_unsterile_injections ,
+                         :yellow_urine ,
+                         :yellowing_of_eyes ,
+                         :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#Hepatitis_C
+:Hepatitis_C rdf:type owl:NamedIndividual ,
+                      :Disease ;
+             :hasSymptom :family_history ,
+                         :fatigue ,
+                         :loss_of_appetite ,
+                         :nausea ,
+                         :yellowing_of_eyes ,
+                         :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#Hepatitis_D
+:Hepatitis_D rdf:type owl:NamedIndividual ,
+                      :Disease ;
+             :hasSymptom :abdominal_pain ,
+                         :dark_urine ,
+                         :fatigue ,
+                         :joint_pain ,
+                         :loss_of_appetite ,
+                         :nausea ,
+                         :vomiting ,
+                         :yellowing_of_eyes ,
+                         :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#Hepatitis_E
+:Hepatitis_E rdf:type owl:NamedIndividual ,
+                      :Disease ;
+             :hasSymptom :abdominal_pain ,
+                         :acute_liver_failure ,
+                         :coma ,
+                         :dark_urine ,
+                         :fatigue ,
+                         :high_fever ,
+                         :joint_pain ,
+                         :loss_of_appetite ,
+                         :nausea ,
+                         :stomach_bleeding ,
+                         :vomiting ,
+                         :yellowing_of_eyes ,
+                         :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#Hydration
+:Hydration rdf:type owl:NamedIndividual ,
+                    :Treatment .
+
+
+###  http://www.example.org/disease-ontology#Hypertension
+:Hypertension rdf:type owl:NamedIndividual ,
+                       :Disease ;
+              :hasSymptom :chest_pain ,
+                          :dizziness ,
+                          :headache ,
+                          :lack_of_concentration ,
+                          :loss_of_balance .
+
+
+###  http://www.example.org/disease-ontology#Hyperthyroidism
+:Hyperthyroidism rdf:type owl:NamedIndividual ,
+                          :Disease ;
+                 :hasSymptom :abnormal_menstruation ,
+                             :diarrhoea ,
+                             :excessive_hunger ,
+                             :fast_heart_rate ,
+                             :fatigue ,
+                             :irritability ,
+                             :mood_swings ,
+                             :muscle_weakness ,
+                             :restlessness ,
+                             :sweating ,
+                             :weight_loss .
+
+
+###  http://www.example.org/disease-ontology#Hypoglycemia
+:Hypoglycemia rdf:type owl:NamedIndividual ,
+                       :Disease ;
+              :hasSymptom :anxiety ,
+                          :blurred_and_distorted_vision ,
+                          :drying_and_tingling_lips ,
+                          :excessive_hunger ,
+                          :fatigue ,
+                          :headache ,
+                          :irritability ,
+                          :nausea ,
+                          :palpitations ,
+                          :slurred_speech ,
+                          :sweating ,
+                          :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Hypothyroidism
+:Hypothyroidism rdf:type owl:NamedIndividual ,
+                         :Disease ;
+                :hasSymptom :abnormal_menstruation ,
+                            :brittle_nails ,
+                            :cold_hands_and_feets ,
+                            :depression ,
+                            :dizziness ,
+                            :enlarged_thyroid ,
+                            :fatigue ,
+                            :irritability ,
+                            :lethargy ,
+                            :mood_swings ,
+                            :puffy_face_and_eyes ,
+                            :swollen_extremeties ,
+                            :weight_gain .
+
+
+###  http://www.example.org/disease-ontology#Impetigo
+:Impetigo rdf:type owl:NamedIndividual ,
+                   :Disease ;
+          :hasSymptom :blister ,
+                      :high_fever ,
+                      :red_sore_around_nose ,
+                      :skin_rash ,
+                      :yellow_crust_ooze .
+
+
+###  http://www.example.org/disease-ontology#IncreasedThirst
+:IncreasedThirst rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#InsulinTherapy
+:InsulinTherapy rdf:type owl:NamedIndividual ,
+                         :Treatment .
+
+
+###  http://www.example.org/disease-ontology#Jaundice
+:Jaundice rdf:type owl:NamedIndividual ,
+                   :Disease ;
+          :hasSymptom :abdominal_pain ,
+                      :dark_urine ,
+                      :fatigue ,
+                      :high_fever ,
+                      :itching ,
+                      :vomiting ,
+                      :weight_loss ,
+                      :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#Malaria
+:Malaria rdf:type owl:NamedIndividual ,
+                  :Disease ;
+         :hasSymptom :chills ,
+                     :diarrhoea ,
+                     :headache ,
+                     :high_fever ,
+                     :muscle_pain ,
+                     :nausea ,
+                     :sweating ,
+                     :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Migraine
+:Migraine rdf:type owl:NamedIndividual ,
+                   :Disease ;
+          :hasSymptom :acidity ,
+                      :blurred_and_distorted_vision ,
+                      :depression ,
+                      :excessive_hunger ,
+                      :headache ,
+                      :indigestion ,
+                      :irritability ,
+                      :stiff_neck ,
+                      :visual_disturbances .
+
+
+###  http://www.example.org/disease-ontology#Osteoarthristis
+:Osteoarthristis rdf:type owl:NamedIndividual ,
+                          :Disease ;
+                 :hasSymptom :hip_joint_pain ,
+                             :joint_pain ,
+                             :knee_pain ,
+                             :neck_pain ,
+                             :painful_walking ,
+                             :swelling_joints .
+
+
+###  http://www.example.org/disease-ontology#Paralysis_brain_hemorrhage
+:Paralysis_brain_hemorrhage rdf:type owl:NamedIndividual ,
+                                     :Disease ;
+                            :hasSymptom :altered_sensorium ,
+                                        :headache ,
+                                        :vomiting ,
+                                        :weakness_of_one_body_side .
+
+
+###  http://www.example.org/disease-ontology#Patient1
+:Patient1 rdf:type owl:NamedIndividual ,
+                   :Patient ;
+          :exhibitsSymptom :Cough ,
+                           :Fever ,
+                           :SoreThroat ;
+          :name "Paul Harrods" .
+
+
+###  http://www.example.org/disease-ontology#Patient2
+:Patient2 rdf:type owl:NamedIndividual ,
+                   :Patient ;
+          :exhibitsSymptom :Fatigue ,
+                           :FrequentUrination ,
+                           :IncreasedThirst ;
+          :name "Ana Montana" .
+
+
+###  http://www.example.org/disease-ontology#Peptic_ulcer_diseae
+:Peptic_ulcer_diseae rdf:type owl:NamedIndividual ,
+                              :Disease ;
+                     :hasSymptom :abdominal_pain ,
+                                 :indigestion ,
+                                 :internal_itching ,
+                                 :loss_of_appetite ,
+                                 :passage_of_gases ,
+                                 :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Pneumonia
+:Pneumonia rdf:type owl:NamedIndividual ,
+                    :Disease ;
+           :hasSymptom :breathlessness ,
+                       :chest_pain ,
+                       :chills ,
+                       :cough ,
+                       :fast_heart_rate ,
+                       :fatigue ,
+                       :high_fever ,
+                       :malaise ,
+                       :phlegm ,
+                       :rusty_sputum ,
+                       :sweating .
+
+
+###  http://www.example.org/disease-ontology#Psoriasis
+:Psoriasis rdf:type owl:NamedIndividual ,
+                    :Disease ;
+           :hasSymptom :inflammatory_nails ,
+                       :joint_pain ,
+                       :silver_like_dusting ,
+                       :skin_peeling ,
+                       :skin_rash ,
+                       :small_dents_in_nails .
+
+
+###  http://www.example.org/disease-ontology#Rest
+:Rest rdf:type owl:NamedIndividual ,
+               :Treatment .
+
+
+###  http://www.example.org/disease-ontology#SoreThroat
+:SoreThroat rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#Tuberculosis
+:Tuberculosis rdf:type owl:NamedIndividual ,
+                       :Disease ;
+              :hasSymptom :blood_in_sputum ,
+                          :breathlessness ,
+                          :chest_pain ,
+                          :chills ,
+                          :cough ,
+                          :fatigue ,
+                          :high_fever ,
+                          :loss_of_appetite ,
+                          :malaise ,
+                          :mild_fever ,
+                          :phlegm ,
+                          :sweating ,
+                          :swelled_lymph_nodes ,
+                          :vomiting ,
+                          :weight_loss ,
+                          :yellowing_of_eyes .
+
+
+###  http://www.example.org/disease-ontology#Typhoid
+:Typhoid rdf:type owl:NamedIndividual ,
+                  :Disease ;
+         :hasSymptom :abdominal_pain ,
+                     :belly_pain ,
+                     :chills ,
+                     :constipation ,
+                     :diarrhoea ,
+                     :fatigue ,
+                     :headache ,
+                     :high_fever ,
+                     :nausea ,
+                     :toxic_look_typhos ,
+                     :vomiting .
+
+
+###  http://www.example.org/disease-ontology#Urinary_tract_infection
+:Urinary_tract_infection rdf:type owl:NamedIndividual ,
+                                  :Disease ;
+                         :hasSymptom :bladder_discomfort ,
+                                     :burning_micturition ,
+                                     :continuous_feel_of_urine ,
+                                     :foul_smell_of_urine .
+
+
+###  http://www.example.org/disease-ontology#Varicose_veins
+:Varicose_veins rdf:type owl:NamedIndividual ,
+                         :Disease ;
+                :hasSymptom :bruising ,
+                            :cramps ,
+                            :fatigue ,
+                            :obesity ,
+                            :prominent_veins_on_calf ,
+                            :swollen_blood_vessels ,
+                            :swollen_legs .
+
+
+###  http://www.example.org/disease-ontology#abdominal_pain
+:abdominal_pain rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#abnormal_menstruation
+:abnormal_menstruation rdf:type owl:NamedIndividual ,
+                                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#acidity
+:acidity rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#acute_liver_failure
+:acute_liver_failure rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#altered_sensorium
+:altered_sensorium rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#anxiety
+:anxiety rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#back_pain
+:back_pain rdf:type owl:NamedIndividual ,
+                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#belly_pain
+:belly_pain rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#blackheads
+:blackheads rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#bladder_discomfort
+:bladder_discomfort rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#blister
+:blister rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#blood_in_sputum
+:blood_in_sputum rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#bloody_stool
+:bloody_stool rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#blurred_and_distorted_vision
+:blurred_and_distorted_vision rdf:type owl:NamedIndividual ,
+                                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#breathlessness
+:breathlessness rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#brittle_nails
+:brittle_nails rdf:type owl:NamedIndividual ,
+                        :Symptom .
+
+
+###  http://www.example.org/disease-ontology#bruising
+:bruising rdf:type owl:NamedIndividual ,
+                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#burning_micturition
+:burning_micturition rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#chest_pain
+:chest_pain rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#chills
+:chills rdf:type owl:NamedIndividual ,
+                 :Symptom .
+
+
+###  http://www.example.org/disease-ontology#cold_hands_and_feets
+:cold_hands_and_feets rdf:type owl:NamedIndividual ,
+                               :Symptom .
+
+
+###  http://www.example.org/disease-ontology#coma
+:coma rdf:type owl:NamedIndividual ,
+               :Symptom .
+
+
+###  http://www.example.org/disease-ontology#congestion
+:congestion rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#constipation
+:constipation rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#continuous_feel_of_urine
+:continuous_feel_of_urine rdf:type owl:NamedIndividual ,
+                                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#continuous_sneezing
+:continuous_sneezing rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#cough
+:cough rdf:type owl:NamedIndividual ,
+                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#cramps
+:cramps rdf:type owl:NamedIndividual ,
+                 :Symptom .
+
+
+###  http://www.example.org/disease-ontology#dark_urine
+:dark_urine rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#dehydration
+:dehydration rdf:type owl:NamedIndividual ,
+                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#depression
+:depression rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#diarrhoea
+:diarrhoea rdf:type owl:NamedIndividual ,
+                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#dischromic__patches
+:dischromic__patches rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#distention_of_abdomen
+:distention_of_abdomen rdf:type owl:NamedIndividual ,
+                                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#dizziness
+:dizziness rdf:type owl:NamedIndividual ,
+                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#drying_and_tingling_lips
+:drying_and_tingling_lips rdf:type owl:NamedIndividual ,
+                                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#enlarged_thyroid
+:enlarged_thyroid rdf:type owl:NamedIndividual ,
+                           :Symptom .
+
+
+###  http://www.example.org/disease-ontology#excessive_hunger
+:excessive_hunger rdf:type owl:NamedIndividual ,
+                           :Symptom .
+
+
+###  http://www.example.org/disease-ontology#extra_marital_contacts
+:extra_marital_contacts rdf:type owl:NamedIndividual ,
+                                 :Symptom .
+
+
+###  http://www.example.org/disease-ontology#family_history
+:family_history rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#fast_heart_rate
+:fast_heart_rate rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#fatigue
+:fatigue rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#fluid_overload
+:fluid_overload rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#foul_smell_of_urine
+:foul_smell_of_urine rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#headache
+:headache rdf:type owl:NamedIndividual ,
+                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#hepatitis_A
+:hepatitis_A rdf:type owl:NamedIndividual ,
+                      :Disease ;
+             :hasSymptom :abdominal_pain ,
+                         :dark_urine ,
+                         :diarrhoea ,
+                         :joint_pain ,
+                         :loss_of_appetite ,
+                         :mild_fever ,
+                         :muscle_pain ,
+                         :nausea ,
+                         :vomiting ,
+                         :yellowing_of_eyes ,
+                         :yellowish_skin .
+
+
+###  http://www.example.org/disease-ontology#high_fever
+:high_fever rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#hip_joint_pain
+:hip_joint_pain rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#history_of_alcohol_consumption
+:history_of_alcohol_consumption rdf:type owl:NamedIndividual ,
+                                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#increased_appetite
+:increased_appetite rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#indigestion
+:indigestion rdf:type owl:NamedIndividual ,
+                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#inflammatory_nails
+:inflammatory_nails rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#internal_itching
+:internal_itching rdf:type owl:NamedIndividual ,
+                           :Symptom .
+
+
+###  http://www.example.org/disease-ontology#irregular_sugar_level
+:irregular_sugar_level rdf:type owl:NamedIndividual ,
+                                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#irritability
+:irritability rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#irritation_in_anus
+:irritation_in_anus rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#itching
+:itching rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#joint_pain
+:joint_pain rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#knee_pain
+:knee_pain rdf:type owl:NamedIndividual ,
+                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#lack_of_concentration
+:lack_of_concentration rdf:type owl:NamedIndividual ,
+                                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#lethargy
+:lethargy rdf:type owl:NamedIndividual ,
+                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#loss_of_appetite
+:loss_of_appetite rdf:type owl:NamedIndividual ,
+                           :Symptom .
+
+
+###  http://www.example.org/disease-ontology#loss_of_balance
+:loss_of_balance rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#loss_of_smell
+:loss_of_smell rdf:type owl:NamedIndividual ,
+                        :Symptom .
+
+
+###  http://www.example.org/disease-ontology#malaise
+:malaise rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#mild_fever
+:mild_fever rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#mood_swings
+:mood_swings rdf:type owl:NamedIndividual ,
+                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#movement_stiffness
+:movement_stiffness rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#mucoid_sputum
+:mucoid_sputum rdf:type owl:NamedIndividual ,
+                        :Symptom .
+
+
+###  http://www.example.org/disease-ontology#muscle_pain
+:muscle_pain rdf:type owl:NamedIndividual ,
+                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#muscle_wasting
+:muscle_wasting rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#muscle_weakness
+:muscle_weakness rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#nausea
+:nausea rdf:type owl:NamedIndividual ,
+                 :Symptom .
+
+
+###  http://www.example.org/disease-ontology#neck_pain
+:neck_pain rdf:type owl:NamedIndividual ,
+                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#nodal_skin_eruptions
+:nodal_skin_eruptions rdf:type owl:NamedIndividual ,
+                               :Symptom .
+
+
+###  http://www.example.org/disease-ontology#obesity
+:obesity rdf:type owl:NamedIndividual ,
+                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#pain_behind_the_eyes
+:pain_behind_the_eyes rdf:type owl:NamedIndividual ,
+                               :Symptom .
+
+
+###  http://www.example.org/disease-ontology#pain_during_bowel_movements
+:pain_during_bowel_movements rdf:type owl:NamedIndividual ,
+                                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#pain_in_anal_region
+:pain_in_anal_region rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#painful_walking
+:painful_walking rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#palpitations
+:palpitations rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#passage_of_gases
+:passage_of_gases rdf:type owl:NamedIndividual ,
+                           :Symptom .
+
+
+###  http://www.example.org/disease-ontology#patches_in_throat
+:patches_in_throat rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#phlegm
+:phlegm rdf:type owl:NamedIndividual ,
+                 :Symptom .
+
+
+###  http://www.example.org/disease-ontology#polyuria
+:polyuria rdf:type owl:NamedIndividual ,
+                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#prominent_veins_on_calf
+:prominent_veins_on_calf rdf:type owl:NamedIndividual ,
+                                  :Symptom .
+
+
+###  http://www.example.org/disease-ontology#puffy_face_and_eyes
+:puffy_face_and_eyes rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#pus_filled_pimples
+:pus_filled_pimples rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#receiving_blood_transfusion
+:receiving_blood_transfusion rdf:type owl:NamedIndividual ,
+                                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#receiving_unsterile_injections
+:receiving_unsterile_injections rdf:type owl:NamedIndividual ,
+                                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#red_sore_around_nose
+:red_sore_around_nose rdf:type owl:NamedIndividual ,
+                               :Symptom .
+
+
+###  http://www.example.org/disease-ontology#red_spots_over_body
+:red_spots_over_body rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#redness_of_eyes
+:redness_of_eyes rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#restlessness
+:restlessness rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#runny_nose
+:runny_nose rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#rusty_sputum
+:rusty_sputum rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#scurring
+:scurring rdf:type owl:NamedIndividual ,
+                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#shivering
+:shivering rdf:type owl:NamedIndividual ,
+                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#silver_like_dusting
+:silver_like_dusting rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#sinus_pressure
+:sinus_pressure rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#skin_peeling
+:skin_peeling rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#skin_rash
+:skin_rash rdf:type owl:NamedIndividual ,
+                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#slurred_speech
+:slurred_speech rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  http://www.example.org/disease-ontology#small_dents_in_nails
+:small_dents_in_nails rdf:type owl:NamedIndividual ,
+                               :Symptom .
+
+
+###  http://www.example.org/disease-ontology#spinning_movements
+:spinning_movements rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#spotting__urination
+:spotting__urination rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#stiff_neck
+:stiff_neck rdf:type owl:NamedIndividual ,
+                     :Symptom .
+
+
+###  http://www.example.org/disease-ontology#stomach_bleeding
+:stomach_bleeding rdf:type owl:NamedIndividual ,
+                           :Symptom .
+
+
+###  http://www.example.org/disease-ontology#stomach_pain
+:stomach_pain rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#sunken_eyes
+:sunken_eyes rdf:type owl:NamedIndividual ,
+                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#sweating
+:sweating rdf:type owl:NamedIndividual ,
+                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#swelled_lymph_nodes
+:swelled_lymph_nodes rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#swelling_joints
+:swelling_joints rdf:type owl:NamedIndividual ,
+                          :Symptom .
+
+
+###  http://www.example.org/disease-ontology#swelling_of_stomach
+:swelling_of_stomach rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#swollen_blood_vessels
+:swollen_blood_vessels rdf:type owl:NamedIndividual ,
+                                :Symptom .
+
+
+###  http://www.example.org/disease-ontology#swollen_extremeties
+:swollen_extremeties rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#swollen_legs
+:swollen_legs rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#throat_irritation
+:throat_irritation rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#toxic_look_typhos
+:toxic_look_typhos rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#ulcers_on_tongue
+:ulcers_on_tongue rdf:type owl:NamedIndividual ,
+                           :Symptom .
+
+
+###  http://www.example.org/disease-ontology#unsteadiness
+:unsteadiness rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#vertigo_Paroymsal__Positional_Vertigo
+:vertigo_Paroymsal__Positional_Vertigo rdf:type owl:NamedIndividual ,
+                                                :Disease ;
+                                       :hasSymptom :headache ,
+                                                   :loss_of_balance ,
+                                                   :nausea ,
+                                                   :spinning_movements ,
+                                                   :unsteadiness ,
+                                                   :vomiting .
+
+
+###  http://www.example.org/disease-ontology#visual_disturbances
+:visual_disturbances rdf:type owl:NamedIndividual ,
+                              :Symptom .
+
+
+###  http://www.example.org/disease-ontology#vomiting
+:vomiting rdf:type owl:NamedIndividual ,
+                   :Symptom .
+
+
+###  http://www.example.org/disease-ontology#watering_from_eyes
+:watering_from_eyes rdf:type owl:NamedIndividual ,
+                             :Symptom .
+
+
+###  http://www.example.org/disease-ontology#weakness_in_limbs
+:weakness_in_limbs rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#weakness_of_one_body_side
+:weakness_of_one_body_side rdf:type owl:NamedIndividual ,
+                                    :Symptom .
+
+
+###  http://www.example.org/disease-ontology#weight_gain
+:weight_gain rdf:type owl:NamedIndividual ,
+                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#weight_loss
+:weight_loss rdf:type owl:NamedIndividual ,
+                      :Symptom .
+
+
+###  http://www.example.org/disease-ontology#yellow_crust_ooze
+:yellow_crust_ooze rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#yellow_urine
+:yellow_urine rdf:type owl:NamedIndividual ,
+                       :Symptom .
+
+
+###  http://www.example.org/disease-ontology#yellowing_of_eyes
+:yellowing_of_eyes rdf:type owl:NamedIndividual ,
+                            :Symptom .
+
+
+###  http://www.example.org/disease-ontology#yellowish_skin
+:yellowish_skin rdf:type owl:NamedIndividual ,
+                         :Symptom .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
