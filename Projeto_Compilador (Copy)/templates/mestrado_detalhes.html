@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ detalhes.get('Nome', curso_id.replace('_', ' ')) }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="detalhes-container">
+        <div class="curso-header">
+            <h1 class="curso-titulo">{{ detalhes.get('Nome', curso_id.replace('_', ' ')) }}</h1>
+            {% if detalhes.get('Escola') %}
+                <div class="curso-escola">
+                    <span class="icone">🏛️</span>
+                    <a href="{{ url_for('listar_mestrados_da_escola', escola=detalhes['Escola']) }}">
+                        {{ detalhes.get('Escola') }}
+                    </a>
+                </div>  
+            {% endif %}
+        </div>
+
+        <div class="info-grid">
+            {% if detalhes.get('Área Científica') not in [None, "None", "N/A", "NoneType"] %}
+                <div class="info-card destaque">
+                    <div class="info-header"><span class="icone">🔬</span><h3>Área Científica</h3></div>
+                    <p>
+                        <a href="{{ url_for('mostrar_mestrados', area=detalhes.get('Área Científica')) }}">
+                            {{ detalhes.get('Área Científica') }}
+                        </a>
+                    </p>
+                </div>
+            {% endif %}
+            {% if detalhes.get('Regime') %}
+                <div class="info-card"><div class="info-header"><span class="icone">⏰</span><h3>Regime</h3></div>
+                <p>{{ detalhes.get('Regime') }}</p></div>
+            {% endif %}
+            {% if detalhes.get('Localização') %}
+                <div class="info-card"><div class="info-header"><span class="icone">📍</span><h3>Localização</h3></div>
+                <p>{{ detalhes.get('Localização') }}</p></div>
+            {% endif %}
+        </div>
+
+        {% if detalhes.get('Descrição') %}
+            <div class="secao-completa">
+                <div class="secao-header"><span class="icone">📝</span><h2>Descrição</h2></div>
+                <div class="secao-conteudo"><p>{{ detalhes.get('Descrição') }}</p></div>
+            </div>
+        {% endif %}
+
+        {% if detalhes.get('Oferta Curricular') %}
+            <div class="secao-completa">
+                <div class="secao-header"><span class="icone">📚</span><h2>Oferta Curricular</h2></div>
+                <div class="secao-conteudo"><p>{{ detalhes.get('Oferta Curricular') }}</p></div>
+            </div>
+        {% endif %}
+
+        {% if detalhes.get('Saídas Profissionais')  != "N/A" %}
+        <div class="secao-completa">
+            <div class="secao-header"><span class="icone">💼</span><h2>Saídas Profissionais</h2></div>
+            <div class="secao-conteudo">
+                <p>
+                    {{ detalhes.get('Saídas Profissionais').replace(';', ';<br>') | safe }}
+                </p>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if ucs_por_opcao %}
+        <div class="secao-completa">
+            <div class="secao-header"><span class="icone">📖</span><h2>Unidades Curriculares</h2></div>
+            <div class="secao-conteudo">
+                {% for opcao, ucs in ucs_por_opcao.items() %}
+                    <div class="opcao-bloco">
+                        <div class="opcao-header">{{ opcao }}</div>
+                        <ul class="uc-lista">
+                            {% for nome, semestre in ucs %}
+                                <li class="uc-item">
+                                    <span class="uc-nome">
+                                        {{ "Sem informação disponível" if nome == "N/A" else nome }}
+                                    </span>
+                                    <span class="uc-semestre">
+                                        {{ semestre if semestre else "Sem info. disp." }}
+                                    </span>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if detalhes.get('Website') %}
+            <div class="website-section">
+                <a href="{{ detalhes.get('Website') }}" target="_blank" class="website-link">
+                    <span class="icone">🌐</span>Visitar Website Oficial <span class="seta">→</span>
+                </a>
+            </div>
+        {% endif %}        
+            
+        <div class="navegacao">
+            <a href="{{ url_for('listar_universidades') }}" class="btn-voltar"><span class="icone">←</span> Voltar à lista</a>
+        </div>
+    </div>
+</body>
+</html>

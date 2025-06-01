@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estatísticas - Portal de Cursos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="pagina-container">
+        <div class="header-principal">
+            <h1 class="titulo-principal">📊 Estatísticas por Área Científica</h1>
+            <p class="subtitulo">Distribuição de mestrados pelas diferentes áreas do conhecimento</p>
+            <p class="subtitulo">
+                {% if universidade %}
+                    Estatísticas da {{ universidade }}
+                {% else %}
+                    Distribuição de mestrados pelas diferentes áreas do conhecimento
+                {% endif %}
+            </p>
+
+
+        </div>
+
+        <div class="conteudo-principal">
+            <div class="navegacao-breadcrumb">
+                <a href="{{ url_for('listar_universidades') }}">🏠 Início</a>
+                <span class="separador">›</span>
+                <span>Estatísticas</span>
+            </div>
+
+            <div class="estatisticas-layout">
+                <div class="resumo-stats">
+                    <div class="stat-card">
+                        <div class="stat-icone">🎓</div>
+                        <div class="stat-info">
+                            <span class="stat-numero">{{ combinados|length }}</span>
+                            <span class="stat-label">Áreas Científicas</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icone">📚</div>
+                        <div class="stat-info">
+                            <span class="stat-numero">{{ combinados|sum(attribute=1) }}</span>
+                            <span class="stat-label">Total de Mestrados</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="areas-ranking">
+                    <h2 class="secao-titulo">
+                        <span class="icone">🏆</span>
+                        Ranking por Área Científica
+                    </h2>
+                    
+                <div class="ranking-lista">
+                    {% set max_total = combinados | map(attribute=1) | max %}
+
+                    {% for area, total in combinados if area != "N/A" %}
+                        <div class="ranking-item">
+                            <div class="ranking-posicao">{{ loop.index }}</div>
+                            <div class="ranking-info">
+                                <h3 class="area-nome">{{ area }}</h3>
+                                <div class="area-stats">
+                                    <span class="mestrados-count">{{ total }} mestrado{% if total != 1 %}s{% endif %}</span>
+                                    <div class="barra-progresso">
+                                        <div class="barra-fill" style="width: {{ (total / max_total * 100)|round(1) }}%"></div>
+                                    </div>
+                                    <span class="percentagem">{{ ((total / combinados|sum(attribute=1)) * 100)|round(1) }}%</span>
+                                </div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+
+                </div>
+
+                <div class="acoes-estatisticas">
+                    <a href="{{ url_for('listar_universidades') }}" class="btn-acao-secundaria">
+                        <span class="icone">←</span>
+                        Voltar às Universidades
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

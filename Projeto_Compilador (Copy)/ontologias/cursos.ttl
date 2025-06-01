@@ -1,0 +1,146 @@
+@prefix : <http://www.example.org/edupt#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.example.org/edupt#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#incluiUnidadeCurricular
+<http://www.co-ode.org/ontologies/ont.owl#incluiUnidadeCurricular> rdf:type owl:ObjectProperty ;
+                                                                   rdfs:domain :Mestrado ;
+                                                                   rdfs:range <http://www.co-ode.org/ontologies/ont.owl#UnidadeCurricular> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#lecionadoEmIdioma
+<http://www.co-ode.org/ontologies/ont.owl#lecionadoEmIdioma> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain :Mestrado ;
+                                                             rdfs:range <http://www.co-ode.org/ontologies/ont.owl#Idioma> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#pertenceA
+<http://www.co-ode.org/ontologies/ont.owl#pertenceA> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain :Mestrado ;
+                                                     rdfs:range <http://www.co-ode.org/ontologies/ont.owl#Idioma> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#temAreaCientifica
+<http://www.co-ode.org/ontologies/ont.owl#temAreaCientifica> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain :Mestrado ;
+                                                             rdfs:range <http://www.co-ode.org/ontologies/ont.owl#AreaCientifica> .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#temRegime
+<http://www.co-ode.org/ontologies/ont.owl#temRegime> rdf:type owl:ObjectProperty ;
+                                                     rdfs:domain :Mestrado ;
+                                                     rdfs:range <http://www.co-ode.org/ontologies/ont.owl#Regime> .
+
+
+###  http://www.example.org/edupt#localizadoEm
+:localizadoEm rdf:type owl:ObjectProperty ;
+              rdfs:domain :Universidade ;
+              rdfs:range <http://www.co-ode.org/ontologies/ont.owl#Localizacao> .
+
+
+###  http://www.example.org/edupt#ofereceCurso
+:ofereceCurso rdf:type owl:ObjectProperty ;
+              rdfs:domain :Universidade ;
+              rdfs:range :Mestrado .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#anoCriacao
+<http://www.co-ode.org/ontologies/ont.owl#anoCriacao> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain :Mestrado ;
+                                                      rdfs:range xsd:string .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#temAcreditacao
+<http://www.co-ode.org/ontologies/ont.owl#temAcreditacao> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain :Mestrado ;
+                                                          rdfs:range xsd:string .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#temDuracao
+<http://www.co-ode.org/ontologies/ont.owl#temDuracao> rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain :Mestrado ;
+                                                      rdfs:range xsd:string .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#temLinkWebsite
+<http://www.co-ode.org/ontologies/ont.owl#temLinkWebsite> rdf:type owl:DatatypeProperty ;
+                                                          rdfs:domain :Mestrado ;
+                                                          rdfs:range xsd:string .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#temNome
+<http://www.co-ode.org/ontologies/ont.owl#temNome> rdf:type owl:DatatypeProperty ;
+                                                   rdfs:domain [ rdf:type owl:Class ;
+                                                                 owl:unionOf ( <http://www.co-ode.org/ontologies/ont.owl#Departamento>
+                                                                               <http://www.co-ode.org/ontologies/ont.owl#UnidadeCurricular>
+                                                                               :Mestrado
+                                                                               :Universidade
+                                                                             )
+                                                               ] ;
+                                                   rdfs:range xsd:string .
+
+
+###  http://www.example.org/edupt#temCodigoCurso
+:temCodigoCurso rdf:type owl:DatatypeProperty ;
+                rdfs:domain :Mestrado ;
+                rdfs:range xsd:string .
+
+
+###  http://www.example.org/edupt#temNivelCurso
+:temNivelCurso rdf:type owl:DatatypeProperty ;
+               rdfs:domain :Mestrado ;
+               rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.co-ode.org/ontologies/ont.owl#AreaCientifica
+<http://www.co-ode.org/ontologies/ont.owl#AreaCientifica> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Departamento
+<http://www.co-ode.org/ontologies/ont.owl#Departamento> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Idioma
+<http://www.co-ode.org/ontologies/ont.owl#Idioma> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Localizacao
+<http://www.co-ode.org/ontologies/ont.owl#Localizacao> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#Regime
+<http://www.co-ode.org/ontologies/ont.owl#Regime> rdf:type owl:Class .
+
+
+###  http://www.co-ode.org/ontologies/ont.owl#UnidadeCurricular
+<http://www.co-ode.org/ontologies/ont.owl#UnidadeCurricular> rdf:type owl:Class .
+
+
+###  http://www.example.org/edupt#Mestrado
+:Mestrado rdf:type owl:Class .
+
+
+###  http://www.example.org/edupt#Universidade
+:Universidade rdf:type owl:Class .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

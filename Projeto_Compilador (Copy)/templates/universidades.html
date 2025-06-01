@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidades - Portal de Cursos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="pagina-container">
+        <div class="header-principal">
+            <h1 class="titulo-principal">🎓 Portal de Cursos de Portugal</h1>
+            <p class="subtitulo">Explore os mestrados disponíveis nas principais universidades</p>
+        </div>
+
+        <div class="conteudo-principal">
+            <div class="secao-intro">
+                <h2>Selecione uma Universidade</h2>
+                <p>Escolha uma das universidades abaixo para explorar os mestrados disponíveis</p>
+            </div>
+
+            <div class="universidades-grid">
+                {% for uni in universidades %}
+                    <div class="universidade-card">
+                        <div class="universidade-icone">🏫</div>
+                        <h3>
+                            {% if uni == "FCTNOVA" %}
+                                FCT NOVA
+                            {% elif uni == "Coimbra" %}
+                                Universidade de Coimbra
+                            {% elif uni == "UTAD" %}
+                                UTAD
+                            {% else %}
+                                Universidade do {{ uni }}
+                            {% endif %}
+                        </h3>
+                        <p class="universidade-descricao">
+                            {% if uni == "UTAD" %}
+                                Mestrados por Departamento
+                            {% else %}
+                                Explore os mestrados organizados por escola
+                            {% endif %}
+                        </p>
+                        <a href="{{ url_for('universidade_detalhes', nome=uni.lower()) }}" class="btn-universidade">
+                            Ver Mestrados <span class="seta">→</span>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+
+            <div class="acoes-rapidas">
+                <h3>Acesso Rápido</h3>
+                <div class="acoes-grid">
+                    <a href="{{ url_for('mostrar_mestrados') }}" class="acao-card">
+                        <span class="acao-icone">📚</span>
+                        <div>
+                            <h4>Todos os Mestrados</h4>
+                            <p>Ver lista completa</p>
+                        </div>
+                    </a>
+                    <a href="{{ url_for('estatisticas') }}" class="acao-card">
+                        <span class="acao-icone">📊</span>
+                        <div>
+                            <h4>Estatísticas</h4>
+                            <p>Por área científica</p>
+                        </div>
+                    </a>
+                    <a href="{{ url_for('adicionar_mestrado') }}" class="btn-acao-primaria">
+                        <span class="icone">➕</span>
+                        Adicionar Novo Mestrado
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

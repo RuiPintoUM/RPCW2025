@@ -1,0 +1,636 @@
+Curso: Mestrado em Administração Pública
+Área Científica: Ciências da Administração
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Análise do Risco e Gestão de Infraestruturas Civis
+Área Científica: Ciências de Engenharia Civil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Análise Estrutural Avançada e Projeto com Materiais Compósitos - FRP++
+Área Científica: Engenharia Civil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Análise Estrutural de Monumentos e Construções Históricas (Mestrado Europeu)
+Área Científica: Ciências de Engenharia Civil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Arqueologia
+Área Científica: Arqueologia
+Regime: Misto
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Biodiversidade, Ecologia e Alterações Globais
+Área Científica: Ecologia
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Biofísica e Bionanossistemas
+Área Científica: Biofísica
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Bioinformática
+Área Científica: Bioinformática
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Biologia Molecular, Biotecnologia e Bioempreendedorismo em Plantas
+Área Científica: Biologia Molecular
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Biomedicina
+Área Científica: Biomedicina e Ciências da Saúde
+Regime: Diurno
+Departamento: Escola de Medicina
+----------------------------------------
+Curso: Mestrado em Bioquímica Aplicada
+Área Científica: Bioquímica
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Biotecnologia
+Área Científica: Engenharia Química e Biológica
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Cibersegurança
+Área Científica: Cibersegurança
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Cibersegurança e Ciberinteligência Internacionais
+Área Científica: Cibersegurança
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Ciência Política
+Área Científica: Ciência Política e Relações Internacionais
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Ciências Criminais
+Área Científica: Direito
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Ciências da Comunicação
+Área Científica: Ciências da Comunicação
+Regime: Pós-laboral
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Ciências da Educação
+Área Científica: Ciências da Educação
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ciências da Linguagem
+Área Científica: Linguística Geral
+Regime: Diurno
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Ciências e Tecnologias do Ambiente
+Área Científica: Ciências do Ambiente
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Cognição Humana
+Área Científica: Psicologia Básica
+Regime: Diurno
+Departamento: Escola de Psicologia
+----------------------------------------
+Curso: Mestrado em Computação Avançada
+Área Científica: Informática
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Comunicação de Ciência
+Área Científica: Ciências da Comunicação
+Regime: Pós-laboral
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Comunicação, Arte e Cultura
+Área Científica: Ciências da Comunicação
+Regime: Pós-laboral
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Construção e Reabilitação Sustentáveis
+Área Científica: Engenharia Civil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Contabilidade
+Área Científica: Contabilidade
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Crime, Diferença e Desigualdade
+Área Científica: Sociologia
+Regime: Misto
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Desafios das Cidades
+Área Científica: Engenharia Civil
+Regime: Outro
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Design de Produto e Serviços
+Área Científica: Design
+Regime: Misto
+Departamento: Escola de Arquitetura, Arte e Design
+----------------------------------------
+Curso: Mestrado em Design para a Comunicação de Moda
+Área Científica: Design de Moda
+Regime: Misto
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Direito Administrativo
+Área Científica: Direito Público
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito da União Europeia
+Área Científica: Direito
+Regime: Diurno
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito das Crianças, Família e Sucessões
+Área Científica: Direito Privado
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito dos Contratos e da Empresa
+Área Científica: Direito
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito dos Negócios, Europeu e Transnacional
+Área Científica: Direito
+Regime: Diurno
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito e Informática
+Área Científica: Informática
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito Judiciário (Direitos Processuais e Organização Judiciária)
+Área Científica: Direito
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito Transnacional da Empresa e das Tecnologias Digitais
+Área Científica: Ciências Jurídicas Privatísticas
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direito Tributário
+Área Científica: Direito
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Direitos Humanos
+Área Científica: Direito
+Regime: Misto
+Departamento: Escola de Direito
+----------------------------------------
+Curso: Mestrado em Economia
+Área Científica: Economia
+Regime: Diurno
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Economia Industrial e da Empresa
+Área Científica: Economia
+Regime: Diurno
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Economia Monetária, Bancária e Financeira
+Área Científica: Economia
+Regime: Diurno
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Economia Social
+Área Científica: Economia
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Educação
+Área Científica: Educação
+Regime: Misto
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Educação Especial
+Área Científica: Educação Especial
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Educação Pré-Escolar
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Educação Pré-Escolar e Ensino do 1º Ciclo do Ensino Básico
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Enfermagem Comunitária na Área de Enfermagem de Saúde Familiar
+Área Científica: Enfermagem
+Regime: Diurno
+Departamento: Escola Superior de Enfermagem
+----------------------------------------
+Curso: Mestrado em Enfermagem de Reabilitação
+Área Científica: Enfermagem
+Regime: Diurno
+Departamento: Escola Superior de Enfermagem
+----------------------------------------
+Curso: Mestrado em Enfermagem de Saúde Infantil e Pediátrica
+Área Científica: N/A
+Regime: Diurno
+Departamento: Escola Superior de Enfermagem
+----------------------------------------
+Curso: Mestrado em Enfermagem Médico-cirúrgica, na Área de Enfermagem à Pessoa em Situação Crítica
+Área Científica: Enfermagem
+Regime: Misto
+Departamento: Escola Superior de Enfermagem
+----------------------------------------
+Curso: Mestrado em Engenharia Aeroespacial
+Área Científica: Engenharia Aeroespacial
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Biomédica
+Área Científica: Engenharia Biomédica
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Civil
+Área Científica: Ciências de Engenharia Civil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia de Materiais
+Área Científica: Ciência e Engenharia de Materiais
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia de Polímeros
+Área Científica: Ciência e Engenharia de Polímeros
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia de Redes e Serviços Telemáticos
+Área Científica: Informática
+Regime: Misto
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia de Sistemas
+Área Científica: Engenharia de Sistemas
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia de Telecomunicações e Informática
+Área Científica: Engenharia de Telecomunicações
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia do Produto
+Área Científica: Ciência Política e Relações Internacionais
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Engenharia e Ciência de Dados
+Área Científica: Engenharia e Ciência de Dados
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia e Gestão da Qualidade
+Área Científica: Engenharia Industrial e de Sistemas
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia e Gestão de Operações
+Área Científica: Engenharia Industrial e de Sistemas
+Regime: Misto
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia e Gestão de Sistemas de Informação
+Área Científica: Tecnologias e Sistemas de Informação
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia e Gestão Industrial
+Área Científica: Engenharia Industrial e de Sistemas
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Eletrónica Industrial e Computadores
+Área Científica: Engenharia Eletrónica Industrial e Computadores
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Física
+Área Científica: Engenharia Física
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Humana
+Área Científica: Ergonomia
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Informática
+Área Científica: Engenharia Informática
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Mecânica
+Área Científica: Engenharia Mecânica
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Mecatrónica
+Área Científica: Engenharia Mecatrónica
+Regime: Misto
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Química e Biológica
+Área Científica: Engenharia Química e Biológica
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Têxtil
+Área Científica: Engenharia Têxtil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Engenharia Urbana
+Área Científica: Engenharia Civil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Ensino de Artes Visuais no 3.º Ciclo do Ensino Básico e no Ensino Secundário
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino de Biologia e Geologia no 3º Ciclo no Ensino Básico e no Ensino Secundário
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino de Física e de Química no 3º Ciclo do Ensino Básico e no Ensino Secundário
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino de História no 3º Ciclo do Ensino Básico e no Ensino Secundário
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino de Informática
+Área Científica: Formação de Professores - Ensino de Informática
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino de Inglês no 1º Ciclo do Ensino Básico
+Área Científica: Ciência Política e Relações Internacionais
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Ensino de Matemática no 3º Ciclo do Ensino Básico e no Secundário
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino de Música
+Área Científica: Ensino de Música
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino de Português no 3º Ciclo do Ensino Básico e no Ensino Secundário
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino do 1º Ciclo do Ensino Básico e de Matemática e Ciências Naturais no 2º Ciclo do Ensino Básico
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Ensino do 1º Ciclo do Ensino Básico e de Português e História e Geografia de Portugal no 2º Ciclo do Ensino Básico
+Área Científica: Formação de Professores
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Estatística para Ciência de Dados
+Área Científica: Estatística
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Estudos da Criança
+Área Científica: Estudos da Criança
+Regime: Diurno
+Departamento: Instituto de Educação
+----------------------------------------
+Curso: Mestrado em Estudos Interculturais Português/Chinês
+Área Científica: Estudos Culturais
+Regime: Diurno
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Estudos Luso-Alemães
+Área Científica: Linguística Geral
+Regime: Misto
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Filosofia Política
+Área Científica: Filosofia
+Regime: Diurno
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Finanças
+Área Científica: Gestão
+Regime: Diurno
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Física
+Área Científica: Física
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Genética Molecular
+Área Científica: Genética Molecular
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Geociências
+Área Científica: Geologia
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Geografia
+Área Científica: Geografia
+Regime: Misto
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Gestão
+Área Científica: Gestão
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Gestão de Projetos de Engenharia
+Área Científica: Engenharia
+Regime: Misto
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Gestão de Recursos Humanos
+Área Científica: Gestão
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Gestão de Unidades de Saúde
+Área Científica: Gestão
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Gestão e Negócios
+Área Científica: Ciência Política e Relações Internacionais
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em História
+Área Científica: História
+Regime: Misto
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Humanidades Digitais
+Área Científica: Humanidades Digitais
+Regime: Diurno
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Inteligência Artificial
+Área Científica: Informática
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Lexicografia (Mestrado Europeu)
+Área Científica: Linguística
+Regime: Misto
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Língua, Literatura e Cultura Inglesas
+Área Científica: Ciências da Literatura
+Regime: Misto
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Marketing e Estratégia
+Área Científica: Gestão
+Regime: Diurno
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Matemática e Computação
+Área Científica: Matemática
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Media Arts
+Área Científica: Media Arts
+Regime: Misto
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Modelação de Informação na Construção de Edifícios - BIM A+ (Mestrado Europeu)
+Área Científica: Engenharia Civil
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Negócios Internacionais
+Área Científica: Gestão
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Optometria Avançada
+Área Científica: Optometria e Ciências da Visão
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Património Cultural
+Área Científica: História
+Regime: Pós-laboral
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Português Língua Não Materna
+Área Científica: Português Língua Não Materna
+Regime: Diurno
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Curso: Mestrado em Psicologia Clínica e Psicoterapia de Adultos
+Área Científica: Psicologia Clínica
+Regime: Diurno
+Departamento: Escola de Psicologia
+----------------------------------------
+Curso: Mestrado em Psicologia Clínica na Infância e Adolescência
+Área Científica: Psicologia Clínica
+Regime: Diurno
+Departamento: Escola de Psicologia
+----------------------------------------
+Curso: Mestrado em Psicologia da Educação
+Área Científica: Psicologia da Educação
+Regime: Diurno
+Departamento: Escola de Psicologia
+----------------------------------------
+Curso: Mestrado em Psicologia da Justiça
+Área Científica: N/A
+Regime: Diurno
+Departamento: Escola de Psicologia
+----------------------------------------
+Curso: Mestrado em Psicologia do Trabalho e das Organizações
+Área Científica: Psicologia do Trabalho e das Organizações
+Regime: Diurno
+Departamento: Escola de Psicologia
+----------------------------------------
+Curso: Mestrado em Química Medicinal
+Área Científica: Química
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Relações Internacionais
+Área Científica: Ciência Política e Relações Internacionais
+Regime: Misto
+Departamento: Escola de Economia e Gestão
+----------------------------------------
+Curso: Mestrado em Sistemas de Informação
+Área Científica: Tecnologias e Sistemas de Informação
+Regime: Misto
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Sociologia
+Área Científica: Sociologia
+Regime: Pós-laboral
+Departamento: Instituto de Ciências Sociais
+----------------------------------------
+Curso: Mestrado em Sustentabilidade do Ambiente Construído
+Área Científica: Sustentabilidade do Ambiente Construído
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Técnicas de Caracterização e Análise Química
+Área Científica: Química
+Regime: Diurno
+Departamento: Escola de Ciências
+----------------------------------------
+Curso: Mestrado em Tecnologia e Ciência Alimentar
+Área Científica: Química
+Regime: Diurno
+Departamento: Escola de Engenharia
+----------------------------------------
+Curso: Mestrado em Tradução e Comunicação Multilingue
+Área Científica: Estudos de Tradução
+Regime: Misto
+Departamento: Escola de Letras, Artes e Ciências Humanas
+----------------------------------------
+Total de mestrados encontrados: 127

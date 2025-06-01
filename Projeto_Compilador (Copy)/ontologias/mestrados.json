@@ -1,0 +1,764 @@
+[
+  {
+    "nome": "Mestrado em Administração Pública",
+    "area_cientifica": "Ciências da Administração",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Análise do Risco e Gestão de Infraestruturas Civis",
+    "area_cientifica": "Ciências de Engenharia Civil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Análise Estrutural Avançada e Projeto com Materiais Compósitos - FRP++",
+    "area_cientifica": "Engenharia Civil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Análise Estrutural de Monumentos e Construções Históricas (Mestrado Europeu)",
+    "area_cientifica": "Ciências de Engenharia Civil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Arqueologia",
+    "area_cientifica": "Arqueologia",
+    "regime": "Misto",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Biodiversidade, Ecologia e Alterações Globais",
+    "area_cientifica": "Ecologia",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Biofísica e Bionanossistemas",
+    "area_cientifica": "Biofísica",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Bioinformática",
+    "area_cientifica": "Bioinformática",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Biologia Molecular, Biotecnologia e Bioempreendedorismo em Plantas",
+    "area_cientifica": "Biologia Molecular",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Biomedicina",
+    "area_cientifica": "Biomedicina e Ciências da Saúde",
+    "regime": "Diurno",
+    "departamento": "Escola de Medicina"
+  },
+  {
+    "nome": "Mestrado em Bioquímica Aplicada",
+    "area_cientifica": "Bioquímica",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Biotecnologia",
+    "area_cientifica": "Engenharia Química e Biológica",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Cibersegurança",
+    "area_cientifica": "Cibersegurança",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Cibersegurança e Ciberinteligência Internacionais",
+    "area_cientifica": "Cibersegurança",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Ciência Política",
+    "area_cientifica": "Ciência Política e Relações Internacionais",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Ciências Criminais",
+    "area_cientifica": "Direito",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Ciências da Comunicação",
+    "area_cientifica": "Ciências da Comunicação",
+    "regime": "Pós-laboral",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Ciências da Educação",
+    "area_cientifica": "Ciências da Educação",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ciências da Linguagem",
+    "area_cientifica": "Linguística Geral",
+    "regime": "Diurno",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Ciências e Tecnologias do Ambiente",
+    "area_cientifica": "Ciências do Ambiente",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Cognição Humana",
+    "area_cientifica": "Psicologia Básica",
+    "regime": "Diurno",
+    "departamento": "Escola de Psicologia"
+  },
+  {
+    "nome": "Mestrado em Computação Avançada",
+    "area_cientifica": "Informática",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Comunicação de Ciência",
+    "area_cientifica": "Ciências da Comunicação",
+    "regime": "Pós-laboral",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Comunicação, Arte e Cultura",
+    "area_cientifica": "Ciências da Comunicação",
+    "regime": "Pós-laboral",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Construção e Reabilitação Sustentáveis",
+    "area_cientifica": "Engenharia Civil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Contabilidade",
+    "area_cientifica": "Contabilidade",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Crime, Diferença e Desigualdade",
+    "area_cientifica": "Sociologia",
+    "regime": "Misto",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Desafios das Cidades",
+    "area_cientifica": "Engenharia Civil",
+    "regime": "Outro",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Design de Produto e Serviços",
+    "area_cientifica": "Design",
+    "regime": "Misto",
+    "departamento": "Escola de Arquitetura, Arte e Design"
+  },
+  {
+    "nome": "Mestrado em Design para a Comunicação de Moda",
+    "area_cientifica": "Design de Moda",
+    "regime": "Misto",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Direito Administrativo",
+    "area_cientifica": "Direito Público",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito da União Europeia",
+    "area_cientifica": "Direito",
+    "regime": "Diurno",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito das Crianças, Família e Sucessões",
+    "area_cientifica": "Direito Privado",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito dos Contratos e da Empresa",
+    "area_cientifica": "Direito",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito dos Negócios, Europeu e Transnacional",
+    "area_cientifica": "Direito",
+    "regime": "Diurno",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito e Informática",
+    "area_cientifica": "Informática",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito Judiciário (Direitos Processuais e Organização Judiciária)",
+    "area_cientifica": "Direito",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito Transnacional da Empresa e das Tecnologias Digitais",
+    "area_cientifica": "Ciências Jurídicas Privatísticas",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direito Tributário",
+    "area_cientifica": "Direito",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Direitos Humanos",
+    "area_cientifica": "Direito",
+    "regime": "Misto",
+    "departamento": "Escola de Direito"
+  },
+  {
+    "nome": "Mestrado em Economia",
+    "area_cientifica": "Economia",
+    "regime": "Diurno",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Economia Industrial e da Empresa",
+    "area_cientifica": "Economia",
+    "regime": "Diurno",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Economia Monetária, Bancária e Financeira",
+    "area_cientifica": "Economia",
+    "regime": "Diurno",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Economia Social",
+    "area_cientifica": "Economia",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Educação",
+    "area_cientifica": "Educação",
+    "regime": "Misto",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Educação Especial",
+    "area_cientifica": "Educação Especial",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Educação Pré-Escolar",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Educação Pré-Escolar e Ensino do 1º Ciclo do Ensino Básico",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Enfermagem Comunitária na Área de Enfermagem de Saúde Familiar",
+    "area_cientifica": "Enfermagem",
+    "regime": "Diurno",
+    "departamento": "Escola Superior de Enfermagem"
+  },
+  {
+    "nome": "Mestrado em Enfermagem de Reabilitação",
+    "area_cientifica": "Enfermagem",
+    "regime": "Diurno",
+    "departamento": "Escola Superior de Enfermagem"
+  },
+  {
+    "nome": "Mestrado em Enfermagem de Saúde Infantil e Pediátrica",
+    "area_cientifica": "N/A",
+    "regime": "Diurno",
+    "departamento": "Escola Superior de Enfermagem"
+  },
+  {
+    "nome": "Mestrado em Enfermagem Médico-cirúrgica, na Área de Enfermagem à Pessoa em Situação Crítica",
+    "area_cientifica": "Enfermagem",
+    "regime": "Misto",
+    "departamento": "Escola Superior de Enfermagem"
+  },
+  {
+    "nome": "Mestrado em Engenharia Aeroespacial",
+    "area_cientifica": "Engenharia Aeroespacial",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Biomédica",
+    "area_cientifica": "Engenharia Biomédica",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Civil",
+    "area_cientifica": "Ciências de Engenharia Civil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia de Materiais",
+    "area_cientifica": "Ciência e Engenharia de Materiais",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia de Polímeros",
+    "area_cientifica": "Ciência e Engenharia de Polímeros",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia de Redes e Serviços Telemáticos",
+    "area_cientifica": "Informática",
+    "regime": "Misto",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia de Sistemas",
+    "area_cientifica": "Engenharia de Sistemas",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia de Telecomunicações e Informática",
+    "area_cientifica": "Engenharia de Telecomunicações",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia do Produto",
+    "area_cientifica": "Ciência Política e Relações Internacionais",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Engenharia e Ciência de Dados",
+    "area_cientifica": "Engenharia e Ciência de Dados",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia e Gestão da Qualidade",
+    "area_cientifica": "Engenharia Industrial e de Sistemas",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia e Gestão de Operações",
+    "area_cientifica": "Engenharia Industrial e de Sistemas",
+    "regime": "Misto",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia e Gestão de Sistemas de Informação",
+    "area_cientifica": "Tecnologias e Sistemas de Informação",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia e Gestão Industrial",
+    "area_cientifica": "Engenharia Industrial e de Sistemas",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Eletrónica Industrial e Computadores",
+    "area_cientifica": "Engenharia Eletrónica Industrial e Computadores",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Física",
+    "area_cientifica": "Engenharia Física",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Humana",
+    "area_cientifica": "Ergonomia",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Informática",
+    "area_cientifica": "Engenharia Informática",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Mecânica",
+    "area_cientifica": "Engenharia Mecânica",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Mecatrónica",
+    "area_cientifica": "Engenharia Mecatrónica",
+    "regime": "Misto",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Química e Biológica",
+    "area_cientifica": "Engenharia Química e Biológica",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Têxtil",
+    "area_cientifica": "Engenharia Têxtil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Engenharia Urbana",
+    "area_cientifica": "Engenharia Civil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Ensino de Artes Visuais no 3.º Ciclo do Ensino Básico e no Ensino Secundário",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino de Biologia e Geologia no 3º Ciclo no Ensino Básico e no Ensino Secundário",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino de Física e de Química no 3º Ciclo do Ensino Básico e no Ensino Secundário",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino de História no 3º Ciclo do Ensino Básico e no Ensino Secundário",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino de Informática",
+    "area_cientifica": "Formação de Professores - Ensino de Informática",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino de Inglês no 1º Ciclo do Ensino Básico",
+    "area_cientifica": "Ciência Política e Relações Internacionais",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Ensino de Matemática no 3º Ciclo do Ensino Básico e no Secundário",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino de Música",
+    "area_cientifica": "Ensino de Música",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino de Português no 3º Ciclo do Ensino Básico e no Ensino Secundário",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino do 1º Ciclo do Ensino Básico e de Matemática e Ciências Naturais no 2º Ciclo do Ensino Básico",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Ensino do 1º Ciclo do Ensino Básico e de Português e História e Geografia de Portugal no 2º Ciclo do Ensino Básico",
+    "area_cientifica": "Formação de Professores",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Estatística para Ciência de Dados",
+    "area_cientifica": "Estatística",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Estudos da Criança",
+    "area_cientifica": "Estudos da Criança",
+    "regime": "Diurno",
+    "departamento": "Instituto de Educação"
+  },
+  {
+    "nome": "Mestrado em Estudos Interculturais Português/Chinês",
+    "area_cientifica": "Estudos Culturais",
+    "regime": "Diurno",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Estudos Luso-Alemães",
+    "area_cientifica": "Linguística Geral",
+    "regime": "Misto",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Filosofia Política",
+    "area_cientifica": "Filosofia",
+    "regime": "Diurno",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Finanças",
+    "area_cientifica": "Gestão",
+    "regime": "Diurno",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Física",
+    "area_cientifica": "Física",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Genética Molecular",
+    "area_cientifica": "Genética Molecular",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Geociências",
+    "area_cientifica": "Geologia",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Geografia",
+    "area_cientifica": "Geografia",
+    "regime": "Misto",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Gestão",
+    "area_cientifica": "Gestão",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Gestão de Projetos de Engenharia",
+    "area_cientifica": "Engenharia",
+    "regime": "Misto",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Gestão de Recursos Humanos",
+    "area_cientifica": "Gestão",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Gestão de Unidades de Saúde",
+    "area_cientifica": "Gestão",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Gestão e Negócios",
+    "area_cientifica": "Ciência Política e Relações Internacionais",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em História",
+    "area_cientifica": "História",
+    "regime": "Misto",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Humanidades Digitais",
+    "area_cientifica": "Humanidades Digitais",
+    "regime": "Diurno",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Inteligência Artificial",
+    "area_cientifica": "Informática",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Lexicografia (Mestrado Europeu)",
+    "area_cientifica": "Linguística",
+    "regime": "Misto",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Língua, Literatura e Cultura Inglesas",
+    "area_cientifica": "Ciências da Literatura",
+    "regime": "Misto",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Marketing e Estratégia",
+    "area_cientifica": "Gestão",
+    "regime": "Diurno",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Matemática e Computação",
+    "area_cientifica": "Matemática",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Media Arts",
+    "area_cientifica": "Media Arts",
+    "regime": "Misto",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Modelação de Informação na Construção de Edifícios - BIM A+ (Mestrado Europeu)",
+    "area_cientifica": "Engenharia Civil",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Negócios Internacionais",
+    "area_cientifica": "Gestão",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Optometria Avançada",
+    "area_cientifica": "Optometria e Ciências da Visão",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Património Cultural",
+    "area_cientifica": "História",
+    "regime": "Pós-laboral",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Português Língua Não Materna",
+    "area_cientifica": "Português Língua Não Materna",
+    "regime": "Diurno",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  },
+  {
+    "nome": "Mestrado em Psicologia Clínica e Psicoterapia de Adultos",
+    "area_cientifica": "Psicologia Clínica",
+    "regime": "Diurno",
+    "departamento": "Escola de Psicologia"
+  },
+  {
+    "nome": "Mestrado em Psicologia Clínica na Infância e Adolescência",
+    "area_cientifica": "Psicologia Clínica",
+    "regime": "Diurno",
+    "departamento": "Escola de Psicologia"
+  },
+  {
+    "nome": "Mestrado em Psicologia da Educação",
+    "area_cientifica": "Psicologia da Educação",
+    "regime": "Diurno",
+    "departamento": "Escola de Psicologia"
+  },
+  {
+    "nome": "Mestrado em Psicologia da Justiça",
+    "area_cientifica": "N/A",
+    "regime": "Diurno",
+    "departamento": "Escola de Psicologia"
+  },
+  {
+    "nome": "Mestrado em Psicologia do Trabalho e das Organizações",
+    "area_cientifica": "Psicologia do Trabalho e das Organizações",
+    "regime": "Diurno",
+    "departamento": "Escola de Psicologia"
+  },
+  {
+    "nome": "Mestrado em Química Medicinal",
+    "area_cientifica": "Química",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Relações Internacionais",
+    "area_cientifica": "Ciência Política e Relações Internacionais",
+    "regime": "Misto",
+    "departamento": "Escola de Economia e Gestão"
+  },
+  {
+    "nome": "Mestrado em Sistemas de Informação",
+    "area_cientifica": "Tecnologias e Sistemas de Informação",
+    "regime": "Misto",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Sociologia",
+    "area_cientifica": "Sociologia",
+    "regime": "Pós-laboral",
+    "departamento": "Instituto de Ciências Sociais"
+  },
+  {
+    "nome": "Mestrado em Sustentabilidade do Ambiente Construído",
+    "area_cientifica": "Sustentabilidade do Ambiente Construído",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Técnicas de Caracterização e Análise Química",
+    "area_cientifica": "Química",
+    "regime": "Diurno",
+    "departamento": "Escola de Ciências"
+  },
+  {
+    "nome": "Mestrado em Tecnologia e Ciência Alimentar",
+    "area_cientifica": "Química",
+    "regime": "Diurno",
+    "departamento": "Escola de Engenharia"
+  },
+  {
+    "nome": "Mestrado em Tradução e Comunicação Multilingue",
+    "area_cientifica": "Estudos de Tradução",
+    "regime": "Misto",
+    "departamento": "Escola de Letras, Artes e Ciências Humanas"
+  }
+]

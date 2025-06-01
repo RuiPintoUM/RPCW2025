@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolas - {{ universidade }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="pagina-container">
+        <div class="header-principal">
+            <h1 class="titulo-principal">🏛️ {{ universidade }}</h1>
+            <p class="subtitulo">Escolas e Departamentos com Mestrados Disponíveis</p>
+        </div>
+
+        <div class="conteudo-principal">
+            <!-- Barra de navegação e pesquisa -->
+            <div class="barra-superior">
+                <div class="navegacao-breadcrumb">
+                    <a href="{{ url_for('listar_universidades') }}">🏠 Início</a>
+                    <span class="separador">›</span>
+                    <span>{{ universidade }}</span>
+                </div>
+
+                <div class="acoes-superiores">
+                    <a href="{{ url_for('estatisticas_universidade', nome=universidade_slug) }}" class="btn-acao">
+                        <span class="icone">📊</span>
+                        Estatísticas
+                    </a>
+                    <a href="{{ url_for('listar_mestrados_da_universidade', nome=universidade_slug) }}" class="btn-acao">
+                        <span class="icone">🎓</span>
+                        Todos os Mestrados
+                    </a>
+                </div>
+            </div>
+
+            <!-- Formulário de pesquisa -->
+            <div class="pesquisa-section">
+                <form method="get"
+                    action="{{ url_for('universidade_detalhes', nome=universidade_curto) }}"
+                    class="form-pesquisa-moderna">
+                    <div class="input-group">
+                        <span class="input-icone">🔍</span>
+                        <input type="text" name="q"
+                            placeholder="Pesquisar cursos por nome..."
+                            value="{{ termo }}">
+                        <button type="submit" class="btn-pesquisar">Pesquisar</button>
+                    </div>
+                </form>
+            </div>
+
+            {% if termo and cursos %}
+                <div class="resultados-section">
+                    <h2 class="secao-titulo">
+                        <span class="icone">🔍</span>
+                        Resultados para "{{ termo }}"
+                    </h2>
+                    <p class="resultados-info">{{ cursos|length }} curso(s) encontrado(s)</p>
+                    
+                    <div class="cursos-grid-pesquisa">
+                        {% for curso in cursos %}
+                            <div class="curso-card-resultado">
+                                <div class="curso-header">
+                                    <span class="curso-icone">🎓</span>
+                                    <span class="curso-tipo">Mestrado</span>
+                                </div>
+                                <h3 class="curso-nome">{{ curso.nome }}</h3>
+                                <div class="curso-universidade">
+                                    <span class="icone">🏛️</span>
+                                    {{ universidade }}
+                                </div>
+                                <a href="{{ url_for('curso_detalhes', curso_id=curso.uri.split('#')[-1]) }}" class="btn-curso-resultado">
+                                    Ver Detalhes
+                                    <span class="seta">→</span>
+                                </a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            {% elif termo %}
+                <div class="sem-resultados">
+                    <div class="sem-resultados-icone">😔</div>
+                    <h3>Nenhum curso encontrado</h3>
+                    <p>Não foram encontrados cursos para "{{ termo }}"</p>
+                    <a href="{{ url_for('universidade_detalhes', nome=universidade.lower().replace(' ', '')) }}" class="btn-voltar-pesquisa">Ver todas as escolas</a>
+                </div>
+            {% else %}
+                <div class="escolas-section">
+                    <h2 class="secao-titulo">
+                        <span class="icone">🏫</span>
+                        Escolas da {{ universidade }}
+                    </h2>
+                    
+                    <div class="escolas-grid">
+                        {% for escola in escolas %}
+                            {% if escola.nome != "N/A" %}
+                                <div class="escola-card-moderna">
+                                    <div class="escola-header">
+                                        <span class="escola-icone">🏫</span>
+                                        <h3>{{ escola.nome }}</h3>
+                                    </div>
+                                    <div class="escola-stats">
+                                        <div class="stat">
+                                            <span class="stat-numero">{{ escola.num }}</span>
+                                            <span class="stat-label">Mestrados</span>
+                                        </div>
+                                    </div>
+                                    <a href="{{ url_for('listar_mestrados_da_escola', escola=escola.nome) }}" class="btn-escola">
+                                        Explorar Mestrados
+                                        <span class="seta">→</span>
+                                    </a>
+                                </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

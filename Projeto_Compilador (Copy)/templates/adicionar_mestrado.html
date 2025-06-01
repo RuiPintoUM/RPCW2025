@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Novo Mestrado - Portal de Cursos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='add_master.css') }}">
+</head>
+<body>
+    <div class="pagina-container">
+        <div class="header-principal">
+            <h1 class="titulo-principal">🎓 Adicionar Novo Mestrado</h1>
+            <p class="subtitulo">Preencha os dados do mestrado para adicionar à base de dados</p>
+        </div>
+
+        <div class="conteudo-principal">
+            <div class="navegacao-breadcrumb">
+                <a href="{{ url_for('listar_universidades') }}">🏠 Início</a>
+                <span class="separador">›</span>
+                <span>Adicionar Mestrado</span>
+            </div>
+
+            <form id="form-add-master" action="{{ url_for('adicionar_mestrado') }}" method="post" class="form-add-master">
+                <!-- Informações Básicas -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon">📚</span>
+                        <h2>Informações Básicas</h2>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-grid">
+                            <div class="form-group span-full">
+                                <label for="nome">Nome do Mestrado *</label>
+                                <input type="text" id="nome" name="nome" placeholder="Ex: Mestrado em Engenharia Informática" required>
+                                <div class="error-message" id="nome-error"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="universidade">Universidade *</label>
+                                <select id="universidade" name="universidade" required>
+                                    <option value="">Selecione a universidade</option>
+                                    {% for uni in universidades %}
+                                        <option value="{{ uni }}">{{ uni }}</option>
+                                    {% endfor %}
+                                </select>
+                                <div class="error-message" id="universidade-error"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="area_cientifica">Área Científica</label>
+                                <select id="area_cientifica" name="area_cientifica">
+                                    <option value="">Selecione a área científica</option>
+                                    <option value="Ciências da Computação">Ciências da Computação</option>
+                                    <option value="Engenharia Informática">Engenharia Informática</option>
+                                    <option value="Engenharia Civil">Engenharia Civil</option>
+                                    <option value="Engenharia Mecânica">Engenharia Mecânica</option>
+                                    <option value="Engenharia Eletrotécnica">Engenharia Eletrotécnica</option>
+                                    <option value="Gestão">Gestão</option>
+                                    <option value="Economia">Economia</option>
+                                    <option value="Direito">Direito</option>
+                                    <option value="Medicina">Medicina</option>
+                                    <option value="Psicologia">Psicologia</option>
+                                    <option value="Educação">Educação</option>
+                                    <option value="Arquitetura">Arquitetura</option>
+                                    <option value="Biologia">Biologia</option>
+                                    <option value="Química">Química</option>
+                                    <option value="Física">Física</option>
+                                    <option value="Matemática">Matemática</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="regime">Regime</label>
+                                <select id="regime" name="regime">
+                                    <option value="">Selecione o regime</option>
+                                    <option value="Diurno">Diurno</option>
+                                    <option value="Pós-Laboral">Pós-Laboral</option>
+                                    <option value="Misto">Misto</option>
+                                    <option value="E-Learning">E-Learning</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="departamento">Departamento</label>
+                                <input type="text" id="departamento" name="departamento" placeholder="Ex: Departamento de Informática">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Informações Detalhadas -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon">🏛️</span>
+                        <h2>Informações Detalhadas</h2>
+                    </div>
+                    <div class="section-content">
+                        <div class="form-group">
+                            <label for="descricao">Descrição</label>
+                            <textarea id="descricao" name="descricao" rows="4" placeholder="Descrição detalhada do mestrado..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="saidas_profissionais">Saídas Profissionais</label>
+                            <textarea id="saidas_profissionais" name="saidas_profissionais" rows="3" placeholder="Descreva as principais saídas profissionais..."></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="pagina_url">URL da Página Oficial</label>
+                            <div class="input-with-icon">
+                                <span class="input-icon">🌐</span>
+                                <input type="url" id="pagina_url" name="pagina_url" placeholder="https://..." required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unidades Curriculares -->
+                <div class="form-section">
+                    <div class="section-header">
+                        <span class="section-icon">📝</span>
+                        <h2>Unidades Curriculares</h2>
+                    </div>
+                    <div class="section-content">
+                        <div id="unidades-container">
+                            <!-- As unidades curriculares serão adicionadas aqui dinamicamente -->
+                        </div>
+
+                        <button type="button" id="add-unidade" class="btn-add-unidade">
+                            <span class="btn-icon">➕</span>
+                            Adicionar Unidade Curricular
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Botões de Ação -->
+                <div class="form-actions">
+                    <a type="button" class="btn-secundario" href="{{ url_for('listar_universidades') }}" >Cancelar</a>
+                    <button type="submit" class="btn-primario">
+                        <span class="btn-icon">🎓</span>
+                        Adicionar Mestrado
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Template para unidade curricular -->
+    <template id="template-unidade">
+        <div class="unidade-card">
+            <div class="unidade-header">
+                <h3 class="unidade-titulo">Unidade Curricular <span class="unidade-numero"></span></h3>
+                <button type="button" class="btn-remover-unidade">❌</button>
+            </div>
+            <div class="unidade-content">
+                <div class="form-grid">
+                    <div class="form-group span-full">
+                        <label>Nome da Unidade Curricular</label>
+                        <input type="text" name="uc_nome[]" placeholder="Ex: Programação Orientada a Objetos">
+                    </div>
+                    <div class="form-group">
+                        <label>ECTS</label>
+                        <input type="number" name="uc_ects[]" placeholder="Ex: 6" min="0" max="30">
+                    </div>
+                    <div class="form-group">
+                        <label>Semestre</label>
+                        <select name="uc_semestre[]">
+                            <option value="">Selecione o semestre</option>
+                            <option value="1º Semestre">1º Semestre</option>
+                            <option value="2º Semestre">2º Semestre</option>
+                            <option value="Anual">Anual</option>
+                        </select>
+                    </div>
+                    <div class="form-group span-full">
+                        <label>Área Científica</label>
+                        <select name="uc_area_cientifica[]">
+                            <option value="">Selecione a área científica</option>
+                            <option value="Ciências da Computação">Ciências da Computação</option>
+                            <option value="Engenharia Informática">Engenharia Informática</option>
+                            <option value="Engenharia Civil">Engenharia Civil</option>
+                            <option value="Engenharia Mecânica">Engenharia Mecânica</option>
+                            <option value="Engenharia Eletrotécnica">Engenharia Eletrotécnica</option>
+                            <option value="Gestão">Gestão</option>
+                            <option value="Economia">Economia</option>
+                            <option value="Direito">Direito</option>
+                            <option value="Medicina">Medicina</option>
+                            <option value="Psicologia">Psicologia</option>
+                            <option value="Educação">Educação</option>
+                            <option value="Arquitetura">Arquitetura</option>
+                            <option value="Biologia">Biologia</option>
+                            <option value="Química">Química</option>
+                            <option value="Física">Física</option>
+                            <option value="Matemática">Matemática</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('form-add-master');
+            const addUnidadeBtn = document.getElementById('add-unidade');
+            const unidadesContainer = document.getElementById('unidades-container');
+            const template = document.getElementById('template-unidade');
+
+            // Adicionar unidade curricular
+            addUnidadeBtn.addEventListener('click', function() {
+                const unidadeElement = document.importNode(template.content, true);
+                const unidadeNumero = unidadesContainer.children.length + 1;
+                unidadeElement.querySelector('.unidade-numero').textContent = unidadeNumero;
+                
+                // Adicionar evento para remover unidade
+                const btnRemover = unidadeElement.querySelector('.btn-remover-unidade');
+                btnRemover.addEventListener('click', function() {
+                    this.closest('.unidade-card').remove();
+                    // Atualizar números das unidades
+                    const unidades = unidadesContainer.querySelectorAll('.unidade-card');
+                    unidades.forEach((unidade, index) => {
+                        unidade.querySelector('.unidade-numero').textContent = index + 1;
+                    });
+                });
+                
+                unidadesContainer.appendChild(unidadeElement);
+            });
+
+            // Validação do formulário
+            form.addEventListener('submit', function(event) {
+                let valid = true;
+                
+                // Validar nome
+                const nome = document.getElementById('nome');
+                if (!nome.value.trim()) {
+                    document.getElementById('nome-error').textContent = 'Nome do mestrado é obrigatório';
+                    valid = false;
+                } else {
+                    document.getElementById('nome-error').textContent = '';
+                }
+                
+                // Validar universidade
+                const universidade = document.getElementById('universidade');
+                if (!universidade.value) {
+                    document.getElementById('universidade-error').textContent = 'Universidade é obrigatória';
+                    valid = false;
+                } else {
+                    document.getElementById('universidade-error').textContent = '';
+                }
+                
+                if (!valid) {
+                    event.preventDefault();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if escola %}Mestrados - {{ escola }}{% else %}Todos os Mestrados{% endif %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="pagina-container">
+        <div class="header-principal">
+            <h1 class="titulo-principal">
+                {% if escola %}🎓 Mestrados - {{ escola }}{% else %}📚 Todos os Mestrados{% endif %}
+            </h1>
+            <p class="subtitulo">
+                {% if escola %}Explore os mestrados oferecidos por {{ escola }}{% else %}Lista completa de mestrados de todas as universidades{% endif %}
+            </p>
+        </div>
+
+        <div class="conteudo-principal">
+            <div class="navegacao-breadcrumb">
+                <a href="{{ url_for('listar_universidades') }}">🏠 Início</a>
+                {% if escola %}
+                    <span class="separador">›</span>
+                    <span>{{ escola }}</span>
+                {% endif %}
+            </div>
+
+            <div class="mestrados-layout">
+                <div class="filtros-sidebar">
+                    <div class="filtro-card">
+                        <h3 class="filtro-titulo">🔬 Filtrar por Área</h3>
+                        <form method="get" class="filtro-form-moderna">
+                            <select name="area" onchange="this.form.submit()" class="select-moderno">
+                                <option value="">Todas as áreas</option>
+                                {% for area in areas %}
+                                    {% if area != "N/A" %}
+                                        <option value="{{ area }}" {% if area == area_atual %}selected{% endif %}>{{ area }}</option>
+                                    {% endif %}
+                                {% endfor %} 
+                           </select>
+                        </form>
+                    </div>
+                    <div class="stats-card">
+                        <h4>📊 Estatísticas</h4>
+                        <div class="stat-item">
+                            <span class="stat-numero">{{ cursos|length }}</span>
+                            <span class="stat-label">Mestrados encontrados</span>
+                        </div>
+                        {% if area_atual %}
+                            <div class="filtro-ativo">
+                                <span class="filtro-tag">{{ area_atual }}</span>
+                                <a href="?" class="remover-filtro">✕</a>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                <div class="mestrados-conteudo">
+                    {% if cursos %}
+                        <div class="mestrados-grid">
+                            {% for curso in cursos %}
+                                <div class="mestrado-card">
+                                    <div class="mestrado-header">
+                                        <span class="mestrado-icone">🎓</span>
+                                        <span class="mestrado-tipo">Mestrado</span>
+                                    </div>
+                                    <h3 class="mestrado-nome">{{ curso.nome }}</h3>
+                                    {% if escola %}
+                                        <div class="mestrado-escola">
+                                            <span class="icone">🏛️</span>
+                                            {{ escola }}
+                                        </div>
+                                    {% endif %}
+                                    <a href="{{ url_for('curso_detalhes', curso_id=curso.uri.split('#')[-1]) }}" class="btn-mestrado">
+                                        Ver Detalhes <span class="seta">→</span>
+                                    </a>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    {% else %}
+                        <div class="sem-resultados">
+                            <div class="sem-resultados-icone">📚</div>
+                            <h3>Nenhum mestrado encontrado</h3>
+                            <p>Não há mestrados disponíveis para os filtros selecionados.</p>
+                            <a href="?" class="btn-limpar-filtros">Limpar filtros</a>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
